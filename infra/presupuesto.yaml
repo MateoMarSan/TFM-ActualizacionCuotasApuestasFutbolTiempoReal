@@ -1,0 +1,67 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  TFM - Presupuesto y avisos de gasto. Se despliega una sola vez y no se borra
+  con el resto de la arquitectura, para que vigile el gasto de forma permanente.
+
+Parameters:
+  EmailAvisos:
+    Type: String
+    Description: Correo que recibe los avisos de gasto
+  LimiteUSD:
+    Type: Number
+    Default: 87
+    Description: Tope del presupuesto en dólares (80 euros son unos 87 USD)
+
+Resources:
+  PresupuestoTFM:
+    Type: AWS::Budgets::Budget
+    Properties:
+      Budget:
+        BudgetName: tfm-presupuesto
+        BudgetType: COST
+        # Anual: el tope es para todo el TFM, no para cada mes
+        TimeUnit: ANNUALLY
+        BudgetLimit:
+          Amount: !Ref LimiteUSD
+          Unit: USD
+        CostTypes:
+          # Con los créditos incluidos el gasto aparecería como 0 hasta agotarlos
+          # y los avisos no saltarían nunca: se mide el uso real, sin descontarlos
+          IncludeCredit: false
+          IncludeRefund: false
+          IncludeTax: true
+          IncludeSubscription: true
+          UseBlended: false
+      NotificationsWithSubscribers:
+        # Aviso al gastar la mitad (unos 40 euros)
+        - Notification:
+            NotificationType: ACTUAL
+            ComparisonOperator: GREATER_THAN
+            Threshold: 50
+            ThresholdType: PERCENTAGE
+          Subscribers:
+            - SubscriptionType: EMAIL
+              Address: !Ref EmailAvisos
+        # Aviso al llegar al tope (unos 80 euros)
+        - Notification:
+            NotificationType: ACTUAL
+            ComparisonOperator: GREATER_THAN
+            Threshold: 100
+            ThresholdType: PERCENTAGE
+          Subscribers:
+            - SubscriptionType: EMAIL
+              Address: !Ref EmailAvisos
+        # Aviso si, al ritmo actual, se prevé superar el tope
+        - Notification:
+            NotificationType: FORECASTED
+            ComparisonOperator: GREATER_THAN
+            Threshold: 100
+            ThresholdType: PERCENTAGE
+          Subscribers:
+            - SubscriptionType: EMAIL
+              Address: !Ref EmailAvisos
+
+Outputs:
+  Presupuesto:
+    Description: Nombre del presupuesto creado
+    Value: tfm-presupuesto

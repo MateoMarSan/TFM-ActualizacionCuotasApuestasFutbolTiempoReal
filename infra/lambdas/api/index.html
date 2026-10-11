@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TFM · Cuotas en directo</title>
+<style>
+  :root { --fondo:#f4f5f7; --tarjeta:#fff; --texto:#1d2330; --suave:#6b7280; --borde:#e5e7eb;
+          --azul:#2a6fdb; --gris:#8a8f98; --rojo:#d9534f; --verde:#1f9d55; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+         background:var(--fondo); color:var(--texto); }
+  header { background:#16213a; color:#fff; padding:14px 20px; display:flex; gap:16px;
+           align-items:center; flex-wrap:wrap; }
+  header h1 { font-size:17px; margin:0; font-weight:600; }
+  select { padding:6px 8px; border-radius:6px; border:0; font-size:14px; max-width:100%; }
+  main { max-width:1100px; margin:0 auto; padding:16px; display:grid; gap:16px;
+         grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); }
+  .tarjeta { background:var(--tarjeta); border:1px solid var(--borde); border-radius:10px; padding:16px; }
+  .ancho { grid-column:1/-1; }
+  .marcador { display:flex; align-items:center; justify-content:center; gap:18px; flex-wrap:wrap; }
+  .equipo { font-size:20px; font-weight:600; }
+  .goles { font-size:34px; font-weight:700; font-variant-numeric:tabular-nums; }
+  .minuto { color:var(--suave); text-align:center; margin-top:4px; }
+  h2 { font-size:14px; text-transform:uppercase; letter-spacing:.04em; color:var(--suave); margin:0 0 10px; }
+  table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; }
+  td { padding:7px 4px; border-bottom:1px solid var(--borde); }
+  td.cuota { text-align:right; font-weight:600; }
+  .sube { color:var(--rojo); } .baja { color:var(--verde); }
+  canvas { width:100%; height:220px; }
+  .leyenda span { margin-right:14px; font-size:13px; }
+  .leyenda i { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:5px; }
+  ul { list-style:none; margin:0; padding:0; max-height:260px; overflow:auto; }
+  li { padding:5px 0; border-bottom:1px solid var(--borde); font-size:14px; }
+  .vacio { color:var(--suave); text-align:center; padding:30px; }
+  .pie { color:var(--suave); font-size:12px; text-align:center; grid-column:1/-1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Cuotas en directo · Axial Transformer</h1>
+  <select id="partido"><option value="">Esperando partidos…</option></select>
+</header>
+<main id="contenido">
+  <div class="tarjeta ancho vacio">Lanza el simulador para empezar un partido.</div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const MERCADOS = [
+  ['Resultado final', [['1X2_home','1 (local)'],['1X2_draw','X (empate)'],['1X2_away','2 (visitante)']]],
+  ['Próximo gol', [['next_goal_home','Local'],['next_goal_away','Visitante'],['next_goal_none','Ninguno']]],
+  ['Goles', [['goals_ou_2.5_over','Más de 2,5'],['goals_ou_2.5_under','Menos de 2,5']]],
+  ['Tiros', [['shots_ou_24.5_over','Más de 24,5'],['shots_ou_24.5_under','Menos de 24,5']]],
+  ['Córners', [['corners_ou_9.5_over','Más de 9,5'],['corners_ou_9.5_under','Menos de 9,5']]],
+  ['Amarillas', [['yellow_cards_ou_4.5_over','Más de 4,5'],['yellow_cards_ou_4.5_under','Menos de 4,5']]],
+];
+const EVENTOS = {'Shot':'Tiro','Foul Committed':'Falta','Corner':'Córner','Throw-in':'Saque de banda',
+  'Goal Kick':'Saque de puerta','Kick Off':'Saque de centro','Substitution':'Cambio',
+  'Bad Behaviour':'Tarjeta','Offside':'Fuera de juego','Injury Stoppage':'Lesión',
+  'Half Start':'Inicio de parte','Half End':'Fin de parte','Own Goal Against':'Autogol'};
+let seleccionado = null;
+
+async function json(url) { const r = await fetch(url); return r.json(); }
+const fmt = (x) => x.toFixed(2).replace('.', ',');
+
+async function actualizarPartidos() {
+  const lista = await json('api/partidos');
+  if (!lista.length) return;
+  const sel = $('partido');
+  const actual = sel.value;
+  sel.innerHTML = lista.map(p => `<option value="${p.match_id}">${p.local} ${p.marcador[0]}-${p.marcador[1]} ${p.visitante} (${p.minuto}')</option>`).join('');
+  seleccionado = actual && lista.some(p => String(p.match_id) === actual) ? actual : String(lista[0].match_id);
+  sel.value = seleccionado;
+}
+
+function dibujarGrafico(canvas, datos) {
+  const dpr = window.devicePixelRatio || 1, w = canvas.clientWidth, h = canvas.clientHeight;
+  canvas.width = w * dpr; canvas.height = h * dpr;
+  const c = canvas.getContext('2d'); c.scale(dpr, dpr); c.clearRect(0, 0, w, h);
+  const m = {i:34, d:8, s:8, b:22}, ancho = w - m.i - m.d, alto = h - m.s - m.b;
+  c.strokeStyle = '#e5e7eb'; c.fillStyle = '#6b7280'; c.font = '11px system-ui';
+  for (const p of [0, .25, .5, .75, 1]) {
+    const y = m.s + alto * (1 - p);
+    c.beginPath(); c.moveTo(m.i, y); c.lineTo(w - m.d, y); c.stroke();
+    c.fillText(Math.round(p * 100) + '%', 2, y + 4);
+  }
+  const maxMin = Math.max(95, ...datos.map(d => d.minuto + 1));
+  for (const t of [0, 15, 30, 45, 60, 75, 90]) c.fillText(t + "'", m.i + ancho * t / maxMin - 6, h - 6);
+  [['#2a6fdb', 0], ['#8a8f98', 1], ['#d9534f', 2]].forEach(([color, k]) => {
+    c.strokeStyle = color; c.lineWidth = 2; c.beginPath();
+    datos.forEach((d, i) => {
+      const x = m.i + ancho * (d.minuto + d.segundo / 60) / maxMin;
+      const y = m.s + alto * (1 - d.probabilidades['1X2'][k]);
+      i ? c.lineTo(x, y) : c.moveTo(x, y);
+    });
+    c.stroke();
+  });
+}
+
+async function actualizarCuotas() {
+  if (!seleccionado) return;
+  const datos = (await json('api/cuotas?match_id=' + seleccionado)).sort((a, b) => a.seq - b.seq);
+  if (!datos.length) return;
+  const u = datos[datos.length - 1], prev = datos.length > 1 ? datos[datos.length - 2] : u;
+  const filas = MERCADOS.map(([titulo, opciones]) => `
+    <tr><td colspan="2"><b>${titulo}</b></td></tr>` + opciones.map(([k, nombre]) => {
+      const cls = u.cuotas[k] > prev.cuotas[k] ? 'sube' : (u.cuotas[k] < prev.cuotas[k] ? 'baja' : '');
+      return `<tr><td>${nombre}</td><td class="cuota ${cls}">${fmt(u.cuotas[k])}</td></tr>`;
+    }).join('')).join('');
+  const eventos = datos.slice(-40).reverse().map(d =>
+    `<li>${d.minuto}' · ${EVENTOS[d.evento] || d.evento} · ${d.marcador[0]}-${d.marcador[1]} · 1X2 ${fmt(d.cuotas['1X2_home'])} / ${fmt(d.cuotas['1X2_draw'])} / ${fmt(d.cuotas['1X2_away'])}</li>`).join('');
+  $('contenido').innerHTML = `
+    <div class="tarjeta ancho">
+      <div class="marcador"><span class="equipo">${u.local}</span>
+        <span class="goles">${u.marcador[0]} - ${u.marcador[1]}</span>
+        <span class="equipo">${u.visitante}</span></div>
+      <div class="minuto">Minuto ${u.minuto}' · goles esperados que quedan: ${fmt(u.goles_esperados_restantes[0])} – ${fmt(u.goles_esperados_restantes[1])}</div>
+    </div>
+    <div class="tarjeta"><h2>Cuotas</h2><table>${filas}</table></div>
+    <div class="tarjeta"><h2>Probabilidad del resultado final</h2>
+      <canvas id="grafico"></canvas>
+      <div class="leyenda"><span><i style="background:#2a6fdb"></i>Local</span>
+        <span><i style="background:#8a8f98"></i>Empate</span><span><i style="background:#d9534f"></i>Visitante</span></div>
+      <h2 style="margin-top:16px">Últimos eventos</h2><ul>${eventos}</ul></div>
+    <div class="pie">Actualización nº ${u.seq} · modelo ${u.latencia_modelo_ms} ms · cuotas con margen del 5 %</div>`;
+  dibujarGrafico($('grafico'), datos);
+}
+
+$('partido').addEventListener('change', (e) => { seleccionado = e.target.value; actualizarCuotas(); });
+async function ciclo() { try { await actualizarPartidos(); await actualizarCuotas(); } catch (e) { console.error(e); } }
+ciclo(); setInterval(ciclo, 2000);
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  TFM - Base: bucket S3 con los artefactos del sistema (modelo entrenado,
+  código de las Lambdas y capa de NumPy). Se crea antes que la arquitectura
+  porque esta necesita los artefactos ya subidos.
+
+Resources:
+  BucketArtefactos:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      VersioningConfiguration:
+        Status: Enabled
+
+Outputs:
+  BucketArtefactos:
+    Description: Bucket con el modelo y el código
+    Value: !Ref BucketArtefactos
+    Export:
+      Name: tfm-bucket-artefactos

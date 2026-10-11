@@ -1,0 +1,9711 @@
+[
+ {
+  "match_id": 3754206,
+  "seq": 1,
+  "minuto": 0,
+  "segundo": 0,
+  "evento": "Half Start",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.39,
+   "1X2_draw": 3.4,
+   "1X2_away": 1.89,
+   "next_goal_home": 2.75,
+   "next_goal_away": 1.69,
+   "next_goal_none": 10.63,
+   "goals_ou_2.5_over": 2.07,
+   "goals_ou_2.5_under": 1.77,
+   "shots_ou_24.5_over": 1.99,
+   "shots_ou_24.5_under": 1.82,
+   "corners_ou_9.5_over": 1.55,
+   "corners_ou_9.5_under": 2.48,
+   "yellow_cards_ou_4.5_over": 1.89,
+   "yellow_cards_ou_4.5_under": 1.92
+  },
+  "probabilidades": {
+   "1X2": [
+    0.21,
+    0.2758,
+    0.5142
+   ],
+   "next_goal": [
+    0.3431,
+    0.5755,
+    0.0814
+   ],
+   "goals_ou_2.5": [
+    0.4585,
+    0.5415
+   ],
+   "shots_ou_24.5": [
+    0.4764,
+    0.5236
+   ],
+   "corners_ou_9.5": [
+    0.6229,
+    0.3771
+   ],
+   "yellow_cards_ou_4.5": [
+    0.5034,
+    0.4966
+   ],
+   "1X2_poisson": [
+    0.225,
+    0.2532,
+    0.5218
+   ],
+   "1X2_poisson_modelo": [
+    0.251,
+    0.259,
+    0.49
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.937,
+   1.572
+  ],
+  "latencia_modelo_ms": 1571,
+  "publicado": 1791281767671
+ },
+ {
+  "match_id": 3754206,
+  "seq": 2,
+  "minuto": 0,
+  "segundo": 0,
+  "evento": "Kick Off",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.6,
+   "1X2_draw": 3.2,
+   "1X2_away": 1.92,
+   "next_goal_home": 2.75,
+   "next_goal_away": 1.7,
+   "next_goal_none": 10.4,
+   "goals_ou_2.5_over": 2.09,
+   "goals_ou_2.5_under": 1.75,
+   "shots_ou_24.5_over": 2.11,
+   "shots_ou_24.5_under": 1.74,
+   "corners_ou_9.5_over": 1.57,
+   "corners_ou_9.5_under": 2.42,
+   "yellow_cards_ou_4.5_over": 1.85,
+   "yellow_cards_ou_4.5_under": 1.97
+  },
+  "probabilidades": {
+   "1X2": [
+    0.2,
+    0.2941,
+    0.5059
+   ],
+   "next_goal": [
+    0.3433,
+    0.5734,
+    0.0832
+   ],
+   "goals_ou_2.5": [
+    0.4526,
+    0.5474
+   ],
+   "shots_ou_24.5": [
+    0.4486,
+    0.5514
+   ],
+   "corners_ou_9.5": [
+    0.6127,
+    0.3873
+   ],
+   "yellow_cards_ou_4.5": [
+    0.517,
+    0.483
+   ],
+   "1X2_poisson": [
+    0.2259,
+    0.255,
+    0.519
+   ],
+   "1X2_poisson_modelo": [
+    0.2299,
+    0.256,
+    0.5141
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.931,
+   1.555
+  ],
+  "latencia_modelo_ms": 60,
+  "publicado": 1791281767867
+ },
+ {
+  "match_id": 3754206,
+  "seq": 3,
+  "minuto": 0,
+  "segundo": 31,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.41,
+   "1X2_draw": 3.12,
+   "1X2_away": 1.99,
+   "next_goal_home": 2.66,
+   "next_goal_away": 1.73,
+   "next_goal_none": 10.41,
+   "goals_ou_2.5_over": 2.09,
+   "goals_ou_2.5_under": 1.75,
+   "shots_ou_24.5_over": 2.19,
+   "shots_ou_24.5_under": 1.68,
+   "corners_ou_9.5_over": 1.6,
+   "corners_ou_9.5_under": 2.36,
+   "yellow_cards_ou_4.5_over": 1.88,
+   "yellow_cards_ou_4.5_under": 1.93
+  },
+  "probabilidades": {
+   "1X2": [
+    0.2093,
+    0.3029,
+    0.4878
+   ],
+   "next_goal": [
+    0.3548,
+    0.562,
+    0.0832
+   ],
+   "goals_ou_2.5": [
+    0.4528,
+    0.5472
+   ],
+   "shots_ou_24.5": [
+    0.4301,
+    0.5699
+   ],
+   "corners_ou_9.5": [
+    0.6017,
+    0.3983
+   ],
+   "yellow_cards_ou_4.5": [
+    0.507,
+    0.493
+   ],
+   "1X2_poisson": [
+    0.2386,
+    0.258,
+    0.5034
+   ],
+   "1X2_poisson_modelo": [
+    0.2676,
+    0.2634,
+    0.469
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.962,
+   1.524
+  ],
+  "latencia_modelo_ms": 54,
+  "publicado": 1791281767897
+ },
+ {
+  "match_id": 3754206,
+  "seq": 4,
+  "minuto": 0,
+  "segundo": 57,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.46,
+   "1X2_draw": 3.18,
+   "1X2_away": 1.96,
+   "next_goal_home": 2.68,
+   "next_goal_away": 1.71,
+   "next_goal_none": 10.89,
+   "goals_ou_2.5_over": 2.04,
+   "goals_ou_2.5_under": 1.79,
+   "shots_ou_24.5_over": 2.2,
+   "shots_ou_24.5_under": 1.68,
+   "corners_ou_9.5_over": 1.65,
+   "corners_ou_9.5_under": 2.26,
+   "yellow_cards_ou_4.5_over": 1.77,
+   "yellow_cards_ou_4.5_under": 2.06
+  },
+  "probabilidades": {
+   "1X2": [
+    0.2067,
+    0.2966,
+    0.4967
+   ],
+   "next_goal": [
+    0.3526,
+    0.5681,
+    0.0793
+   ],
+   "goals_ou_2.5": [
+    0.4652,
+    0.5348
+   ],
+   "shots_ou_24.5": [
+    0.4283,
+    0.5717
+   ],
+   "corners_ou_9.5": [
+    0.5834,
+    0.4166
+   ],
+   "yellow_cards_ou_4.5": [
+    0.5394,
+    0.4606
+   ],
+   "1X2_poisson": [
+    0.2347,
+    0.2538,
+    0.5115
+   ],
+   "1X2_poisson_modelo": [
+    0.2563,
+    0.2583,
+    0.4854
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.971,
+   1.564
+  ],
+  "latencia_modelo_ms": 47,
+  "publicado": 1791281768114
+ },
+ {
+  "match_id": 3754206,
+  "seq": 5,
+  "minuto": 1,
+  "segundo": 33,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.67,
+   "1X2_draw": 3.18,
+   "1X2_away": 1.92,
+   "next_goal_home": 2.75,
+   "next_goal_away": 1.69,
+   "next_goal_none": 10.61,
+   "goals_ou_2.5_over": 2.07,
+   "goals_ou_2.5_under": 1.77,
+   "shots_ou_24.5_over": 2.27,
+   "shots_ou_24.5_under": 1.64,
+   "corners_ou_9.5_over": 1.65,
+   "corners_ou_9.5_under": 2.25,
+   "yellow_cards_ou_4.5_over": 1.73,
+   "yellow_cards_ou_4.5_under": 2.12
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1966,
+    0.2964,
+    0.507
+   ],
+   "next_goal": [
+    0.3431,
+    0.5754,
+    0.0815
+   ],
+   "goals_ou_2.5": [
+    0.458,
+    0.542
+   ],
+   "shots_ou_24.5": [
+    0.4141,
+    0.5859
+   ],
+   "corners_ou_9.5": [
+    0.5811,
+    0.4189
+   ],
+   "yellow_cards_ou_4.5": [
+    0.553,
+    0.447
+   ],
+   "1X2_poisson": [
+    0.225,
+    0.2534,
+    0.5217
+   ],
+   "1X2_poisson_modelo": [
+    0.2613,
+    0.261,
+    0.4776
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.936,
+   1.571
+  ],
+  "latencia_modelo_ms": 51,
+  "publicado": 1791281768357
+ },
+ {
+  "match_id": 3754206,
+  "seq": 6,
+  "minuto": 3,
+  "segundo": 48,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.59,
+   "1X2_draw": 3.05,
+   "1X2_away": 1.98,
+   "next_goal_home": 2.67,
+   "next_goal_away": 1.72,
+   "next_goal_none": 10.69,
+   "goals_ou_2.5_over": 2.06,
+   "goals_ou_2.5_under": 1.77,
+   "shots_ou_24.5_over": 1.99,
+   "shots_ou_24.5_under": 1.83,
+   "corners_ou_9.5_over": 1.77,
+   "corners_ou_9.5_under": 2.06,
+   "yellow_cards_ou_4.5_over": 1.96,
+   "yellow_cards_ou_4.5_under": 1.85
+  },
+  "probabilidades": {
+   "1X2": [
+    0.2007,
+    0.3097,
+    0.4896
+   ],
+   "next_goal": [
+    0.3534,
+    0.5657,
+    0.0809
+   ],
+   "goals_ou_2.5": [
+    0.4599,
+    0.5401
+   ],
+   "shots_ou_24.5": [
+    0.4782,
+    0.5218
+   ],
+   "corners_ou_9.5": [
+    0.5392,
+    0.4608
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4849,
+    0.5151
+   ],
+   "1X2_poisson": [
+    0.2362,
+    0.2555,
+    0.5083
+   ],
+   "1X2_poisson_modelo": [
+    0.2592,
+    0.2602,
+    0.4806
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.967,
+   1.548
+  ],
+  "latencia_modelo_ms": 51,
+  "publicado": 1791281768655
+ },
+ {
+  "match_id": 3754206,
+  "seq": 7,
+  "minuto": 4,
+  "segundo": 22,
+  "evento": "Goal Kick",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.5,
+   "1X2_draw": 3.03,
+   "1X2_away": 2.01,
+   "next_goal_home": 2.62,
+   "next_goal_away": 1.72,
+   "next_goal_none": 11.29,
+   "goals_ou_2.5_over": 2.0,
+   "goals_ou_2.5_under": 1.82,
+   "shots_ou_24.5_over": 1.98,
+   "shots_ou_24.5_under": 1.83,
+   "corners_ou_9.5_over": 1.78,
+   "corners_ou_9.5_under": 2.04,
+   "yellow_cards_ou_4.5_over": 2.0,
+   "yellow_cards_ou_4.5_under": 1.82
+  },
+  "probabilidades": {
+   "1X2": [
+    0.2047,
+    0.312,
+    0.4833
+   ],
+   "next_goal": [
+    0.3607,
+    0.563,
+    0.0763
+   ],
+   "goals_ou_2.5": [
+    0.4747,
+    0.5253
+   ],
+   "shots_ou_24.5": [
+    0.4792,
+    0.5208
+   ],
+   "corners_ou_9.5": [
+    0.5362,
+    0.4638
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4742,
+    0.5258
+   ],
+   "1X2_poisson": [
+    0.2426,
+    0.2531,
+    0.5043
+   ],
+   "1X2_poisson_modelo": [
+    0.2463,
+    0.2538,
+    0.4999
+   ]
+  },
+  "goles_esperados_restantes": [
+   1.005,
+   1.568
+  ],
+  "latencia_modelo_ms": 49,
+  "publicado": 1791281768796
+ },
+ {
+  "match_id": 3754206,
+  "seq": 8,
+  "minuto": 5,
+  "segundo": 1,
+  "evento": "Corner",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.44,
+   "1X2_draw": 3.04,
+   "1X2_away": 2.02,
+   "next_goal_home": 2.66,
+   "next_goal_away": 1.74,
+   "next_goal_none": 10.11,
+   "goals_ou_2.5_over": 2.13,
+   "goals_ou_2.5_under": 1.72,
+   "shots_ou_24.5_over": 2.09,
+   "shots_ou_24.5_under": 1.75,
+   "corners_ou_9.5_over": 1.46,
+   "corners_ou_9.5_under": 2.72,
+   "yellow_cards_ou_4.5_over": 2.02,
+   "yellow_cards_ou_4.5_under": 1.81
+  },
+  "probabilidades": {
+   "1X2": [
+    0.2076,
+    0.3115,
+    0.4809
+   ],
+   "next_goal": [
+    0.3556,
+    0.5585,
+    0.0859
+   ],
+   "goals_ou_2.5": [
+    0.4444,
+    0.5556
+   ],
+   "shots_ou_24.5": [
+    0.4536,
+    0.5464
+   ],
+   "corners_ou_9.5": [
+    0.6591,
+    0.3409
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4706,
+    0.5294
+   ],
+   "1X2_poisson": [
+    0.2405,
+    0.2606,
+    0.4989
+   ],
+   "1X2_poisson_modelo": [
+    0.2681,
+    0.2658,
+    0.4662
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.955,
+   1.5
+  ],
+  "latencia_modelo_ms": 51,
+  "publicado": 1791281768996
+ },
+ {
+  "match_id": 3754206,
+  "seq": 9,
+  "minuto": 5,
+  "segundo": 28,
+  "evento": "Corner",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.28,
+   "1X2_draw": 3.08,
+   "1X2_away": 2.03,
+   "next_goal_home": 2.64,
+   "next_goal_away": 1.75,
+   "next_goal_none": 10.03,
+   "goals_ou_2.5_over": 2.14,
+   "goals_ou_2.5_under": 1.72,
+   "shots_ou_24.5_over": 2.08,
+   "shots_ou_24.5_under": 1.76,
+   "corners_ou_9.5_over": 1.25,
+   "corners_ou_9.5_under": 4.03,
+   "yellow_cards_ou_4.5_over": 2.06,
+   "yellow_cards_ou_4.5_under": 1.77
+  },
+  "probabilidades": {
+   "1X2": [
+    0.2162,
+    0.3066,
+    0.4772
+   ],
+   "next_goal": [
+    0.3589,
+    0.5544,
+    0.0867
+   ],
+   "goals_ou_2.5": [
+    0.4422,
+    0.5578
+   ],
+   "shots_ou_24.5": [
+    0.456,
+    0.544
+   ],
+   "corners_ou_9.5": [
+    0.7772,
+    0.2228
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4601,
+    0.5399
+   ],
+   "1X2_poisson": [
+    0.2445,
+    0.2621,
+    0.4934
+   ],
+   "1X2_poisson_modelo": [
+    0.2677,
+    0.2663,
+    0.466
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.961,
+   1.485
+  ],
+  "latencia_modelo_ms": 61,
+  "publicado": 1791281769135
+ },
+ {
+  "match_id": 3754206,
+  "seq": 10,
+  "minuto": 5,
+  "segundo": 54,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.38,
+   "1X2_draw": 3.11,
+   "1X2_away": 2.0,
+   "next_goal_home": 2.65,
+   "next_goal_away": 1.73,
+   "next_goal_none": 10.47,
+   "goals_ou_2.5_over": 2.08,
+   "goals_ou_2.5_under": 1.75,
+   "shots_ou_24.5_over": 2.11,
+   "shots_ou_24.5_under": 1.73,
+   "corners_ou_9.5_over": 1.26,
+   "corners_ou_9.5_under": 3.9,
+   "yellow_cards_ou_4.5_over": 2.02,
+   "yellow_cards_ou_4.5_under": 1.8
+  },
+  "probabilidades": {
+   "1X2": [
+    0.2107,
+    0.3036,
+    0.4857
+   ],
+   "next_goal": [
+    0.3564,
+    0.5609,
+    0.0827
+   ],
+   "goals_ou_2.5": [
+    0.4543,
+    0.5457
+   ],
+   "shots_ou_24.5": [
+    0.4477,
+    0.5523
+   ],
+   "corners_ou_9.5": [
+    0.7686,
+    0.2314
+   ],
+   "yellow_cards_ou_4.5": [
+    0.469,
+    0.531
+   ],
+   "1X2_poisson": [
+    0.2402,
+    0.2579,
+    0.5019
+   ],
+   "1X2_poisson_modelo": [
+    0.2566,
+    0.2612,
+    0.4823
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.968,
+   1.524
+  ],
+  "latencia_modelo_ms": 59,
+  "publicado": 1791281769313
+ },
+ {
+  "match_id": 3754206,
+  "seq": 11,
+  "minuto": 6,
+  "segundo": 16,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.43,
+   "1X2_draw": 3.09,
+   "1X2_away": 2.0,
+   "next_goal_home": 2.67,
+   "next_goal_away": 1.73,
+   "next_goal_none": 10.16,
+   "goals_ou_2.5_over": 2.12,
+   "goals_ou_2.5_under": 1.73,
+   "shots_ou_24.5_over": 2.18,
+   "shots_ou_24.5_under": 1.69,
+   "corners_ou_9.5_over": 1.27,
+   "corners_ou_9.5_under": 3.84,
+   "yellow_cards_ou_4.5_over": 2.03,
+   "yellow_cards_ou_4.5_under": 1.79
+  },
+  "probabilidades": {
+   "1X2": [
+    0.2084,
+    0.3051,
+    0.4865
+   ],
+   "next_goal": [
+    0.3535,
+    0.5611,
+    0.0854
+   ],
+   "goals_ou_2.5": [
+    0.4461,
+    0.5539
+   ],
+   "shots_ou_24.5": [
+    0.4338,
+    0.5662
+   ],
+   "corners_ou_9.5": [
+    0.7651,
+    0.2349
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4672,
+    0.5328
+   ],
+   "1X2_poisson": [
+    0.238,
+    0.2596,
+    0.5024
+   ],
+   "1X2_poisson_modelo": [
+    0.2613,
+    0.2642,
+    0.4745
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.951,
+   1.51
+  ],
+  "latencia_modelo_ms": 62,
+  "publicado": 1791281769435
+ },
+ {
+  "match_id": 3754206,
+  "seq": 12,
+  "minuto": 6,
+  "segundo": 28,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.78,
+   "1X2_draw": 3.05,
+   "1X2_away": 1.95,
+   "next_goal_home": 2.76,
+   "next_goal_away": 1.71,
+   "next_goal_none": 9.85,
+   "goals_ou_2.5_over": 2.16,
+   "goals_ou_2.5_under": 1.7,
+   "shots_ou_24.5_over": 2.19,
+   "shots_ou_24.5_under": 1.69,
+   "corners_ou_9.5_over": 1.27,
+   "corners_ou_9.5_under": 3.85,
+   "yellow_cards_ou_4.5_over": 1.94,
+   "yellow_cards_ou_4.5_under": 1.87
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1919,
+    0.31,
+    0.4982
+   ],
+   "next_goal": [
+    0.3414,
+    0.5703,
+    0.0883
+   ],
+   "goals_ou_2.5": [
+    0.4374,
+    0.5626
+   ],
+   "shots_ou_24.5": [
+    0.4315,
+    0.5685
+   ],
+   "corners_ou_9.5": [
+    0.7658,
+    0.2342
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4893,
+    0.5107
+   ],
+   "1X2_poisson": [
+    0.2257,
+    0.2592,
+    0.5151
+   ],
+   "1X2_poisson_modelo": [
+    0.2648,
+    0.2671,
+    0.4681
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.909,
+   1.518
+  ],
+  "latencia_modelo_ms": 61,
+  "publicado": 1791281769676
+ },
+ {
+  "match_id": 3754206,
+  "seq": 13,
+  "minuto": 10,
+  "segundo": 9,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 4.83,
+   "1X2_draw": 2.99,
+   "1X2_away": 1.97,
+   "next_goal_home": 2.87,
+   "next_goal_away": 1.73,
+   "next_goal_none": 8.19,
+   "goals_ou_2.5_over": 2.43,
+   "goals_ou_2.5_under": 1.57,
+   "shots_ou_24.5_over": 2.79,
+   "shots_ou_24.5_under": 1.45,
+   "corners_ou_9.5_over": 1.4,
+   "corners_ou_9.5_under": 3.0,
+   "yellow_cards_ou_4.5_over": 2.06,
+   "yellow_cards_ou_4.5_under": 1.77
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1898,
+    0.3165,
+    0.4937
+   ],
+   "next_goal": [
+    0.3288,
+    0.5635,
+    0.1076
+   ],
+   "goals_ou_2.5": [
+    0.385,
+    0.615
+   ],
+   "shots_ou_24.5": [
+    0.3326,
+    0.6674
+   ],
+   "corners_ou_9.5": [
+    0.6925,
+    0.3075
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4608,
+    0.5392
+   ],
+   "1X2_poisson": [
+    0.2191,
+    0.273,
+    0.5079
+   ],
+   "1X2_poisson_modelo": [
+    0.2818,
+    0.2847,
+    0.4335
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.821,
+   1.408
+  ],
+  "latencia_modelo_ms": 59,
+  "publicado": 1791281772874
+ },
+ {
+  "match_id": 3754206,
+  "seq": 14,
+  "minuto": 11,
+  "segundo": 58,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 5.01,
+   "1X2_draw": 2.98,
+   "1X2_away": 1.94,
+   "next_goal_home": 2.87,
+   "next_goal_away": 1.71,
+   "next_goal_none": 8.67,
+   "goals_ou_2.5_over": 2.34,
+   "goals_ou_2.5_under": 1.61,
+   "shots_ou_24.5_over": 2.82,
+   "shots_ou_24.5_under": 1.44,
+   "corners_ou_9.5_over": 1.41,
+   "corners_ou_9.5_under": 2.95,
+   "yellow_cards_ou_4.5_over": 2.11,
+   "yellow_cards_ou_4.5_under": 1.74
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1827,
+    0.3172,
+    0.5001
+   ],
+   "next_goal": [
+    0.3285,
+    0.5703,
+    0.1012
+   ],
+   "goals_ou_2.5": [
+    0.4015,
+    0.5985
+   ],
+   "shots_ou_24.5": [
+    0.3285,
+    0.6715
+   ],
+   "corners_ou_9.5": [
+    0.6875,
+    0.3125
+   ],
+   "yellow_cards_ou_4.5": [
+    0.449,
+    0.551
+   ],
+   "1X2_poisson": [
+    0.2165,
+    0.2673,
+    0.5162
+   ],
+   "1X2_poisson_modelo": [
+    0.2682,
+    0.2779,
+    0.4539
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.837,
+   1.453
+  ],
+  "latencia_modelo_ms": 62,
+  "publicado": 1791281774855
+ },
+ {
+  "match_id": 3754206,
+  "seq": 15,
+  "minuto": 13,
+  "segundo": 11,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   0
+  ],
+  "cuotas": {
+   "1X2_home": 5.65,
+   "1X2_draw": 3.03,
+   "1X2_away": 1.84,
+   "next_goal_home": 3.09,
+   "next_goal_away": 1.66,
+   "next_goal_none": 8.15,
+   "goals_ou_2.5_over": 2.44,
+   "goals_ou_2.5_under": 1.56,
+   "shots_ou_24.5_over": 3.08,
+   "shots_ou_24.5_under": 1.38,
+   "corners_ou_9.5_over": 1.47,
+   "corners_ou_9.5_under": 2.69,
+   "yellow_cards_ou_4.5_over": 1.99,
+   "yellow_cards_ou_4.5_under": 1.83
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1604,
+    0.3112,
+    0.5284
+   ],
+   "next_goal": [
+    0.3028,
+    0.5891,
+    0.1081
+   ],
+   "goals_ou_2.5": [
+    0.3839,
+    0.6161
+   ],
+   "shots_ou_24.5": [
+    0.2989,
+    0.7011
+   ],
+   "corners_ou_9.5": [
+    0.655,
+    0.345
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4778,
+    0.5222
+   ],
+   "1X2_poisson": [
+    0.1924,
+    0.2658,
+    0.5418
+   ],
+   "1X2_poisson_modelo": [
+    0.252,
+    0.2805,
+    0.4675
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.755,
+   1.469
+  ],
+  "latencia_modelo_ms": 152,
+  "publicado": 1791281776094
+ },
+ {
+  "match_id": 3754206,
+  "seq": 16,
+  "minuto": 13,
+  "segundo": 58,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.37,
+   "1X2_draw": 4.76,
+   "1X2_away": 1.3,
+   "next_goal_home": 2.65,
+   "next_goal_away": 1.78,
+   "next_goal_none": 9.18,
+   "goals_ou_2.5_over": 1.42,
+   "goals_ou_2.5_under": 2.89,
+   "shots_ou_24.5_over": 2.29,
+   "shots_ou_24.5_under": 1.63,
+   "corners_ou_9.5_over": 1.47,
+   "corners_ou_9.5_under": 2.71,
+   "yellow_cards_ou_4.5_over": 2.15,
+   "yellow_cards_ou_4.5_under": 1.71
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0583,
+    0.1888,
+    0.7528
+   ],
+   "next_goal": [
+    0.3578,
+    0.5469,
+    0.0953
+   ],
+   "goals_ou_2.5": [
+    0.6807,
+    0.3193
+   ],
+   "shots_ou_24.5": [
+    0.4108,
+    0.5892
+   ],
+   "corners_ou_9.5": [
+    0.6568,
+    0.3432
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4394,
+    0.5606
+   ],
+   "1X2_poisson": [
+    0.0848,
+    0.1615,
+    0.7536
+   ],
+   "1X2_poisson_modelo": [
+    0.1008,
+    0.1753,
+    0.7239
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.93,
+   1.421
+  ],
+  "latencia_modelo_ms": 132,
+  "publicado": 1791281776354
+ },
+ {
+  "match_id": 3754206,
+  "seq": 17,
+  "minuto": 14,
+  "segundo": 47,
+  "evento": "Kick Off",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 13.44,
+   "1X2_draw": 4.51,
+   "1X2_away": 1.33,
+   "next_goal_home": 2.57,
+   "next_goal_away": 1.84,
+   "next_goal_none": 8.41,
+   "goals_ou_2.5_over": 1.47,
+   "goals_ou_2.5_under": 2.72,
+   "shots_ou_24.5_over": 2.45,
+   "shots_ou_24.5_under": 1.56,
+   "corners_ou_9.5_over": 1.5,
+   "corners_ou_9.5_under": 2.6,
+   "yellow_cards_ou_4.5_over": 2.16,
+   "yellow_cards_ou_4.5_under": 1.7
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0627,
+    0.2004,
+    0.7369
+   ],
+   "next_goal": [
+    0.3688,
+    0.5264,
+    0.1048
+   ],
+   "goals_ou_2.5": [
+    0.6589,
+    0.3411
+   ],
+   "shots_ou_24.5": [
+    0.3812,
+    0.6188
+   ],
+   "corners_ou_9.5": [
+    0.6412,
+    0.3588
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4362,
+    0.5638
+   ],
+   "1X2_poisson": [
+    0.0909,
+    0.1711,
+    0.738
+   ],
+   "1X2_poisson_modelo": [
+    0.1104,
+    0.1873,
+    0.7023
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.929,
+   1.327
+  ],
+  "latencia_modelo_ms": 68,
+  "publicado": 1791281776857
+ },
+ {
+  "match_id": 3754206,
+  "seq": 18,
+  "minuto": 16,
+  "segundo": 35,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.67,
+   "1X2_draw": 4.66,
+   "1X2_away": 1.3,
+   "next_goal_home": 2.64,
+   "next_goal_away": 1.8,
+   "next_goal_none": 8.74,
+   "goals_ou_2.5_over": 1.44,
+   "goals_ou_2.5_under": 2.79,
+   "shots_ou_24.5_over": 2.59,
+   "shots_ou_24.5_under": 1.51,
+   "corners_ou_9.5_over": 1.55,
+   "corners_ou_9.5_under": 2.46,
+   "yellow_cards_ou_4.5_over": 2.26,
+   "yellow_cards_ou_4.5_under": 1.64
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0571,
+    0.1934,
+    0.7495
+   ],
+   "next_goal": [
+    0.3594,
+    0.5402,
+    0.1005
+   ],
+   "goals_ou_2.5": [
+    0.6686,
+    0.3314
+   ],
+   "shots_ou_24.5": [
+    0.3596,
+    0.6404
+   ],
+   "corners_ou_9.5": [
+    0.6201,
+    0.3799
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4158,
+    0.5842
+   ],
+   "1X2_poisson": [
+    0.0855,
+    0.1644,
+    0.7501
+   ],
+   "1X2_poisson_modelo": [
+    0.1141,
+    0.1881,
+    0.6979
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.918,
+   1.38
+  ],
+  "latencia_modelo_ms": 70,
+  "publicado": 1791281779136
+ },
+ {
+  "match_id": 3754206,
+  "seq": 19,
+  "minuto": 16,
+  "segundo": 39,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 12.89,
+   "1X2_draw": 4.41,
+   "1X2_away": 1.34,
+   "next_goal_home": 2.54,
+   "next_goal_away": 1.88,
+   "next_goal_none": 8.03,
+   "goals_ou_2.5_over": 1.49,
+   "goals_ou_2.5_under": 2.64,
+   "shots_ou_24.5_over": 2.72,
+   "shots_ou_24.5_under": 1.47,
+   "corners_ou_9.5_over": 1.58,
+   "corners_ou_9.5_under": 2.4,
+   "yellow_cards_ou_4.5_over": 2.25,
+   "yellow_cards_ou_4.5_under": 1.65
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0656,
+    0.2055,
+    0.7288
+   ],
+   "next_goal": [
+    0.3742,
+    0.5157,
+    0.1101
+   ],
+   "goals_ou_2.5": [
+    0.647,
+    0.353
+   ],
+   "shots_ou_24.5": [
+    0.3411,
+    0.6589
+   ],
+   "corners_ou_9.5": [
+    0.6087,
+    0.3913
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4175,
+    0.5825
+   ],
+   "1X2_poisson": [
+    0.0939,
+    0.176,
+    0.7302
+   ],
+   "1X2_poisson_modelo": [
+    0.1206,
+    0.1973,
+    0.6821
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.928,
+   1.279
+  ],
+  "latencia_modelo_ms": 70,
+  "publicado": 1791281779375
+ },
+ {
+  "match_id": 3754206,
+  "seq": 20,
+  "minuto": 17,
+  "segundo": 22,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 13.92,
+   "1X2_draw": 4.63,
+   "1X2_away": 1.31,
+   "next_goal_home": 2.62,
+   "next_goal_away": 1.82,
+   "next_goal_none": 8.56,
+   "goals_ou_2.5_over": 1.46,
+   "goals_ou_2.5_under": 2.75,
+   "shots_ou_24.5_over": 2.67,
+   "shots_ou_24.5_under": 1.48,
+   "corners_ou_9.5_over": 1.57,
+   "corners_ou_9.5_under": 2.43,
+   "yellow_cards_ou_4.5_over": 2.3,
+   "yellow_cards_ou_4.5_under": 1.63
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0604,
+    0.1946,
+    0.745
+   ],
+   "next_goal": [
+    0.3625,
+    0.5347,
+    0.1028
+   ],
+   "goals_ou_2.5": [
+    0.6634,
+    0.3366
+   ],
+   "shots_ou_24.5": [
+    0.3482,
+    0.6518
+   ],
+   "corners_ou_9.5": [
+    0.6152,
+    0.3848
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4095,
+    0.5905
+   ],
+   "1X2_poisson": [
+    0.0872,
+    0.1669,
+    0.7458
+   ],
+   "1X2_poisson_modelo": [
+    0.119,
+    0.1928,
+    0.6882
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.919,
+   1.356
+  ],
+  "latencia_modelo_ms": 69,
+  "publicado": 1791281779876
+ },
+ {
+  "match_id": 3754206,
+  "seq": 21,
+  "minuto": 17,
+  "segundo": 54,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 12.82,
+   "1X2_draw": 4.36,
+   "1X2_away": 1.35,
+   "next_goal_home": 2.54,
+   "next_goal_away": 1.91,
+   "next_goal_none": 7.63,
+   "goals_ou_2.5_over": 1.52,
+   "goals_ou_2.5_under": 2.55,
+   "shots_ou_24.5_over": 3.04,
+   "shots_ou_24.5_under": 1.39,
+   "corners_ou_9.5_over": 1.64,
+   "corners_ou_9.5_under": 2.27,
+   "yellow_cards_ou_4.5_over": 2.31,
+   "yellow_cards_ou_4.5_under": 1.62
+  },
+  "probabilidades": {
+   "1X2": [
+    0.066,
+    0.2078,
+    0.7261
+   ],
+   "next_goal": [
+    0.3751,
+    0.5086,
+    0.1163
+   ],
+   "goals_ou_2.5": [
+    0.6335,
+    0.3665
+   ],
+   "shots_ou_24.5": [
+    0.3024,
+    0.6976
+   ],
+   "corners_ou_9.5": [
+    0.5855,
+    0.4145
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4072,
+    0.5928
+   ],
+   "1X2_poisson": [
+    0.0941,
+    0.1787,
+    0.7271
+   ],
+   "1X2_poisson_modelo": [
+    0.1249,
+    0.2031,
+    0.672
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.913,
+   1.238
+  ],
+  "latencia_modelo_ms": 59,
+  "publicado": 1791281780175
+ },
+ {
+  "match_id": 3754206,
+  "seq": 22,
+  "minuto": 18,
+  "segundo": 10,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 13.13,
+   "1X2_draw": 4.28,
+   "1X2_away": 1.35,
+   "next_goal_home": 2.53,
+   "next_goal_away": 1.92,
+   "next_goal_none": 7.5,
+   "goals_ou_2.5_over": 1.53,
+   "goals_ou_2.5_under": 2.52,
+   "shots_ou_24.5_over": 3.2,
+   "shots_ou_24.5_under": 1.36,
+   "corners_ou_9.5_over": 1.66,
+   "corners_ou_9.5_under": 2.23,
+   "yellow_cards_ou_4.5_over": 2.35,
+   "yellow_cards_ou_4.5_under": 1.6
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0644,
+    0.2121,
+    0.7236
+   ],
+   "next_goal": [
+    0.3764,
+    0.5051,
+    0.1184
+   ],
+   "goals_ou_2.5": [
+    0.6289,
+    0.3711
+   ],
+   "shots_ou_24.5": [
+    0.2867,
+    0.7133
+   ],
+   "corners_ou_9.5": [
+    0.5785,
+    0.4215
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4003,
+    0.5997
+   ],
+   "1X2_poisson": [
+    0.0948,
+    0.1802,
+    0.725
+   ],
+   "1X2_poisson_modelo": [
+    0.1251,
+    0.2042,
+    0.6706
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.911,
+   1.222
+  ],
+  "latencia_modelo_ms": 62,
+  "publicado": 1791281780955
+ },
+ {
+  "match_id": 3754206,
+  "seq": 23,
+  "minuto": 19,
+  "segundo": 8,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 13.36,
+   "1X2_draw": 4.3,
+   "1X2_away": 1.35,
+   "next_goal_home": 2.54,
+   "next_goal_away": 1.92,
+   "next_goal_none": 7.36,
+   "goals_ou_2.5_over": 1.54,
+   "goals_ou_2.5_under": 2.48,
+   "shots_ou_24.5_over": 3.42,
+   "shots_ou_24.5_under": 1.32,
+   "corners_ou_9.5_over": 1.71,
+   "corners_ou_9.5_under": 2.15,
+   "yellow_cards_ou_4.5_over": 2.38,
+   "yellow_cards_ou_4.5_under": 1.59
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0632,
+    0.2112,
+    0.7256
+   ],
+   "next_goal": [
+    0.3745,
+    0.5046,
+    0.1209
+   ],
+   "goals_ou_2.5": [
+    0.6237,
+    0.3763
+   ],
+   "shots_ou_24.5": [
+    0.2662,
+    0.7338
+   ],
+   "corners_ou_9.5": [
+    0.561,
+    0.439
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3945,
+    0.6055
+   ],
+   "1X2_poisson": [
+    0.0935,
+    0.18,
+    0.7265
+   ],
+   "1X2_poisson_modelo": [
+    0.1294,
+    0.2083,
+    0.6623
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.9,
+   1.213
+  ],
+  "latencia_modelo_ms": 73,
+  "publicado": 1791281781936
+ },
+ {
+  "match_id": 3754206,
+  "seq": 24,
+  "minuto": 19,
+  "segundo": 21,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 13.74,
+   "1X2_draw": 4.45,
+   "1X2_away": 1.33,
+   "next_goal_home": 2.6,
+   "next_goal_away": 1.9,
+   "next_goal_none": 7.16,
+   "goals_ou_2.5_over": 1.56,
+   "goals_ou_2.5_under": 2.44,
+   "shots_ou_24.5_over": 3.52,
+   "shots_ou_24.5_under": 1.31,
+   "corners_ou_9.5_over": 1.76,
+   "corners_ou_9.5_under": 2.08,
+   "yellow_cards_ou_4.5_over": 2.32,
+   "yellow_cards_ou_4.5_under": 1.62
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0613,
+    0.2032,
+    0.7356
+   ],
+   "next_goal": [
+    0.3651,
+    0.5105,
+    0.1244
+   ],
+   "goals_ou_2.5": [
+    0.6164,
+    0.3836
+   ],
+   "shots_ou_24.5": [
+    0.2585,
+    0.7415
+   ],
+   "corners_ou_9.5": [
+    0.5451,
+    0.4549
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4049,
+    0.5951
+   ],
+   "1X2_poisson": [
+    0.0878,
+    0.1762,
+    0.736
+   ],
+   "1X2_poisson_modelo": [
+    0.1301,
+    0.2103,
+    0.6595
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.869,
+   1.215
+  ],
+  "latencia_modelo_ms": 71,
+  "publicado": 1791281782197
+ },
+ {
+  "match_id": 3754206,
+  "seq": 25,
+  "minuto": 20,
+  "segundo": 26,
+  "evento": "Goal Kick",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 13.88,
+   "1X2_draw": 4.52,
+   "1X2_away": 1.32,
+   "next_goal_home": 2.62,
+   "next_goal_away": 1.88,
+   "next_goal_none": 7.41,
+   "goals_ou_2.5_over": 1.54,
+   "goals_ou_2.5_under": 2.5,
+   "shots_ou_24.5_over": 3.57,
+   "shots_ou_24.5_under": 1.3,
+   "corners_ou_9.5_over": 1.7,
+   "corners_ou_9.5_under": 2.17,
+   "yellow_cards_ou_4.5_over": 2.45,
+   "yellow_cards_ou_4.5_under": 1.56
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0606,
+    0.2001,
+    0.7393
+   ],
+   "next_goal": [
+    0.363,
+    0.5171,
+    0.1199
+   ],
+   "goals_ou_2.5": [
+    0.6258,
+    0.3742
+   ],
+   "shots_ou_24.5": [
+    0.2543,
+    0.7457
+   ],
+   "corners_ou_9.5": [
+    0.5651,
+    0.4349
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3811,
+    0.6189
+   ],
+   "1X2_poisson": [
+    0.0868,
+    0.1735,
+    0.7397
+   ],
+   "1X2_poisson_modelo": [
+    0.1255,
+    0.2052,
+    0.6693
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.875,
+   1.246
+  ],
+  "latencia_modelo_ms": 78,
+  "publicado": 1791281782914
+ },
+ {
+  "match_id": 3754206,
+  "seq": 26,
+  "minuto": 21,
+  "segundo": 8,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.2,
+   "1X2_draw": 4.57,
+   "1X2_away": 1.31,
+   "next_goal_home": 2.64,
+   "next_goal_away": 1.87,
+   "next_goal_none": 7.32,
+   "goals_ou_2.5_over": 1.55,
+   "goals_ou_2.5_under": 2.48,
+   "shots_ou_24.5_over": 3.78,
+   "shots_ou_24.5_under": 1.27,
+   "corners_ou_9.5_over": 1.75,
+   "corners_ou_9.5_under": 2.09,
+   "yellow_cards_ou_4.5_over": 2.52,
+   "yellow_cards_ou_4.5_under": 1.53
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0591,
+    0.1976,
+    0.7433
+   ],
+   "next_goal": [
+    0.3593,
+    0.5192,
+    0.1215
+   ],
+   "goals_ou_2.5": [
+    0.6224,
+    0.3776
+   ],
+   "shots_ou_24.5": [
+    0.2388,
+    0.7612
+   ],
+   "corners_ou_9.5": [
+    0.548,
+    0.452
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3711,
+    0.6289
+   ],
+   "1X2_poisson": [
+    0.0846,
+    0.172,
+    0.7434
+   ],
+   "1X2_poisson_modelo": [
+    0.1258,
+    0.206,
+    0.6682
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.862,
+   1.246
+  ],
+  "latencia_modelo_ms": 68,
+  "publicado": 1791281783934
+ },
+ {
+  "match_id": 3754206,
+  "seq": 27,
+  "minuto": 22,
+  "segundo": 3,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.7,
+   "1X2_draw": 4.64,
+   "1X2_away": 1.3,
+   "next_goal_home": 2.7,
+   "next_goal_away": 1.89,
+   "next_goal_none": 6.67,
+   "goals_ou_2.5_over": 1.61,
+   "goals_ou_2.5_under": 2.33,
+   "shots_ou_24.5_over": 3.19,
+   "shots_ou_24.5_under": 1.36,
+   "corners_ou_9.5_over": 1.86,
+   "corners_ou_9.5_under": 1.95,
+   "yellow_cards_ou_4.5_over": 2.59,
+   "yellow_cards_ou_4.5_under": 1.51
+  },
+  "probabilidades": {
+   "1X2": [
+    0.057,
+    0.1942,
+    0.7488
+   ],
+   "next_goal": [
+    0.3511,
+    0.5147,
+    0.1342
+   ],
+   "goals_ou_2.5": [
+    0.5962,
+    0.4038
+   ],
+   "shots_ou_24.5": [
+    0.287,
+    0.713
+   ],
+   "corners_ou_9.5": [
+    0.5125,
+    0.4875
+   ],
+   "yellow_cards_ou_4.5": [
+    0.36,
+    0.64
+   ],
+   "1X2_poisson": [
+    0.0796,
+    0.1718,
+    0.7486
+   ],
+   "1X2_poisson_modelo": [
+    0.1281,
+    0.2131,
+    0.6588
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.814,
+   1.194
+  ],
+  "latencia_modelo_ms": 66,
+  "publicado": 1791281784934
+ },
+ {
+  "match_id": 3754206,
+  "seq": 28,
+  "minuto": 22,
+  "segundo": 25,
+  "evento": "Goal Kick",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.0,
+   "1X2_draw": 4.46,
+   "1X2_away": 1.33,
+   "next_goal_home": 2.63,
+   "next_goal_away": 1.92,
+   "next_goal_none": 6.7,
+   "goals_ou_2.5_over": 1.61,
+   "goals_ou_2.5_under": 2.33,
+   "shots_ou_24.5_over": 3.13,
+   "shots_ou_24.5_under": 1.37,
+   "corners_ou_9.5_over": 1.84,
+   "corners_ou_9.5_under": 1.98,
+   "yellow_cards_ou_4.5_over": 2.6,
+   "yellow_cards_ou_4.5_under": 1.5
+  },
+  "probabilidades": {
+   "1X2": [
+    0.06,
+    0.2027,
+    0.7373
+   ],
+   "next_goal": [
+    0.3612,
+    0.505,
+    0.1338
+   ],
+   "goals_ou_2.5": [
+    0.5971,
+    0.4029
+   ],
+   "shots_ou_24.5": [
+    0.2927,
+    0.7073
+   ],
+   "corners_ou_9.5": [
+    0.5197,
+    0.4803
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3584,
+    0.6416
+   ],
+   "1X2_poisson": [
+    0.0852,
+    0.1772,
+    0.7375
+   ],
+   "1X2_poisson_modelo": [
+    0.1287,
+    0.2133,
+    0.658
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.839,
+   1.173
+  ],
+  "latencia_modelo_ms": 83,
+  "publicado": 1791281785157
+ },
+ {
+  "match_id": 3754206,
+  "seq": 29,
+  "minuto": 25,
+  "segundo": 16,
+  "evento": "Goal Kick",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.56,
+   "1X2_draw": 4.47,
+   "1X2_away": 1.32,
+   "next_goal_home": 2.67,
+   "next_goal_away": 1.94,
+   "next_goal_none": 6.2,
+   "goals_ou_2.5_over": 1.67,
+   "goals_ou_2.5_under": 2.22,
+   "shots_ou_24.5_over": 4.04,
+   "shots_ou_24.5_under": 1.25,
+   "corners_ou_9.5_over": 2.05,
+   "corners_ou_9.5_under": 1.78,
+   "yellow_cards_ou_4.5_over": 2.86,
+   "yellow_cards_ou_4.5_under": 1.43
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0576,
+    0.2022,
+    0.7402
+   ],
+   "next_goal": [
+    0.356,
+    0.4987,
+    0.1453
+   ],
+   "goals_ou_2.5": [
+    0.5745,
+    0.4255
+   ],
+   "shots_ou_24.5": [
+    0.2226,
+    0.7774
+   ],
+   "corners_ou_9.5": [
+    0.4618,
+    0.5382
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3235,
+    0.6765
+   ],
+   "1X2_poisson": [
+    0.082,
+    0.1781,
+    0.7399
+   ],
+   "1X2_poisson_modelo": [
+    0.1222,
+    0.2134,
+    0.6644
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.803,
+   1.126
+  ],
+  "latencia_modelo_ms": 82,
+  "publicado": 1791281788015
+ },
+ {
+  "match_id": 3754206,
+  "seq": 30,
+  "minuto": 25,
+  "segundo": 29,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.57,
+   "1X2_draw": 4.45,
+   "1X2_away": 1.32,
+   "next_goal_home": 2.67,
+   "next_goal_away": 1.96,
+   "next_goal_none": 6.02,
+   "goals_ou_2.5_over": 1.7,
+   "goals_ou_2.5_under": 2.17,
+   "shots_ou_24.5_over": 4.4,
+   "shots_ou_24.5_under": 1.22,
+   "corners_ou_9.5_over": 2.19,
+   "corners_ou_9.5_under": 1.68,
+   "yellow_cards_ou_4.5_over": 2.8,
+   "yellow_cards_ou_4.5_under": 1.44
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0575,
+    0.2034,
+    0.7391
+   ],
+   "next_goal": [
+    0.3558,
+    0.4943,
+    0.1499
+   ],
+   "goals_ou_2.5": [
+    0.5656,
+    0.4344
+   ],
+   "shots_ou_24.5": [
+    0.2031,
+    0.7969
+   ],
+   "corners_ou_9.5": [
+    0.4303,
+    0.5697
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3307,
+    0.6693
+   ],
+   "1X2_poisson": [
+    0.0817,
+    0.1794,
+    0.7389
+   ],
+   "1X2_poisson_modelo": [
+    0.1219,
+    0.215,
+    0.6632
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.794,
+   1.103
+  ],
+  "latencia_modelo_ms": 88,
+  "publicado": 1791281788336
+ },
+ {
+  "match_id": 3754206,
+  "seq": 31,
+  "minuto": 26,
+  "segundo": 20,
+  "evento": "Goal Kick",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.77,
+   "1X2_draw": 4.53,
+   "1X2_away": 1.31,
+   "next_goal_home": 2.69,
+   "next_goal_away": 1.93,
+   "next_goal_none": 6.21,
+   "goals_ou_2.5_over": 1.67,
+   "goals_ou_2.5_under": 2.22,
+   "shots_ou_24.5_over": 4.36,
+   "shots_ou_24.5_under": 1.22,
+   "corners_ou_9.5_over": 2.06,
+   "corners_ou_9.5_under": 1.77,
+   "yellow_cards_ou_4.5_over": 2.95,
+   "yellow_cards_ou_4.5_under": 1.41
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0567,
+    0.1993,
+    0.744
+   ],
+   "next_goal": [
+    0.3526,
+    0.5022,
+    0.1451
+   ],
+   "goals_ou_2.5": [
+    0.5748,
+    0.4252
+   ],
+   "shots_ou_24.5": [
+    0.2049,
+    0.7951
+   ],
+   "corners_ou_9.5": [
+    0.4593,
+    0.5407
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3124,
+    0.6876
+   ],
+   "1X2_poisson": [
+    0.0801,
+    0.1762,
+    0.7437
+   ],
+   "1X2_poisson_modelo": [
+    0.1181,
+    0.2102,
+    0.6718
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.796,
+   1.134
+  ],
+  "latencia_modelo_ms": 84,
+  "publicado": 1791281788937
+ },
+ {
+  "match_id": 3754206,
+  "seq": 32,
+  "minuto": 27,
+  "segundo": 11,
+  "evento": "Goal Kick",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.86,
+   "1X2_draw": 4.54,
+   "1X2_away": 1.31,
+   "next_goal_home": 2.71,
+   "next_goal_away": 1.94,
+   "next_goal_none": 6.04,
+   "goals_ou_2.5_over": 1.69,
+   "goals_ou_2.5_under": 2.18,
+   "shots_ou_24.5_over": 4.73,
+   "shots_ou_24.5_under": 1.19,
+   "corners_ou_9.5_over": 2.13,
+   "corners_ou_9.5_under": 1.73,
+   "yellow_cards_ou_4.5_over": 3.03,
+   "yellow_cards_ou_4.5_under": 1.39
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0563,
+    0.199,
+    0.7447
+   ],
+   "next_goal": [
+    0.3509,
+    0.4997,
+    0.1494
+   ],
+   "goals_ou_2.5": [
+    0.5665,
+    0.4335
+   ],
+   "shots_ou_24.5": [
+    0.1875,
+    0.8125
+   ],
+   "corners_ou_9.5": [
+    0.4448,
+    0.5552
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3036,
+    0.6964
+   ],
+   "1X2_poisson": [
+    0.0791,
+    0.1765,
+    0.7444
+   ],
+   "1X2_poisson_modelo": [
+    0.1183,
+    0.212,
+    0.6697
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.784,
+   1.117
+  ],
+  "latencia_modelo_ms": 73,
+  "publicado": 1791281789955
+ },
+ {
+  "match_id": 3754206,
+  "seq": 33,
+  "minuto": 28,
+  "segundo": 2,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 15.28,
+   "1X2_draw": 4.4,
+   "1X2_away": 1.32,
+   "next_goal_home": 2.69,
+   "next_goal_away": 1.97,
+   "next_goal_none": 5.84,
+   "goals_ou_2.5_over": 1.72,
+   "goals_ou_2.5_under": 2.13,
+   "shots_ou_24.5_over": 5.53,
+   "shots_ou_24.5_under": 1.15,
+   "corners_ou_9.5_over": 2.27,
+   "corners_ou_9.5_under": 1.64,
+   "yellow_cards_ou_4.5_over": 3.15,
+   "yellow_cards_ou_4.5_under": 1.37
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0547,
+    0.2056,
+    0.7397
+   ],
+   "next_goal": [
+    0.3541,
+    0.491,
+    0.1549
+   ],
+   "goals_ou_2.5": [
+    0.5563,
+    0.4437
+   ],
+   "shots_ou_24.5": [
+    0.1584,
+    0.8416
+   ],
+   "corners_ou_9.5": [
+    0.4141,
+    0.5859
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2916,
+    0.7084
+   ],
+   "1X2_poisson": [
+    0.0806,
+    0.18,
+    0.7393
+   ],
+   "1X2_poisson_modelo": [
+    0.1155,
+    0.2119,
+    0.6726
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.781,
+   1.084
+  ],
+  "latencia_modelo_ms": 80,
+  "publicado": 1791281790974
+ },
+ {
+  "match_id": 3754206,
+  "seq": 34,
+  "minuto": 28,
+  "segundo": 23,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 13.63,
+   "1X2_draw": 4.3,
+   "1X2_away": 1.34,
+   "next_goal_home": 2.6,
+   "next_goal_away": 2.0,
+   "next_goal_none": 5.99,
+   "goals_ou_2.5_over": 1.7,
+   "goals_ou_2.5_under": 2.17,
+   "shots_ou_24.5_over": 3.89,
+   "shots_ou_24.5_under": 1.26,
+   "corners_ou_9.5_over": 2.23,
+   "corners_ou_9.5_under": 1.66,
+   "yellow_cards_ou_4.5_over": 3.34,
+   "yellow_cards_ou_4.5_under": 1.33
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0619,
+    0.2108,
+    0.7274
+   ],
+   "next_goal": [
+    0.366,
+    0.4832,
+    0.1508
+   ],
+   "goals_ou_2.5": [
+    0.5639,
+    0.4361
+   ],
+   "shots_ou_24.5": [
+    0.2318,
+    0.7682
+   ],
+   "corners_ou_9.5": [
+    0.4233,
+    0.5767
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2731,
+    0.7269
+   ],
+   "1X2_poisson": [
+    0.0873,
+    0.1854,
+    0.7273
+   ],
+   "1X2_poisson_modelo": [
+    0.1244,
+    0.2172,
+    0.6585
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.815,
+   1.077
+  ],
+  "latencia_modelo_ms": 78,
+  "publicado": 1791281791415
+ },
+ {
+  "match_id": 3754206,
+  "seq": 35,
+  "minuto": 30,
+  "segundo": 21,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   0,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 15.36,
+   "1X2_draw": 4.48,
+   "1X2_away": 1.31,
+   "next_goal_home": 2.74,
+   "next_goal_away": 2.01,
+   "next_goal_none": 5.34,
+   "goals_ou_2.5_over": 1.81,
+   "goals_ou_2.5_under": 2.01,
+   "shots_ou_24.5_over": 4.83,
+   "shots_ou_24.5_under": 1.19,
+   "corners_ou_9.5_over": 2.63,
+   "corners_ou_9.5_under": 1.49,
+   "yellow_cards_ou_4.5_over": 3.3,
+   "yellow_cards_ou_4.5_under": 1.34
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0544,
+    0.2018,
+    0.7438
+   ],
+   "next_goal": [
+    0.3467,
+    0.4827,
+    0.1706
+   ],
+   "goals_ou_2.5": [
+    0.5276,
+    0.4724
+   ],
+   "shots_ou_24.5": [
+    0.1832,
+    0.8168
+   ],
+   "corners_ou_9.5": [
+    0.3544,
+    0.6456
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2766,
+    0.7234
+   ],
+   "1X2_poisson": [
+    0.0763,
+    0.1806,
+    0.7431
+   ],
+   "1X2_poisson_modelo": [
+    0.1169,
+    0.219,
+    0.6641
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.739,
+   1.029
+  ],
+  "latencia_modelo_ms": 88,
+  "publicado": 1791281793057
+ },
+ {
+  "match_id": 3754206,
+  "seq": 36,
+  "minuto": 30,
+  "segundo": 41,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.49,
+   "1X2_draw": 2.65,
+   "1X2_away": 2.04,
+   "next_goal_home": 3.24,
+   "next_goal_away": 1.8,
+   "next_goal_none": 5.42,
+   "goals_ou_2.5_over": 1.16,
+   "goals_ou_2.5_under": 5.25,
+   "shots_ou_24.5_over": 4.18,
+   "shots_ou_24.5_under": 1.23,
+   "corners_ou_9.5_over": 3.14,
+   "corners_ou_9.5_under": 1.37,
+   "yellow_cards_ou_4.5_over": 3.6,
+   "yellow_cards_ou_4.5_under": 1.3
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1654,
+    0.3596,
+    0.4749
+   ],
+   "next_goal": [
+    0.2901,
+    0.5424,
+    0.1675
+   ],
+   "goals_ou_2.5": [
+    0.8325,
+    0.1675
+   ],
+   "shots_ou_24.5": [
+    0.2147,
+    0.7853
+   ],
+   "corners_ou_9.5": [
+    0.2922,
+    0.7078
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2524,
+    0.7476
+   ],
+   "1X2_poisson": [
+    0.1974,
+    0.3128,
+    0.4898
+   ],
+   "1X2_poisson_modelo": [
+    0.297,
+    0.3292,
+    0.3739
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.623,
+   1.164
+  ],
+  "latencia_modelo_ms": 91,
+  "publicado": 1791281793417
+ },
+ {
+  "match_id": 3754206,
+  "seq": 37,
+  "minuto": 31,
+  "segundo": 47,
+  "evento": "Kick Off",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.71,
+   "1X2_draw": 2.71,
+   "1X2_away": 1.98,
+   "next_goal_home": 3.32,
+   "next_goal_away": 1.76,
+   "next_goal_none": 5.51,
+   "goals_ou_2.5_over": 1.16,
+   "goals_ou_2.5_under": 5.34,
+   "shots_ou_24.5_over": 4.75,
+   "shots_ou_24.5_under": 1.19,
+   "corners_ou_9.5_over": 3.23,
+   "corners_ou_9.5_under": 1.35,
+   "yellow_cards_ou_4.5_over": 3.82,
+   "yellow_cards_ou_4.5_under": 1.27
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1587,
+    0.3511,
+    0.4902
+   ],
+   "next_goal": [
+    0.282,
+    0.5536,
+    0.1644
+   ],
+   "goals_ou_2.5": [
+    0.8356,
+    0.1644
+   ],
+   "shots_ou_24.5": [
+    0.1869,
+    0.8131
+   ],
+   "corners_ou_9.5": [
+    0.2831,
+    0.7169
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2365,
+    0.7635
+   ],
+   "1X2_poisson": [
+    0.1887,
+    0.3079,
+    0.5034
+   ],
+   "1X2_poisson_modelo": [
+    0.2901,
+    0.3265,
+    0.3834
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.609,
+   1.196
+  ],
+  "latencia_modelo_ms": 110,
+  "publicado": 1791281794035
+ },
+ {
+  "match_id": 3754206,
+  "seq": 38,
+  "minuto": 32,
+  "segundo": 59,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.49,
+   "1X2_draw": 2.69,
+   "1X2_away": 2.02,
+   "next_goal_home": 3.28,
+   "next_goal_away": 1.79,
+   "next_goal_none": 5.35,
+   "goals_ou_2.5_over": 1.17,
+   "goals_ou_2.5_under": 5.19,
+   "shots_ou_24.5_over": 5.38,
+   "shots_ou_24.5_under": 1.16,
+   "corners_ou_9.5_over": 3.46,
+   "corners_ou_9.5_under": 1.31,
+   "yellow_cards_ou_4.5_over": 3.92,
+   "yellow_cards_ou_4.5_under": 1.26
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1656,
+    0.3542,
+    0.4802
+   ],
+   "next_goal": [
+    0.2856,
+    0.5446,
+    0.1698
+   ],
+   "goals_ou_2.5": [
+    0.8302,
+    0.1698
+   ],
+   "shots_ou_24.5": [
+    0.163,
+    0.837
+   ],
+   "corners_ou_9.5": [
+    0.2632,
+    0.7368
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2299,
+    0.7701
+   ],
+   "1X2_poisson": [
+    0.1936,
+    0.3134,
+    0.493
+   ],
+   "1X2_poisson_modelo": [
+    0.2902,
+    0.3303,
+    0.3795
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.61,
+   1.163
+  ],
+  "latencia_modelo_ms": 87,
+  "publicado": 1791281796036
+ },
+ {
+  "match_id": 3754206,
+  "seq": 39,
+  "minuto": 34,
+  "segundo": 6,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.64,
+   "1X2_draw": 2.57,
+   "1X2_away": 2.07,
+   "next_goal_home": 3.31,
+   "next_goal_away": 1.82,
+   "next_goal_none": 5.03,
+   "goals_ou_2.5_over": 1.18,
+   "goals_ou_2.5_under": 4.87,
+   "shots_ou_24.5_over": 5.72,
+   "shots_ou_24.5_under": 1.14,
+   "corners_ou_9.5_over": 3.74,
+   "corners_ou_9.5_under": 1.28,
+   "yellow_cards_ou_4.5_over": 4.01,
+   "yellow_cards_ou_4.5_under": 1.25
+  },
+  "probabilidades": {
+   "1X2": [
+    0.161,
+    0.3715,
+    0.4675
+   ],
+   "next_goal": [
+    0.2836,
+    0.5348,
+    0.1816
+   ],
+   "goals_ou_2.5": [
+    0.8184,
+    0.1816
+   ],
+   "shots_ou_24.5": [
+    0.1526,
+    0.8474
+   ],
+   "corners_ou_9.5": [
+    0.2419,
+    0.7581
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2244,
+    0.7756
+   ],
+   "1X2_poisson": [
+    0.1947,
+    0.3225,
+    0.4828
+   ],
+   "1X2_poisson_modelo": [
+    0.3043,
+    0.3393,
+    0.3564
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.591,
+   1.115
+  ],
+  "latencia_modelo_ms": 90,
+  "publicado": 1791281796975
+ },
+ {
+  "match_id": 3754206,
+  "seq": 40,
+  "minuto": 35,
+  "segundo": 13,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.94,
+   "1X2_draw": 2.63,
+   "1X2_away": 1.99,
+   "next_goal_home": 3.45,
+   "next_goal_away": 1.78,
+   "next_goal_none": 5.03,
+   "goals_ou_2.5_over": 1.18,
+   "goals_ou_2.5_under": 4.87,
+   "shots_ou_24.5_over": 7.21,
+   "shots_ou_24.5_under": 1.1,
+   "corners_ou_9.5_over": 3.98,
+   "corners_ou_9.5_under": 1.25,
+   "yellow_cards_ou_4.5_over": 4.23,
+   "yellow_cards_ou_4.5_under": 1.23
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1521,
+    0.3619,
+    0.4861
+   ],
+   "next_goal": [
+    0.2709,
+    0.5475,
+    0.1817
+   ],
+   "goals_ou_2.5": [
+    0.8183,
+    0.1817
+   ],
+   "shots_ou_24.5": [
+    0.1189,
+    0.8811
+   ],
+   "corners_ou_9.5": [
+    0.2263,
+    0.7737
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2118,
+    0.7882
+   ],
+   "1X2_poisson": [
+    0.1824,
+    0.3189,
+    0.4987
+   ],
+   "1X2_poisson_modelo": [
+    0.2908,
+    0.3385,
+    0.3707
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.565,
+   1.141
+  ],
+  "latencia_modelo_ms": 82,
+  "publicado": 1791281797997
+ },
+ {
+  "match_id": 3754206,
+  "seq": 41,
+  "minuto": 36,
+  "segundo": 32,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 6.05,
+   "1X2_draw": 2.62,
+   "1X2_away": 1.99,
+   "next_goal_home": 3.55,
+   "next_goal_away": 1.79,
+   "next_goal_none": 4.8,
+   "goals_ou_2.5_over": 1.2,
+   "goals_ou_2.5_under": 4.66,
+   "shots_ou_24.5_over": 8.75,
+   "shots_ou_24.5_under": 1.07,
+   "corners_ou_9.5_over": 4.39,
+   "corners_ou_9.5_under": 1.22,
+   "yellow_cards_ou_4.5_over": 4.55,
+   "yellow_cards_ou_4.5_under": 1.2
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1491,
+    0.3638,
+    0.487
+   ],
+   "next_goal": [
+    0.263,
+    0.5463,
+    0.1906
+   ],
+   "goals_ou_2.5": [
+    0.8094,
+    0.1906
+   ],
+   "shots_ou_24.5": [
+    0.0965,
+    0.9035
+   ],
+   "corners_ou_9.5": [
+    0.2036,
+    0.7964
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1957,
+    0.8043
+   ],
+   "1X2_poisson": [
+    0.1771,
+    0.324,
+    0.4988
+   ],
+   "1X2_poisson_modelo": [
+    0.2805,
+    0.3439,
+    0.3756
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.539,
+   1.119
+  ],
+  "latencia_modelo_ms": 86,
+  "publicado": 1791281799155
+ },
+ {
+  "match_id": 3754206,
+  "seq": 42,
+  "minuto": 37,
+  "segundo": 12,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 6.27,
+   "1X2_draw": 2.58,
+   "1X2_away": 1.99,
+   "next_goal_home": 3.66,
+   "next_goal_away": 1.79,
+   "next_goal_none": 4.59,
+   "goals_ou_2.5_over": 1.21,
+   "goals_ou_2.5_under": 4.45,
+   "shots_ou_24.5_over": 8.44,
+   "shots_ou_24.5_under": 1.07,
+   "corners_ou_9.5_over": 4.57,
+   "corners_ou_9.5_under": 1.2,
+   "yellow_cards_ou_4.5_over": 4.57,
+   "yellow_cards_ou_4.5_under": 1.2
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1436,
+    0.3686,
+    0.4878
+   ],
+   "next_goal": [
+    0.2547,
+    0.5451,
+    0.2002
+   ],
+   "goals_ou_2.5": [
+    0.7998,
+    0.2002
+   ],
+   "shots_ou_24.5": [
+    0.1003,
+    0.8997
+   ],
+   "corners_ou_9.5": [
+    0.1945,
+    0.8055
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1949,
+    0.8051
+   ],
+   "1X2_poisson": [
+    0.1716,
+    0.3294,
+    0.499
+   ],
+   "1X2_poisson_modelo": [
+    0.2938,
+    0.3514,
+    0.3548
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.512,
+   1.096
+  ],
+  "latencia_modelo_ms": 90,
+  "publicado": 1791281800097
+ },
+ {
+  "match_id": 3754206,
+  "seq": 43,
+  "minuto": 38,
+  "segundo": 9,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.87,
+   "1X2_draw": 2.63,
+   "1X2_away": 2.0,
+   "next_goal_home": 3.57,
+   "next_goal_away": 1.8,
+   "next_goal_none": 4.64,
+   "goals_ou_2.5_over": 1.21,
+   "goals_ou_2.5_under": 4.5,
+   "shots_ou_24.5_over": 10.86,
+   "shots_ou_24.5_under": 1.04,
+   "corners_ou_9.5_over": 4.87,
+   "corners_ou_9.5_under": 1.18,
+   "yellow_cards_ou_4.5_over": 4.75,
+   "yellow_cards_ou_4.5_under": 1.19
+  },
+  "probabilidades": {
+   "1X2": [
+    0.154,
+    0.3627,
+    0.4833
+   ],
+   "next_goal": [
+    0.2614,
+    0.5405,
+    0.1981
+   ],
+   "goals_ou_2.5": [
+    0.8019,
+    0.1981
+   ],
+   "shots_ou_24.5": [
+    0.0765,
+    0.9235
+   ],
+   "corners_ou_9.5": [
+    0.1816,
+    0.8184
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1868,
+    0.8132
+   ],
+   "1X2_poisson": [
+    0.1774,
+    0.3297,
+    0.4929
+   ],
+   "1X2_poisson_modelo": [
+    0.2783,
+    0.3489,
+    0.3728
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.528,
+   1.091
+  ],
+  "latencia_modelo_ms": 93,
+  "publicado": 1791281801035
+ },
+ {
+  "match_id": 3754206,
+  "seq": 44,
+  "minuto": 38,
+  "segundo": 37,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.78,
+   "1X2_draw": 2.55,
+   "1X2_away": 2.06,
+   "next_goal_home": 3.54,
+   "next_goal_away": 1.84,
+   "next_goal_none": 4.46,
+   "goals_ou_2.5_over": 1.22,
+   "goals_ou_2.5_under": 4.33,
+   "shots_ou_24.5_over": 11.67,
+   "shots_ou_24.5_under": 1.04,
+   "corners_ou_9.5_over": 5.06,
+   "corners_ou_9.5_under": 1.17,
+   "yellow_cards_ou_4.5_over": 4.68,
+   "yellow_cards_ou_4.5_under": 1.2
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1567,
+    0.3739,
+    0.4695
+   ],
+   "next_goal": [
+    0.2642,
+    0.5292,
+    0.2066
+   ],
+   "goals_ou_2.5": [
+    0.7934,
+    0.2066
+   ],
+   "shots_ou_24.5": [
+    0.0708,
+    0.9292
+   ],
+   "corners_ou_9.5": [
+    0.1745,
+    0.8255
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1896,
+    0.8104
+   ],
+   "1X2_poisson": [
+    0.182,
+    0.3375,
+    0.4805
+   ],
+   "1X2_poisson_modelo": [
+    0.2911,
+    0.3556,
+    0.3533
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.525,
+   1.052
+  ],
+  "latencia_modelo_ms": 100,
+  "publicado": 1791281801394
+ },
+ {
+  "match_id": 3754206,
+  "seq": 45,
+  "minuto": 38,
+  "segundo": 44,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 6.08,
+   "1X2_draw": 2.59,
+   "1X2_away": 2.0,
+   "next_goal_home": 3.64,
+   "next_goal_away": 1.8,
+   "next_goal_none": 4.55,
+   "goals_ou_2.5_over": 1.21,
+   "goals_ou_2.5_under": 4.42,
+   "shots_ou_24.5_over": 12.11,
+   "shots_ou_24.5_under": 1.03,
+   "corners_ou_9.5_over": 5.08,
+   "corners_ou_9.5_under": 1.17,
+   "yellow_cards_ou_4.5_over": 4.93,
+   "yellow_cards_ou_4.5_under": 1.18
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1484,
+    0.3675,
+    0.4842
+   ],
+   "next_goal": [
+    0.2565,
+    0.5414,
+    0.2021
+   ],
+   "goals_ou_2.5": [
+    0.7979,
+    0.2021
+   ],
+   "shots_ou_24.5": [
+    0.068,
+    0.932
+   ],
+   "corners_ou_9.5": [
+    0.1737,
+    0.8263
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1793,
+    0.8207
+   ],
+   "1X2_poisson": [
+    0.1737,
+    0.3315,
+    0.4948
+   ],
+   "1X2_poisson_modelo": [
+    0.2775,
+    0.3516,
+    0.3709
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.514,
+   1.085
+  ],
+  "latencia_modelo_ms": 106,
+  "publicado": 1791281801756
+ },
+ {
+  "match_id": 3754206,
+  "seq": 46,
+  "minuto": 38,
+  "segundo": 49,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 6.37,
+   "1X2_draw": 2.6,
+   "1X2_away": 1.97,
+   "next_goal_home": 3.79,
+   "next_goal_away": 1.79,
+   "next_goal_none": 4.41,
+   "goals_ou_2.5_over": 1.22,
+   "goals_ou_2.5_under": 4.29,
+   "shots_ou_24.5_over": 12.48,
+   "shots_ou_24.5_under": 1.03,
+   "corners_ou_9.5_over": 5.32,
+   "corners_ou_9.5_under": 1.16,
+   "yellow_cards_ou_4.5_over": 4.58,
+   "yellow_cards_ou_4.5_under": 1.2
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1412,
+    0.3659,
+    0.4928
+   ],
+   "next_goal": [
+    0.2453,
+    0.546,
+    0.2087
+   ],
+   "goals_ou_2.5": [
+    0.7913,
+    0.2087
+   ],
+   "shots_ou_24.5": [
+    0.0658,
+    0.9342
+   ],
+   "corners_ou_9.5": [
+    0.1651,
+    0.8349
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1942,
+    0.8058
+   ],
+   "1X2_poisson": [
+    0.1648,
+    0.3335,
+    0.5017
+   ],
+   "1X2_poisson_modelo": [
+    0.273,
+    0.3558,
+    0.3712
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.486,
+   1.081
+  ],
+  "latencia_modelo_ms": 103,
+  "publicado": 1791281802137
+ },
+ {
+  "match_id": 3754206,
+  "seq": 47,
+  "minuto": 41,
+  "segundo": 8,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 6.14,
+   "1X2_draw": 2.56,
+   "1X2_away": 2.02,
+   "next_goal_home": 3.78,
+   "next_goal_away": 1.83,
+   "next_goal_none": 4.2,
+   "goals_ou_2.5_over": 1.24,
+   "goals_ou_2.5_under": 4.08,
+   "shots_ou_24.5_over": 17.03,
+   "shots_ou_24.5_under": 1.01,
+   "corners_ou_9.5_over": 6.06,
+   "corners_ou_9.5_under": 1.13,
+   "yellow_cards_ou_4.5_over": 5.03,
+   "yellow_cards_ou_4.5_under": 1.18
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1469,
+    0.3727,
+    0.4804
+   ],
+   "next_goal": [
+    0.2461,
+    0.5339,
+    0.22
+   ],
+   "goals_ou_2.5": [
+    0.78,
+    0.22
+   ],
+   "shots_ou_24.5": [
+    0.0471,
+    0.9529
+   ],
+   "corners_ou_9.5": [
+    0.1434,
+    0.8566
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1757,
+    0.8243
+   ],
+   "1X2_poisson": [
+    0.168,
+    0.3432,
+    0.4889
+   ],
+   "1X2_poisson_modelo": [
+    0.271,
+    0.3635,
+    0.3655
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.478,
+   1.036
+  ],
+  "latencia_modelo_ms": 96,
+  "publicado": 1791281803537
+ },
+ {
+  "match_id": 3754206,
+  "seq": 48,
+  "minuto": 42,
+  "segundo": 14,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.64,
+   "1X2_draw": 2.49,
+   "1X2_away": 2.12,
+   "next_goal_home": 3.66,
+   "next_goal_away": 1.9,
+   "next_goal_none": 3.97,
+   "goals_ou_2.5_over": 1.26,
+   "goals_ou_2.5_under": 3.86,
+   "shots_ou_24.5_over": 20.32,
+   "shots_ou_24.5_under": 1.0,
+   "corners_ou_9.5_over": 6.65,
+   "corners_ou_9.5_under": 1.11,
+   "yellow_cards_ou_4.5_over": 5.06,
+   "yellow_cards_ou_4.5_under": 1.17
+  },
+  "probabilidades": {
+   "1X2": [
+    0.161,
+    0.3835,
+    0.4555
+   ],
+   "next_goal": [
+    0.2552,
+    0.5111,
+    0.2338
+   ],
+   "goals_ou_2.5": [
+    0.7662,
+    0.2338
+   ],
+   "shots_ou_24.5": [
+    0.039,
+    0.961
+   ],
+   "corners_ou_9.5": [
+    0.1297,
+    0.8703
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1743,
+    0.8257
+   ],
+   "1X2_poisson": [
+    0.1794,
+    0.357,
+    0.4636
+   ],
+   "1X2_poisson_modelo": [
+    0.2863,
+    0.3739,
+    0.3398
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.484,
+   0.969
+  ],
+  "latencia_modelo_ms": 92,
+  "publicado": 1791281804516
+ },
+ {
+  "match_id": 3754206,
+  "seq": 49,
+  "minuto": 42,
+  "segundo": 43,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.74,
+   "1X2_draw": 2.5,
+   "1X2_away": 2.1,
+   "next_goal_home": 3.72,
+   "next_goal_away": 1.9,
+   "next_goal_none": 3.94,
+   "goals_ou_2.5_over": 1.27,
+   "goals_ou_2.5_under": 3.83,
+   "shots_ou_24.5_over": 21.56,
+   "shots_ou_24.5_under": 1.0,
+   "corners_ou_9.5_over": 6.82,
+   "corners_ou_9.5_under": 1.11,
+   "yellow_cards_ou_4.5_over": 5.15,
+   "yellow_cards_ou_4.5_under": 1.17
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1578,
+    0.3828,
+    0.4594
+   ],
+   "next_goal": [
+    0.2507,
+    0.5136,
+    0.2357
+   ],
+   "goals_ou_2.5": [
+    0.7643,
+    0.2357
+   ],
+   "shots_ou_24.5": [
+    0.0366,
+    0.9634
+   ],
+   "corners_ou_9.5": [
+    0.1262,
+    0.8738
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1711,
+    0.8289
+   ],
+   "1X2_poisson": [
+    0.1756,
+    0.3574,
+    0.4671
+   ],
+   "1X2_poisson_modelo": [
+    0.2871,
+    0.3753,
+    0.3376
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.474,
+   0.971
+  ],
+  "latencia_modelo_ms": 124,
+  "publicado": 1791281805017
+ },
+ {
+  "match_id": 3754206,
+  "seq": 50,
+  "minuto": 42,
+  "segundo": 53,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 6.26,
+   "1X2_draw": 2.52,
+   "1X2_away": 2.03,
+   "next_goal_home": 3.92,
+   "next_goal_away": 1.85,
+   "next_goal_none": 3.96,
+   "goals_ou_2.5_over": 1.27,
+   "goals_ou_2.5_under": 3.85,
+   "shots_ou_24.5_over": 18.33,
+   "shots_ou_24.5_under": 1.0,
+   "corners_ou_9.5_over": 6.6,
+   "corners_ou_9.5_under": 1.11,
+   "yellow_cards_ou_4.5_over": 2.8,
+   "yellow_cards_ou_4.5_under": 1.44
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1439,
+    0.3794,
+    0.4767
+   ],
+   "next_goal": [
+    0.2372,
+    0.5281,
+    0.2347
+   ],
+   "goals_ou_2.5": [
+    0.7653,
+    0.2347
+   ],
+   "shots_ou_24.5": [
+    0.0436,
+    0.9564
+   ],
+   "corners_ou_9.5": [
+    0.1309,
+    0.8691
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3308,
+    0.6692
+   ],
+   "1X2_poisson": [
+    0.1629,
+    0.3526,
+    0.4845
+   ],
+   "1X2_poisson_modelo": [
+    0.2642,
+    0.373,
+    0.3627
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.449,
+   1.0
+  ],
+  "latencia_modelo_ms": 106,
+  "publicado": 1791281805415
+ },
+ {
+  "match_id": 3754206,
+  "seq": 51,
+  "minuto": 43,
+  "segundo": 45,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.74,
+   "1X2_draw": 2.49,
+   "1X2_away": 2.11,
+   "next_goal_home": 3.76,
+   "next_goal_away": 1.9,
+   "next_goal_none": 3.87,
+   "goals_ou_2.5_over": 1.28,
+   "goals_ou_2.5_under": 3.76,
+   "shots_ou_24.5_over": 21.74,
+   "shots_ou_24.5_under": 1.0,
+   "corners_ou_9.5_over": 6.6,
+   "corners_ou_9.5_under": 1.11,
+   "yellow_cards_ou_4.5_over": 2.82,
+   "yellow_cards_ou_4.5_under": 1.44
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1578,
+    0.3839,
+    0.4583
+   ],
+   "next_goal": [
+    0.248,
+    0.5115,
+    0.2406
+   ],
+   "goals_ou_2.5": [
+    0.7594,
+    0.2406
+   ],
+   "shots_ou_24.5": [
+    0.0363,
+    0.9637
+   ],
+   "corners_ou_9.5": [
+    0.1308,
+    0.8692
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3287,
+    0.6713
+   ],
+   "1X2_poisson": [
+    0.174,
+    0.3606,
+    0.4654
+   ],
+   "1X2_poisson_modelo": [
+    0.2778,
+    0.3781,
+    0.3441
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.465,
+   0.96
+  ],
+  "latencia_modelo_ms": 111,
+  "publicado": 1791281805816
+ },
+ {
+  "match_id": 3754206,
+  "seq": 52,
+  "minuto": 44,
+  "segundo": 4,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.84,
+   "1X2_draw": 2.52,
+   "1X2_away": 2.08,
+   "next_goal_home": 3.8,
+   "next_goal_away": 1.88,
+   "next_goal_none": 3.92,
+   "goals_ou_2.5_over": 1.27,
+   "goals_ou_2.5_under": 3.81,
+   "shots_ou_24.5_over": 23.79,
+   "shots_ou_24.5_under": 0.99,
+   "corners_ou_9.5_over": 6.88,
+   "corners_ou_9.5_under": 1.11,
+   "yellow_cards_ou_4.5_over": 2.95,
+   "yellow_cards_ou_4.5_under": 1.41
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1551,
+    0.3791,
+    0.4658
+   ],
+   "next_goal": [
+    0.2453,
+    0.5177,
+    0.237
+   ],
+   "goals_ou_2.5": [
+    0.763,
+    0.237
+   ],
+   "shots_ou_24.5": [
+    0.0329,
+    0.9671
+   ],
+   "corners_ou_9.5": [
+    0.125,
+    0.875
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3126,
+    0.6874
+   ],
+   "1X2_poisson": [
+    0.1708,
+    0.3569,
+    0.4723
+   ],
+   "1X2_poisson_modelo": [
+    0.2643,
+    0.3747,
+    0.361
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.463,
+   0.977
+  ],
+  "latencia_modelo_ms": 102,
+  "publicado": 1791281806777
+ },
+ {
+  "match_id": 3754206,
+  "seq": 53,
+  "minuto": 45,
+  "segundo": 30,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.5,
+   "1X2_draw": 2.53,
+   "1X2_away": 2.12,
+   "next_goal_home": 3.77,
+   "next_goal_away": 1.92,
+   "next_goal_none": 3.79,
+   "goals_ou_2.5_over": 1.28,
+   "goals_ou_2.5_under": 3.68,
+   "shots_ou_24.5_over": 29.55,
+   "shots_ou_24.5_under": 0.98,
+   "corners_ou_9.5_over": 7.69,
+   "corners_ou_9.5_under": 1.09,
+   "yellow_cards_ou_4.5_over": 3.06,
+   "yellow_cards_ou_4.5_under": 1.38
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1652,
+    0.3783,
+    0.4565
+   ],
+   "next_goal": [
+    0.2473,
+    0.5066,
+    0.2462
+   ],
+   "goals_ou_2.5": [
+    0.7538,
+    0.2462
+   ],
+   "shots_ou_24.5": [
+    0.0261,
+    0.9739
+   ],
+   "corners_ou_9.5": [
+    0.1108,
+    0.8892
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3,
+    0.7
+   ],
+   "1X2_poisson": [
+    0.1745,
+    0.3649,
+    0.4606
+   ],
+   "1X2_poisson_modelo": [
+    0.2639,
+    0.381,
+    0.3551
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.46,
+   0.942
+  ],
+  "latencia_modelo_ms": 111,
+  "publicado": 1791281807835
+ },
+ {
+  "match_id": 3754206,
+  "seq": 54,
+  "minuto": 45,
+  "segundo": 52,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.81,
+   "1X2_draw": 2.43,
+   "1X2_away": 2.14,
+   "next_goal_home": 3.89,
+   "next_goal_away": 1.94,
+   "next_goal_none": 3.6,
+   "goals_ou_2.5_over": 1.31,
+   "goals_ou_2.5_under": 3.5,
+   "shots_ou_24.5_over": 27.9,
+   "shots_ou_24.5_under": 0.99,
+   "corners_ou_9.5_over": 7.93,
+   "corners_ou_9.5_under": 1.08,
+   "yellow_cards_ou_4.5_over": 3.08,
+   "yellow_cards_ou_4.5_under": 1.38
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1558,
+    0.3937,
+    0.4506
+   ],
+   "next_goal": [
+    0.239,
+    0.5009,
+    0.2601
+   ],
+   "goals_ou_2.5": [
+    0.7399,
+    0.2601
+   ],
+   "shots_ou_24.5": [
+    0.0278,
+    0.9722
+   ],
+   "corners_ou_9.5": [
+    0.1073,
+    0.8927
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2984,
+    0.7016
+   ],
+   "1X2_poisson": [
+    0.1695,
+    0.3739,
+    0.4565
+   ],
+   "1X2_poisson_modelo": [
+    0.2747,
+    0.3913,
+    0.334
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.435,
+   0.912
+  ],
+  "latencia_modelo_ms": 118,
+  "publicado": 1791281808794
+ },
+ {
+  "match_id": 3754206,
+  "seq": 55,
+  "minuto": 46,
+  "segundo": 3,
+  "evento": "Half End",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.72,
+   "1X2_draw": 2.33,
+   "1X2_away": 2.24,
+   "next_goal_home": 3.75,
+   "next_goal_away": 2.0,
+   "next_goal_none": 3.53,
+   "goals_ou_2.5_over": 1.32,
+   "goals_ou_2.5_under": 3.43,
+   "shots_ou_24.5_over": 39.49,
+   "shots_ou_24.5_under": 0.98,
+   "corners_ou_9.5_over": 8.89,
+   "corners_ou_9.5_under": 1.07,
+   "yellow_cards_ou_4.5_over": 3.08,
+   "yellow_cards_ou_4.5_under": 1.38
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1585,
+    0.4122,
+    0.4293
+   ],
+   "next_goal": [
+    0.2487,
+    0.4859,
+    0.2654
+   ],
+   "goals_ou_2.5": [
+    0.7346,
+    0.2654
+   ],
+   "shots_ou_24.5": [
+    0.0191,
+    0.9809
+   ],
+   "corners_ou_9.5": [
+    0.0948,
+    0.9052
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2985,
+    0.7015
+   ],
+   "1X2_poisson": [
+    0.1796,
+    0.3807,
+    0.4396
+   ],
+   "1X2_poisson_modelo": [
+    0.2742,
+    0.3949,
+    0.3309
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.449,
+   0.877
+  ],
+  "latencia_modelo_ms": 111,
+  "publicado": 1791281809595
+ },
+ {
+  "match_id": 3754206,
+  "seq": 56,
+  "minuto": 45,
+  "segundo": 0,
+  "evento": "Half Start",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.13,
+   "1X2_draw": 2.35,
+   "1X2_away": 2.33,
+   "next_goal_home": 3.44,
+   "next_goal_away": 2.04,
+   "next_goal_none": 3.71,
+   "goals_ou_2.5_over": 1.29,
+   "goals_ou_2.5_under": 3.6,
+   "shots_ou_24.5_over": 31.92,
+   "shots_ou_24.5_under": 0.98,
+   "corners_ou_9.5_over": 7.77,
+   "corners_ou_9.5_under": 1.09,
+   "yellow_cards_ou_4.5_over": 3.14,
+   "yellow_cards_ou_4.5_under": 1.37
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1783,
+    0.4092,
+    0.4125
+   ],
+   "next_goal": [
+    0.2727,
+    0.4754,
+    0.2519
+   ],
+   "goals_ou_2.5": [
+    0.7481,
+    0.2519
+   ],
+   "shots_ou_24.5": [
+    0.024,
+    0.976
+   ],
+   "corners_ou_9.5": [
+    0.1097,
+    0.8903
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2922,
+    0.7078
+   ],
+   "1X2_poisson": [
+    0.2001,
+    0.3756,
+    0.4243
+   ],
+   "1X2_poisson_modelo": [
+    0.2809,
+    0.386,
+    0.3331
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.503,
+   0.876
+  ],
+  "latencia_modelo_ms": 102,
+  "publicado": 1791281810336
+ },
+ {
+  "match_id": 3754206,
+  "seq": 57,
+  "minuto": 45,
+  "segundo": 2,
+  "evento": "Kick Off",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.98,
+   "1X2_draw": 2.27,
+   "1X2_away": 2.26,
+   "next_goal_home": 3.68,
+   "next_goal_away": 1.99,
+   "next_goal_none": 3.63,
+   "goals_ou_2.5_over": 1.3,
+   "goals_ou_2.5_under": 3.53,
+   "shots_ou_24.5_over": 32.11,
+   "shots_ou_24.5_under": 0.98,
+   "corners_ou_9.5_over": 8.03,
+   "corners_ou_9.5_under": 1.08,
+   "yellow_cards_ou_4.5_over": 3.08,
+   "yellow_cards_ou_4.5_under": 1.38
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1512,
+    0.4227,
+    0.4261
+   ],
+   "next_goal": [
+    0.2536,
+    0.4889,
+    0.2575
+   ],
+   "goals_ou_2.5": [
+    0.7425,
+    0.2575
+   ],
+   "shots_ou_24.5": [
+    0.0239,
+    0.9761
+   ],
+   "corners_ou_9.5": [
+    0.1058,
+    0.8942
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2986,
+    0.7014
+   ],
+   "1X2_poisson": [
+    0.1827,
+    0.3757,
+    0.4416
+   ],
+   "1X2_poisson_modelo": [
+    0.2786,
+    0.3897,
+    0.3316
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.463,
+   0.893
+  ],
+  "latencia_modelo_ms": 124,
+  "publicado": 1791281810714
+ },
+ {
+  "match_id": 3754206,
+  "seq": 58,
+  "minuto": 45,
+  "segundo": 43,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 6.34,
+   "1X2_draw": 2.18,
+   "1X2_away": 2.31,
+   "next_goal_home": 3.72,
+   "next_goal_away": 2.02,
+   "next_goal_none": 3.51,
+   "goals_ou_2.5_over": 1.32,
+   "goals_ou_2.5_under": 3.41,
+   "shots_ou_24.5_over": 34.03,
+   "shots_ou_24.5_under": 0.98,
+   "corners_ou_9.5_over": 8.74,
+   "corners_ou_9.5_under": 1.07,
+   "yellow_cards_ou_4.5_over": 3.2,
+   "yellow_cards_ou_4.5_under": 1.36
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1419,
+    0.4427,
+    0.4153
+   ],
+   "next_goal": [
+    0.2509,
+    0.4817,
+    0.2674
+   ],
+   "goals_ou_2.5": [
+    0.7326,
+    0.2674
+   ],
+   "shots_ou_24.5": [
+    0.0224,
+    0.9776
+   ],
+   "corners_ou_9.5": [
+    0.0967,
+    0.9033
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2859,
+    0.7141
+   ],
+   "1X2_poisson": [
+    0.1822,
+    0.3829,
+    0.4349
+   ],
+   "1X2_poisson_modelo": [
+    0.2751,
+    0.3964,
+    0.3286
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.452,
+   0.867
+  ],
+  "latencia_modelo_ms": 135,
+  "publicado": 1791281811276
+ },
+ {
+  "match_id": 3754206,
+  "seq": 59,
+  "minuto": 46,
+  "segundo": 9,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 6.05,
+   "1X2_draw": 2.24,
+   "1X2_away": 2.29,
+   "next_goal_home": 3.83,
+   "next_goal_away": 2.03,
+   "next_goal_none": 3.38,
+   "goals_ou_2.5_over": 1.34,
+   "goals_ou_2.5_under": 3.29,
+   "shots_ou_24.5_over": 49.15,
+   "shots_ou_24.5_under": 0.97,
+   "corners_ou_9.5_over": 10.33,
+   "corners_ou_9.5_under": 1.05,
+   "yellow_cards_ou_4.5_over": 3.15,
+   "yellow_cards_ou_4.5_under": 1.37
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1493,
+    0.4304,
+    0.4204
+   ],
+   "next_goal": [
+    0.2434,
+    0.4788,
+    0.2778
+   ],
+   "goals_ou_2.5": [
+    0.7222,
+    0.2778
+   ],
+   "shots_ou_24.5": [
+    0.0151,
+    0.9849
+   ],
+   "corners_ou_9.5": [
+    0.0807,
+    0.9193
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2914,
+    0.7086
+   ],
+   "1X2_poisson": [
+    0.177,
+    0.3893,
+    0.4336
+   ],
+   "1X2_poisson_modelo": [
+    0.2736,
+    0.4034,
+    0.3229
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.432,
+   0.849
+  ],
+  "latencia_modelo_ms": 112,
+  "publicado": 1791281811855
+ },
+ {
+  "match_id": 3754206,
+  "seq": 60,
+  "minuto": 46,
+  "segundo": 45,
+  "evento": "Injury Stoppage",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.06,
+   "1X2_draw": 2.18,
+   "1X2_away": 2.23,
+   "next_goal_home": 4.17,
+   "next_goal_away": 1.99,
+   "next_goal_none": 3.24,
+   "goals_ou_2.5_over": 1.36,
+   "goals_ou_2.5_under": 3.15,
+   "shots_ou_24.5_over": 66.02,
+   "shots_ou_24.5_under": 0.97,
+   "corners_ou_9.5_over": 11.53,
+   "corners_ou_9.5_under": 1.04,
+   "yellow_cards_ou_4.5_over": 3.2,
+   "yellow_cards_ou_4.5_under": 1.36
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1265,
+    0.4418,
+    0.4318
+   ],
+   "next_goal": [
+    0.2219,
+    0.4871,
+    0.2909
+   ],
+   "goals_ou_2.5": [
+    0.7091,
+    0.2909
+   ],
+   "shots_ou_24.5": [
+    0.0111,
+    0.9889
+   ],
+   "corners_ou_9.5": [
+    0.0716,
+    0.9284
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2862,
+    0.7138
+   ],
+   "1X2_poisson": [
+    0.1594,
+    0.3944,
+    0.4462
+   ],
+   "1X2_poisson_modelo": [
+    0.2685,
+    0.4123,
+    0.3193
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.386,
+   0.848
+  ],
+  "latencia_modelo_ms": 127,
+  "publicado": 1791281812214
+ },
+ {
+  "match_id": 3754206,
+  "seq": 61,
+  "minuto": 48,
+  "segundo": 13,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 6.59,
+   "1X2_draw": 2.24,
+   "1X2_away": 2.21,
+   "next_goal_home": 4.13,
+   "next_goal_away": 1.99,
+   "next_goal_none": 3.28,
+   "goals_ou_2.5_over": 1.36,
+   "goals_ou_2.5_under": 3.19,
+   "shots_ou_24.5_over": 75.72,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 12.34,
+   "corners_ou_9.5_under": 1.03,
+   "yellow_cards_ou_4.5_over": 3.35,
+   "yellow_cards_ou_4.5_under": 1.33
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1362,
+    0.4282,
+    0.4356
+   ],
+   "next_goal": [
+    0.2245,
+    0.4882,
+    0.2872
+   ],
+   "goals_ou_2.5": [
+    0.7128,
+    0.2872
+   ],
+   "shots_ou_24.5": [
+    0.0095,
+    0.9905
+   ],
+   "corners_ou_9.5": [
+    0.0666,
+    0.9334
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2729,
+    0.7271
+   ],
+   "1X2_poisson": [
+    0.1612,
+    0.3921,
+    0.4468
+   ],
+   "1X2_poisson_modelo": [
+    0.2545,
+    0.4088,
+    0.3366
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.393,
+   0.855
+  ],
+  "latencia_modelo_ms": 123,
+  "publicado": 1791281812774
+ },
+ {
+  "match_id": 3754206,
+  "seq": 62,
+  "minuto": 48,
+  "segundo": 37,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.0,
+   "1X2_draw": 2.2,
+   "1X2_away": 2.21,
+   "next_goal_home": 4.13,
+   "next_goal_away": 1.98,
+   "next_goal_none": 3.31,
+   "goals_ou_2.5_over": 1.35,
+   "goals_ou_2.5_under": 3.22,
+   "shots_ou_24.5_over": 77.46,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 11.77,
+   "corners_ou_9.5_under": 1.04,
+   "yellow_cards_ou_4.5_over": 3.41,
+   "yellow_cards_ou_4.5_under": 1.32
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1276,
+    0.437,
+    0.4354
+   ],
+   "next_goal": [
+    0.2244,
+    0.4913,
+    0.2843
+   ],
+   "goals_ou_2.5": [
+    0.7157,
+    0.2843
+   ],
+   "shots_ou_24.5": [
+    0.0093,
+    0.9907
+   ],
+   "corners_ou_9.5": [
+    0.0701,
+    0.9299
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2677,
+    0.7323
+   ],
+   "1X2_poisson": [
+    0.1605,
+    0.3897,
+    0.4498
+   ],
+   "1X2_poisson_modelo": [
+    0.257,
+    0.407,
+    0.336
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.394,
+   0.863
+  ],
+  "latencia_modelo_ms": 134,
+  "publicado": 1791281813255
+ },
+ {
+  "match_id": 3754206,
+  "seq": 63,
+  "minuto": 49,
+  "segundo": 25,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 5.96,
+   "1X2_draw": 2.2,
+   "1X2_away": 2.34,
+   "next_goal_home": 3.89,
+   "next_goal_away": 2.08,
+   "next_goal_none": 3.21,
+   "goals_ou_2.5_over": 1.37,
+   "goals_ou_2.5_under": 3.13,
+   "shots_ou_24.5_over": 95.43,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 13.22,
+   "corners_ou_9.5_under": 1.03,
+   "yellow_cards_ou_4.5_over": 3.54,
+   "yellow_cards_ou_4.5_under": 1.3
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1518,
+    0.4379,
+    0.4103
+   ],
+   "next_goal": [
+    0.2395,
+    0.467,
+    0.2935
+   ],
+   "goals_ou_2.5": [
+    0.7065,
+    0.2935
+   ],
+   "shots_ou_24.5": [
+    0.0075,
+    0.9925
+   ],
+   "corners_ou_9.5": [
+    0.0619,
+    0.9381
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2566,
+    0.7434
+   ],
+   "1X2_poisson": [
+    0.1763,
+    0.4009,
+    0.4228
+   ],
+   "1X2_poisson_modelo": [
+    0.2561,
+    0.4133,
+    0.3306
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.416,
+   0.81
+  ],
+  "latencia_modelo_ms": 121,
+  "publicado": 1791281813816
+ },
+ {
+  "match_id": 3754206,
+  "seq": 64,
+  "minuto": 49,
+  "segundo": 34,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 6.9,
+   "1X2_draw": 2.21,
+   "1X2_away": 2.21,
+   "next_goal_home": 4.29,
+   "next_goal_away": 2.0,
+   "next_goal_none": 3.15,
+   "goals_ou_2.5_over": 1.38,
+   "goals_ou_2.5_under": 3.07,
+   "shots_ou_24.5_over": 106.73,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 14.17,
+   "corners_ou_9.5_under": 1.02,
+   "yellow_cards_ou_4.5_over": 3.4,
+   "yellow_cards_ou_4.5_under": 1.32
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1297,
+    0.436,
+    0.4343
+   ],
+   "next_goal": [
+    0.2154,
+    0.485,
+    0.2997
+   ],
+   "goals_ou_2.5": [
+    0.7003,
+    0.2997
+   ],
+   "shots_ou_24.5": [
+    0.0066,
+    0.9934
+   ],
+   "corners_ou_9.5": [
+    0.0574,
+    0.9426
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2685,
+    0.7315
+   ],
+   "1X2_poisson": [
+    0.1549,
+    0.3998,
+    0.4453
+   ],
+   "1X2_poisson_modelo": [
+    0.2487,
+    0.4171,
+    0.3341
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.371,
+   0.835
+  ],
+  "latencia_modelo_ms": 137,
+  "publicado": 1791281814256
+ },
+ {
+  "match_id": 3754206,
+  "seq": 65,
+  "minuto": 51,
+  "segundo": 6,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.01,
+   "1X2_draw": 2.19,
+   "1X2_away": 2.22,
+   "next_goal_home": 4.48,
+   "next_goal_away": 2.03,
+   "next_goal_none": 3.0,
+   "goals_ou_2.5_over": 1.41,
+   "goals_ou_2.5_under": 2.93,
+   "shots_ou_24.5_over": 162.04,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 17.17,
+   "corners_ou_9.5_under": 1.01,
+   "yellow_cards_ou_4.5_over": 3.52,
+   "yellow_cards_ou_4.5_under": 1.31
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1274,
+    0.4402,
+    0.4324
+   ],
+   "next_goal": [
+    0.2058,
+    0.479,
+    0.3152
+   ],
+   "goals_ou_2.5": [
+    0.6848,
+    0.3152
+   ],
+   "shots_ou_24.5": [
+    0.0042,
+    0.9958
+   ],
+   "corners_ou_9.5": [
+    0.0467,
+    0.9533
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2582,
+    0.7418
+   ],
+   "1X2_poisson": [
+    0.1488,
+    0.4099,
+    0.4413
+   ],
+   "1X2_poisson_modelo": [
+    0.243,
+    0.4277,
+    0.3293
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.347,
+   0.807
+  ],
+  "latencia_modelo_ms": 135,
+  "publicado": 1791281815237
+ },
+ {
+  "match_id": 3754206,
+  "seq": 66,
+  "minuto": 51,
+  "segundo": 12,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.39,
+   "1X2_draw": 2.17,
+   "1X2_away": 2.2,
+   "next_goal_home": 4.58,
+   "next_goal_away": 2.01,
+   "next_goal_none": 3.0,
+   "goals_ou_2.5_over": 1.41,
+   "goals_ou_2.5_under": 2.92,
+   "shots_ou_24.5_over": 77.16,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 16.47,
+   "corners_ou_9.5_under": 1.01,
+   "yellow_cards_ou_4.5_over": 3.72,
+   "yellow_cards_ou_4.5_under": 1.28
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1205,
+    0.4435,
+    0.436
+   ],
+   "next_goal": [
+    0.2012,
+    0.4831,
+    0.3157
+   ],
+   "goals_ou_2.5": [
+    0.6843,
+    0.3157
+   ],
+   "shots_ou_24.5": [
+    0.0094,
+    0.9906
+   ],
+   "corners_ou_9.5": [
+    0.0488,
+    0.9512
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2435,
+    0.7565
+   ],
+   "1X2_poisson": [
+    0.1447,
+    0.409,
+    0.4463
+   ],
+   "1X2_poisson_modelo": [
+    0.2415,
+    0.4279,
+    0.3306
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.339,
+   0.814
+  ],
+  "latencia_modelo_ms": 164,
+  "publicado": 1791281815856
+ },
+ {
+  "match_id": 3754206,
+  "seq": 67,
+  "minuto": 51,
+  "segundo": 48,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.64,
+   "1X2_draw": 2.16,
+   "1X2_away": 2.19,
+   "next_goal_home": 4.59,
+   "next_goal_away": 2.0,
+   "next_goal_none": 3.02,
+   "goals_ou_2.5_over": 1.41,
+   "goals_ou_2.5_under": 2.94,
+   "shots_ou_24.5_over": 80.54,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 16.67,
+   "corners_ou_9.5_under": 1.01,
+   "yellow_cards_ou_4.5_over": 3.76,
+   "yellow_cards_ou_4.5_under": 1.28
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1162,
+    0.4456,
+    0.4383
+   ],
+   "next_goal": [
+    0.2005,
+    0.4862,
+    0.3133
+   ],
+   "goals_ou_2.5": [
+    0.6867,
+    0.3133
+   ],
+   "shots_ou_24.5": [
+    0.0089,
+    0.9911
+   ],
+   "corners_ou_9.5": [
+    0.0482,
+    0.9518
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2405,
+    0.7595
+   ],
+   "1X2_poisson": [
+    0.1438,
+    0.4068,
+    0.4494
+   ],
+   "1X2_poisson_modelo": [
+    0.2412,
+    0.4262,
+    0.3326
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.339,
+   0.822
+  ],
+  "latencia_modelo_ms": 126,
+  "publicado": 1791281816237
+ },
+ {
+  "match_id": 3754206,
+  "seq": 68,
+  "minuto": 52,
+  "segundo": 25,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.7,
+   "1X2_draw": 2.15,
+   "1X2_away": 2.2,
+   "next_goal_home": 4.66,
+   "next_goal_away": 2.0,
+   "next_goal_none": 2.97,
+   "goals_ou_2.5_over": 1.42,
+   "goals_ou_2.5_under": 2.9,
+   "shots_ou_24.5_over": 92.77,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 17.81,
+   "corners_ou_9.5_under": 1.01,
+   "yellow_cards_ou_4.5_over": 3.86,
+   "yellow_cards_ou_4.5_under": 1.26
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1151,
+    0.4476,
+    0.4373
+   ],
+   "next_goal": [
+    0.1973,
+    0.4842,
+    0.3185
+   ],
+   "goals_ou_2.5": [
+    0.6815,
+    0.3185
+   ],
+   "shots_ou_24.5": [
+    0.0077,
+    0.9923
+   ],
+   "corners_ou_9.5": [
+    0.0449,
+    0.9551
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2339,
+    0.7661
+   ],
+   "1X2_poisson": [
+    0.1417,
+    0.4102,
+    0.4481
+   ],
+   "1X2_poisson_modelo": [
+    0.2388,
+    0.4297,
+    0.3316
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.331,
+   0.813
+  ],
+  "latencia_modelo_ms": 135,
+  "publicado": 1791281816934
+ },
+ {
+  "match_id": 3754206,
+  "seq": 69,
+  "minuto": 52,
+  "segundo": 57,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.52,
+   "1X2_draw": 2.13,
+   "1X2_away": 2.23,
+   "next_goal_home": 4.75,
+   "next_goal_away": 2.04,
+   "next_goal_none": 2.86,
+   "goals_ou_2.5_over": 1.45,
+   "goals_ou_2.5_under": 2.79,
+   "shots_ou_24.5_over": 123.0,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 20.1,
+   "corners_ou_9.5_under": 1.0,
+   "yellow_cards_ou_4.5_over": 3.75,
+   "yellow_cards_ou_4.5_under": 1.28
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1181,
+    0.4514,
+    0.4305
+   ],
+   "next_goal": [
+    0.1935,
+    0.4749,
+    0.3316
+   ],
+   "goals_ou_2.5": [
+    0.6684,
+    0.3316
+   ],
+   "shots_ou_24.5": [
+    0.0057,
+    0.9943
+   ],
+   "corners_ou_9.5": [
+    0.0394,
+    0.9606
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2413,
+    0.7587
+   ],
+   "1X2_poisson": [
+    0.1403,
+    0.4201,
+    0.4396
+   ],
+   "1X2_poisson_modelo": [
+    0.2308,
+    0.4383,
+    0.3309
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.32,
+   0.784
+  ],
+  "latencia_modelo_ms": 135,
+  "publicado": 1791281817515
+ },
+ {
+  "match_id": 3754206,
+  "seq": 70,
+  "minuto": 53,
+  "segundo": 21,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.45,
+   "1X2_draw": 2.15,
+   "1X2_away": 2.22,
+   "next_goal_home": 4.82,
+   "next_goal_away": 2.04,
+   "next_goal_none": 2.84,
+   "goals_ou_2.5_over": 1.45,
+   "goals_ou_2.5_under": 2.77,
+   "shots_ou_24.5_over": 132.18,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 21.78,
+   "corners_ou_9.5_under": 1.0,
+   "yellow_cards_ou_4.5_over": 3.69,
+   "yellow_cards_ou_4.5_under": 1.28
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1194,
+    0.4477,
+    0.4329
+   ],
+   "next_goal": [
+    0.1903,
+    0.475,
+    0.3348
+   ],
+   "goals_ou_2.5": [
+    0.6652,
+    0.3348
+   ],
+   "shots_ou_24.5": [
+    0.0053,
+    0.9947
+   ],
+   "corners_ou_9.5": [
+    0.0362,
+    0.9638
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2452,
+    0.7548
+   ],
+   "1X2_poisson": [
+    0.1379,
+    0.4218,
+    0.4404
+   ],
+   "1X2_poisson_modelo": [
+    0.2282,
+    0.4403,
+    0.3315
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.313,
+   0.781
+  ],
+  "latencia_modelo_ms": 145,
+  "publicado": 1791281818115
+ },
+ {
+  "match_id": 3754206,
+  "seq": 71,
+  "minuto": 53,
+  "segundo": 35,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.86,
+   "1X2_draw": 2.14,
+   "1X2_away": 2.2,
+   "next_goal_home": 4.91,
+   "next_goal_away": 2.02,
+   "next_goal_none": 2.84,
+   "goals_ou_2.5_over": 1.45,
+   "goals_ou_2.5_under": 2.78,
+   "shots_ou_24.5_over": 68.4,
+   "shots_ou_24.5_under": 0.97,
+   "corners_ou_9.5_over": 20.53,
+   "corners_ou_9.5_under": 1.0,
+   "yellow_cards_ou_4.5_over": 3.96,
+   "yellow_cards_ou_4.5_under": 1.25
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1127,
+    0.4498,
+    0.4375
+   ],
+   "next_goal": [
+    0.1866,
+    0.4798,
+    0.3336
+   ],
+   "goals_ou_2.5": [
+    0.6664,
+    0.3336
+   ],
+   "shots_ou_24.5": [
+    0.0106,
+    0.9894
+   ],
+   "corners_ou_9.5": [
+    0.0386,
+    0.9614
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2274,
+    0.7726
+   ],
+   "1X2_poisson": [
+    0.1344,
+    0.4197,
+    0.4459
+   ],
+   "1X2_poisson_modelo": [
+    0.2233,
+    0.439,
+    0.3377
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.307,
+   0.79
+  ],
+  "latencia_modelo_ms": 132,
+  "publicado": 1791281818515
+ },
+ {
+  "match_id": 3754206,
+  "seq": 72,
+  "minuto": 54,
+  "segundo": 3,
+  "evento": "Corner",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.71,
+   "1X2_draw": 2.18,
+   "1X2_away": 2.17,
+   "next_goal_home": 4.85,
+   "next_goal_away": 2.0,
+   "next_goal_none": 2.91,
+   "goals_ou_2.5_over": 1.43,
+   "goals_ou_2.5_under": 2.84,
+   "shots_ou_24.5_over": 56.67,
+   "shots_ou_24.5_under": 0.97,
+   "corners_ou_9.5_over": 9.03,
+   "corners_ou_9.5_under": 1.06,
+   "yellow_cards_ou_4.5_over": 4.06,
+   "yellow_cards_ou_4.5_under": 1.24
+  },
+  "probabilidades": {
+   "1X2": [
+    0.115,
+    0.4412,
+    0.4438
+   ],
+   "next_goal": [
+    0.189,
+    0.4859,
+    0.3251
+   ],
+   "goals_ou_2.5": [
+    0.6749,
+    0.3251
+   ],
+   "shots_ou_24.5": [
+    0.013,
+    0.987
+   ],
+   "corners_ou_9.5": [
+    0.0933,
+    0.9067
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2212,
+    0.7788
+   ],
+   "1X2_poisson": [
+    0.1353,
+    0.4132,
+    0.4514
+   ],
+   "1X2_poisson_modelo": [
+    0.2241,
+    0.4329,
+    0.3431
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.315,
+   0.809
+  ],
+  "latencia_modelo_ms": 132,
+  "publicado": 1791281818917
+ },
+ {
+  "match_id": 3754206,
+  "seq": 73,
+  "minuto": 54,
+  "segundo": 5,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 8.02,
+   "1X2_draw": 2.13,
+   "1X2_away": 2.19,
+   "next_goal_home": 4.83,
+   "next_goal_away": 2.01,
+   "next_goal_none": 2.9,
+   "goals_ou_2.5_over": 1.43,
+   "goals_ou_2.5_under": 2.83,
+   "shots_ou_24.5_over": 30.83,
+   "shots_ou_24.5_under": 0.98,
+   "corners_ou_9.5_over": 9.28,
+   "corners_ou_9.5_under": 1.06,
+   "yellow_cards_ou_4.5_over": 4.06,
+   "yellow_cards_ou_4.5_under": 1.24
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1102,
+    0.4513,
+    0.4385
+   ],
+   "next_goal": [
+    0.1899,
+    0.4834,
+    0.3267
+   ],
+   "goals_ou_2.5": [
+    0.6733,
+    0.3267
+   ],
+   "shots_ou_24.5": [
+    0.0249,
+    0.9751
+   ],
+   "corners_ou_9.5": [
+    0.0906,
+    0.9094
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2211,
+    0.7789
+   ],
+   "1X2_poisson": [
+    0.1363,
+    0.4149,
+    0.4488
+   ],
+   "1X2_poisson_modelo": [
+    0.2214,
+    0.4337,
+    0.3449
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.316,
+   0.803
+  ],
+  "latencia_modelo_ms": 136,
+  "publicado": 1791281819415
+ },
+ {
+  "match_id": 3754206,
+  "seq": 74,
+  "minuto": 54,
+  "segundo": 35,
+  "evento": "Goal Kick",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.29,
+   "1X2_draw": 2.02,
+   "1X2_away": 2.4,
+   "next_goal_home": 4.28,
+   "next_goal_away": 2.12,
+   "next_goal_none": 2.9,
+   "goals_ou_2.5_over": 1.44,
+   "goals_ou_2.5_under": 2.83,
+   "shots_ou_24.5_over": 28.17,
+   "shots_ou_24.5_under": 0.99,
+   "corners_ou_9.5_over": 8.85,
+   "corners_ou_9.5_under": 1.07,
+   "yellow_cards_ou_4.5_over": 4.06,
+   "yellow_cards_ou_4.5_under": 1.24
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1222,
+    0.4789,
+    0.3989
+   ],
+   "next_goal": [
+    0.2164,
+    0.4567,
+    0.3269
+   ],
+   "goals_ou_2.5": [
+    0.6731,
+    0.3269
+   ],
+   "shots_ou_24.5": [
+    0.0275,
+    0.9725
+   ],
+   "corners_ou_9.5": [
+    0.0953,
+    0.9047
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2211,
+    0.7789
+   ],
+   "1X2_poisson": [
+    0.1604,
+    0.4223,
+    0.4174
+   ],
+   "1X2_poisson_modelo": [
+    0.2332,
+    0.4351,
+    0.3316
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.359,
+   0.759
+  ],
+  "latencia_modelo_ms": 151,
+  "publicado": 1791281819816
+ },
+ {
+  "match_id": 3754206,
+  "seq": 75,
+  "minuto": 54,
+  "segundo": 59,
+  "evento": "Substitution",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 6.48,
+   "1X2_draw": 1.99,
+   "1X2_away": 2.54,
+   "next_goal_home": 3.98,
+   "next_goal_away": 2.21,
+   "next_goal_none": 2.9,
+   "goals_ou_2.5_over": 1.44,
+   "goals_ou_2.5_under": 2.82,
+   "shots_ou_24.5_over": 33.64,
+   "shots_ou_24.5_under": 0.98,
+   "corners_ou_9.5_over": 9.64,
+   "corners_ou_9.5_under": 1.06,
+   "yellow_cards_ou_4.5_over": 4.28,
+   "yellow_cards_ou_4.5_under": 1.22
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1385,
+    0.4864,
+    0.3751
+   ],
+   "next_goal": [
+    0.2338,
+    0.4381,
+    0.328
+   ],
+   "goals_ou_2.5": [
+    0.672,
+    0.328
+   ],
+   "shots_ou_24.5": [
+    0.0227,
+    0.9773
+   ],
+   "corners_ou_9.5": [
+    0.0869,
+    0.9131
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2088,
+    0.7912
+   ],
+   "1X2_poisson": [
+    0.1769,
+    0.4272,
+    0.3959
+   ],
+   "1X2_poisson_modelo": [
+    0.2323,
+    0.4359,
+    0.3318
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.388,
+   0.727
+  ],
+  "latencia_modelo_ms": 167,
+  "publicado": 1791281820373
+ },
+ {
+  "match_id": 3754206,
+  "seq": 76,
+  "minuto": 55,
+  "segundo": 7,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.03,
+   "1X2_draw": 2.09,
+   "1X2_away": 2.32,
+   "next_goal_home": 4.44,
+   "next_goal_away": 2.1,
+   "next_goal_none": 2.88,
+   "goals_ou_2.5_over": 1.44,
+   "goals_ou_2.5_under": 2.81,
+   "shots_ou_24.5_over": 36.26,
+   "shots_ou_24.5_under": 0.98,
+   "corners_ou_9.5_over": 9.8,
+   "corners_ou_9.5_under": 1.05,
+   "yellow_cards_ou_4.5_over": 4.37,
+   "yellow_cards_ou_4.5_under": 1.22
+  },
+  "probabilidades": {
+   "1X2": [
+    0.127,
+    0.4607,
+    0.4123
+   ],
+   "next_goal": [
+    0.2081,
+    0.4621,
+    0.3299
+   ],
+   "goals_ou_2.5": [
+    0.6701,
+    0.3299
+   ],
+   "shots_ou_24.5": [
+    0.021,
+    0.979
+   ],
+   "corners_ou_9.5": [
+    0.0854,
+    0.9146
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2042,
+    0.7958
+   ],
+   "1X2_poisson": [
+    0.1532,
+    0.4226,
+    0.4242
+   ],
+   "1X2_poisson_modelo": [
+    0.221,
+    0.436,
+    0.3431
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.344,
+   0.765
+  ],
+  "latencia_modelo_ms": 147,
+  "publicado": 1791281820757
+ },
+ {
+  "match_id": 3754206,
+  "seq": 77,
+  "minuto": 55,
+  "segundo": 22,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 8.07,
+   "1X2_draw": 2.09,
+   "1X2_away": 2.23,
+   "next_goal_home": 4.98,
+   "next_goal_away": 2.05,
+   "next_goal_none": 2.77,
+   "goals_ou_2.5_over": 1.47,
+   "goals_ou_2.5_under": 2.71,
+   "shots_ou_24.5_over": 38.93,
+   "shots_ou_24.5_under": 0.98,
+   "corners_ou_9.5_over": 10.02,
+   "corners_ou_9.5_under": 1.05,
+   "yellow_cards_ou_4.5_over": 2.3,
+   "yellow_cards_ou_4.5_under": 1.63
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1096,
+    0.4603,
+    0.4301
+   ],
+   "next_goal": [
+    0.184,
+    0.4732,
+    0.3428
+   ],
+   "goals_ou_2.5": [
+    0.6572,
+    0.3428
+   ],
+   "shots_ou_24.5": [
+    0.0194,
+    0.9806
+   ],
+   "corners_ou_9.5": [
+    0.0834,
+    0.9166
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4091,
+    0.5909
+   ],
+   "1X2_poisson": [
+    0.1335,
+    0.4267,
+    0.4398
+   ],
+   "1X2_poisson_modelo": [
+    0.2211,
+    0.4454,
+    0.3335
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.3,
+   0.771
+  ],
+  "latencia_modelo_ms": 158,
+  "publicado": 1791281821277
+ },
+ {
+  "match_id": 3754206,
+  "seq": 78,
+  "minuto": 57,
+  "segundo": 39,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.61,
+   "1X2_draw": 2.06,
+   "1X2_away": 2.31,
+   "next_goal_home": 4.89,
+   "next_goal_away": 2.11,
+   "next_goal_none": 2.69,
+   "goals_ou_2.5_over": 1.49,
+   "goals_ou_2.5_under": 2.63,
+   "shots_ou_24.5_over": 58.37,
+   "shots_ou_24.5_under": 0.97,
+   "corners_ou_9.5_over": 12.05,
+   "corners_ou_9.5_under": 1.03,
+   "yellow_cards_ou_4.5_over": 2.46,
+   "yellow_cards_ou_4.5_under": 1.55
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1167,
+    0.4681,
+    0.4152
+   ],
+   "next_goal": [
+    0.1876,
+    0.4581,
+    0.3543
+   ],
+   "goals_ou_2.5": [
+    0.6457,
+    0.3543
+   ],
+   "shots_ou_24.5": [
+    0.0126,
+    0.9874
+   ],
+   "corners_ou_9.5": [
+    0.0684,
+    0.9316
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3795,
+    0.6205
+   ],
+   "1X2_poisson": [
+    0.1382,
+    0.4374,
+    0.4243
+   ],
+   "1X2_poisson_modelo": [
+    0.2097,
+    0.4526,
+    0.3378
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.301,
+   0.736
+  ],
+  "latencia_modelo_ms": 165,
+  "publicado": 1791281821875
+ },
+ {
+  "match_id": 3754206,
+  "seq": 79,
+  "minuto": 58,
+  "segundo": 19,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 8.38,
+   "1X2_draw": 2.07,
+   "1X2_away": 2.23,
+   "next_goal_home": 5.46,
+   "next_goal_away": 2.08,
+   "next_goal_none": 2.59,
+   "goals_ou_2.5_over": 1.53,
+   "goals_ou_2.5_under": 2.54,
+   "shots_ou_24.5_over": 79.57,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 14.12,
+   "corners_ou_9.5_under": 1.02,
+   "yellow_cards_ou_4.5_over": 2.51,
+   "yellow_cards_ou_4.5_under": 1.53
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1051,
+    0.4657,
+    0.4292
+   ],
+   "next_goal": [
+    0.1665,
+    0.4654,
+    0.368
+   ],
+   "goals_ou_2.5": [
+    0.632,
+    0.368
+   ],
+   "shots_ou_24.5": [
+    0.0091,
+    0.9909
+   ],
+   "corners_ou_9.5": [
+    0.0577,
+    0.9423
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3718,
+    0.6282
+   ],
+   "1X2_poisson": [
+    0.1215,
+    0.4429,
+    0.4356
+   ],
+   "1X2_poisson_modelo": [
+    0.2005,
+    0.4615,
+    0.3379
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.263,
+   0.736
+  ],
+  "latencia_modelo_ms": 148,
+  "publicado": 1791281822536
+ },
+ {
+  "match_id": 3754206,
+  "seq": 80,
+  "minuto": 60,
+  "segundo": 5,
+  "evento": "Corner",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 7.08,
+   "1X2_draw": 2.01,
+   "1X2_away": 2.44,
+   "next_goal_home": 5.05,
+   "next_goal_away": 2.25,
+   "next_goal_none": 2.46,
+   "goals_ou_2.5_over": 1.58,
+   "goals_ou_2.5_under": 2.4,
+   "shots_ou_24.5_over": 107.27,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 7.34,
+   "corners_ou_9.5_under": 1.09,
+   "yellow_cards_ou_4.5_over": 2.69,
+   "yellow_cards_ou_4.5_under": 1.47
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1259,
+    0.4822,
+    0.3918
+   ],
+   "next_goal": [
+    0.1812,
+    0.429,
+    0.3898
+   ],
+   "goals_ou_2.5": [
+    0.6102,
+    0.3898
+   ],
+   "shots_ou_24.5": [
+    0.0066,
+    0.9934
+   ],
+   "corners_ou_9.5": [
+    0.1167,
+    0.8833
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3455,
+    0.6545
+   ],
+   "1X2_poisson": [
+    0.1373,
+    0.4654,
+    0.3973
+   ],
+   "1X2_poisson_modelo": [
+    0.2092,
+    0.4787,
+    0.3121
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.28,
+   0.662
+  ],
+  "latencia_modelo_ms": 156,
+  "publicado": 1791281824115
+ },
+ {
+  "match_id": 3754206,
+  "seq": 81,
+  "minuto": 61,
+  "segundo": 24,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 8.35,
+   "1X2_draw": 1.99,
+   "1X2_away": 2.33,
+   "next_goal_home": 5.71,
+   "next_goal_away": 2.18,
+   "next_goal_none": 2.41,
+   "goals_ou_2.5_over": 1.6,
+   "goals_ou_2.5_under": 2.36,
+   "shots_ou_24.5_over": 145.85,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 8.34,
+   "corners_ou_9.5_under": 1.08,
+   "yellow_cards_ou_4.5_over": 2.8,
+   "yellow_cards_ou_4.5_under": 1.44
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1055,
+    0.4849,
+    0.4096
+   ],
+   "next_goal": [
+    0.1589,
+    0.443,
+    0.3981
+   ],
+   "goals_ou_2.5": [
+    0.6019,
+    0.3981
+   ],
+   "shots_ou_24.5": [
+    0.0047,
+    0.9953
+   ],
+   "corners_ou_9.5": [
+    0.1016,
+    0.8984
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3311,
+    0.6689
+   ],
+   "1X2_poisson": [
+    0.1185,
+    0.4665,
+    0.415
+   ],
+   "1X2_poisson_modelo": [
+    0.1995,
+    0.484,
+    0.3165
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.243,
+   0.678
+  ],
+  "latencia_modelo_ms": 149,
+  "publicado": 1791281825095
+ },
+ {
+  "match_id": 3754206,
+  "seq": 82,
+  "minuto": 61,
+  "segundo": 36,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 9.07,
+   "1X2_draw": 2.02,
+   "1X2_away": 2.25,
+   "next_goal_home": 6.2,
+   "next_goal_away": 2.12,
+   "next_goal_none": 2.39,
+   "goals_ou_2.5_over": 1.6,
+   "goals_ou_2.5_under": 2.35,
+   "shots_ou_24.5_over": 155.5,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 8.49,
+   "corners_ou_9.5_under": 1.07,
+   "yellow_cards_ou_4.5_over": 2.84,
+   "yellow_cards_ou_4.5_under": 1.43
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0967,
+    0.4784,
+    0.4249
+   ],
+   "next_goal": [
+    0.1454,
+    0.4543,
+    0.4003
+   ],
+   "goals_ou_2.5": [
+    0.5997,
+    0.4003
+   ],
+   "shots_ou_24.5": [
+    0.0044,
+    0.9956
+   ],
+   "corners_ou_9.5": [
+    0.0996,
+    0.9004
+   ],
+   "yellow_cards_ou_4.5": [
+    0.326,
+    0.674
+   ],
+   "1X2_poisson": [
+    0.1071,
+    0.4643,
+    0.4286
+   ],
+   "1X2_poisson_modelo": [
+    0.199,
+    0.4855,
+    0.3155
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.222,
+   0.694
+  ],
+  "latencia_modelo_ms": 171,
+  "publicado": 1791281825677
+ },
+ {
+  "match_id": 3754206,
+  "seq": 83,
+  "minuto": 62,
+  "segundo": 53,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 9.23,
+   "1X2_draw": 1.99,
+   "1X2_away": 2.28,
+   "next_goal_home": 6.73,
+   "next_goal_away": 2.17,
+   "next_goal_none": 2.27,
+   "goals_ou_2.5_over": 1.66,
+   "goals_ou_2.5_under": 2.23,
+   "shots_ou_24.5_over": 119.2,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 10.26,
+   "corners_ou_9.5_under": 1.05,
+   "yellow_cards_ou_4.5_over": 3.18,
+   "yellow_cards_ou_4.5_under": 1.36
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0948,
+    0.4855,
+    0.4197
+   ],
+   "next_goal": [
+    0.1331,
+    0.4443,
+    0.4227
+   ],
+   "goals_ou_2.5": [
+    0.5773,
+    0.4227
+   ],
+   "shots_ou_24.5": [
+    0.0059,
+    0.9941
+   ],
+   "corners_ou_9.5": [
+    0.0813,
+    0.9187
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2887,
+    0.7113
+   ],
+   "1X2_poisson": [
+    0.0988,
+    0.4801,
+    0.421
+   ],
+   "1X2_poisson_modelo": [
+    0.1861,
+    0.501,
+    0.3129
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.199,
+   0.663
+  ],
+  "latencia_modelo_ms": 161,
+  "publicado": 1791281827514
+ },
+ {
+  "match_id": 3754206,
+  "seq": 84,
+  "minuto": 65,
+  "segundo": 2,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 8.41,
+   "1X2_draw": 1.82,
+   "1X2_away": 2.63,
+   "next_goal_home": 5.52,
+   "next_goal_away": 2.4,
+   "next_goal_none": 2.21,
+   "goals_ou_2.5_over": 1.7,
+   "goals_ou_2.5_under": 2.17,
+   "shots_ou_24.5_over": 158.44,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 12.43,
+   "corners_ou_9.5_under": 1.03,
+   "yellow_cards_ou_4.5_over": 3.36,
+   "yellow_cards_ou_4.5_under": 1.33
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1047,
+    0.5346,
+    0.3606
+   ],
+   "next_goal": [
+    0.1648,
+    0.3995,
+    0.4357
+   ],
+   "goals_ou_2.5": [
+    0.5643,
+    0.4357
+   ],
+   "shots_ou_24.5": [
+    0.0043,
+    0.9957
+   ],
+   "corners_ou_9.5": [
+    0.0661,
+    0.9339
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2712,
+    0.7288
+   ],
+   "1X2_poisson": [
+    0.128,
+    0.5001,
+    0.3719
+   ],
+   "1X2_poisson_modelo": [
+    0.1937,
+    0.5118,
+    0.2945
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.243,
+   0.588
+  ],
+  "latencia_modelo_ms": 156,
+  "publicado": 1791281829297
+ },
+ {
+  "match_id": 3754206,
+  "seq": 85,
+  "minuto": 65,
+  "segundo": 15,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 8.68,
+   "1X2_draw": 1.85,
+   "1X2_away": 2.54,
+   "next_goal_home": 5.97,
+   "next_goal_away": 2.36,
+   "next_goal_none": 2.18,
+   "goals_ou_2.5_over": 1.72,
+   "goals_ou_2.5_under": 2.14,
+   "shots_ou_24.5_over": 199.02,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 13.05,
+   "corners_ou_9.5_under": 1.03,
+   "yellow_cards_ou_4.5_over": 3.44,
+   "yellow_cards_ou_4.5_under": 1.32
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1012,
+    0.5253,
+    0.3735
+   ],
+   "next_goal": [
+    0.1513,
+    0.4061,
+    0.4426
+   ],
+   "goals_ou_2.5": [
+    0.5574,
+    0.4426
+   ],
+   "shots_ou_24.5": [
+    0.0034,
+    0.9966
+   ],
+   "corners_ou_9.5": [
+    0.0628,
+    0.9372
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2645,
+    0.7355
+   ],
+   "1X2_poisson": [
+    0.1167,
+    0.5027,
+    0.3806
+   ],
+   "1X2_poisson_modelo": [
+    0.1828,
+    0.5159,
+    0.3013
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.221,
+   0.594
+  ],
+  "latencia_modelo_ms": 179,
+  "publicado": 1791281829874
+ },
+ {
+  "match_id": 3754206,
+  "seq": 86,
+  "minuto": 65,
+  "segundo": 40,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 9.17,
+   "1X2_draw": 1.85,
+   "1X2_away": 2.5,
+   "next_goal_home": 6.33,
+   "next_goal_away": 2.34,
+   "next_goal_none": 2.15,
+   "goals_ou_2.5_over": 1.74,
+   "goals_ou_2.5_under": 2.11,
+   "shots_ou_24.5_over": 227.5,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 13.74,
+   "corners_ou_9.5_under": 1.02,
+   "yellow_cards_ou_4.5_over": 3.52,
+   "yellow_cards_ou_4.5_under": 1.31
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0954,
+    0.5245,
+    0.3801
+   ],
+   "next_goal": [
+    0.1421,
+    0.4098,
+    0.448
+   ],
+   "goals_ou_2.5": [
+    0.552,
+    0.448
+   ],
+   "shots_ou_24.5": [
+    0.003,
+    0.997
+   ],
+   "corners_ou_9.5": [
+    0.0593,
+    0.9407
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2582,
+    0.7418
+   ],
+   "1X2_poisson": [
+    0.1091,
+    0.505,
+    0.3859
+   ],
+   "1X2_poisson_modelo": [
+    0.1812,
+    0.5199,
+    0.2988
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.207,
+   0.596
+  ],
+  "latencia_modelo_ms": 170,
+  "publicado": 1791281830436
+ },
+ {
+  "match_id": 3754206,
+  "seq": 87,
+  "minuto": 66,
+  "segundo": 0,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 8.71,
+   "1X2_draw": 1.87,
+   "1X2_away": 2.5,
+   "next_goal_home": 6.89,
+   "next_goal_away": 2.38,
+   "next_goal_none": 2.06,
+   "goals_ou_2.5_over": 1.8,
+   "goals_ou_2.5_under": 2.02,
+   "shots_ou_24.5_over": 241.58,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 15.35,
+   "corners_ou_9.5_under": 1.02,
+   "yellow_cards_ou_4.5_over": 1.85,
+   "yellow_cards_ou_4.5_under": 1.97
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1009,
+    0.5191,
+    0.38
+   ],
+   "next_goal": [
+    0.1299,
+    0.4013,
+    0.4689
+   ],
+   "goals_ou_2.5": [
+    0.5311,
+    0.4689
+   ],
+   "shots_ou_24.5": [
+    0.0028,
+    0.9972
+   ],
+   "corners_ou_9.5": [
+    0.0527,
+    0.9473
+   ],
+   "yellow_cards_ou_4.5": [
+    0.5168,
+    0.4832
+   ],
+   "1X2_poisson": [
+    0.1004,
+    0.5199,
+    0.3797
+   ],
+   "1X2_poisson_modelo": [
+    0.1929,
+    0.5372,
+    0.2699
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.185,
+   0.572
+  ],
+  "latencia_modelo_ms": 169,
+  "publicado": 1791281831076
+ },
+ {
+  "match_id": 3754206,
+  "seq": 88,
+  "minuto": 67,
+  "segundo": 9,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 9.49,
+   "1X2_draw": 1.76,
+   "1X2_away": 2.65,
+   "next_goal_home": 6.41,
+   "next_goal_away": 2.46,
+   "next_goal_none": 2.05,
+   "goals_ou_2.5_over": 1.81,
+   "goals_ou_2.5_under": 2.01,
+   "shots_ou_24.5_over": 297.56,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 16.02,
+   "corners_ou_9.5_under": 1.01,
+   "yellow_cards_ou_4.5_over": 1.9,
+   "yellow_cards_ou_4.5_under": 1.91
+  },
+  "probabilidades": {
+   "1X2": [
+    0.092,
+    0.5512,
+    0.3568
+   ],
+   "next_goal": [
+    0.1402,
+    0.388,
+    0.4718
+   ],
+   "goals_ou_2.5": [
+    0.5282,
+    0.4718
+   ],
+   "shots_ou_24.5": [
+    0.0022,
+    0.9978
+   ],
+   "corners_ou_9.5": [
+    0.0503,
+    0.9497
+   ],
+   "yellow_cards_ou_4.5": [
+    0.5011,
+    0.4989
+   ],
+   "1X2_poisson": [
+    0.1098,
+    0.5251,
+    0.3651
+   ],
+   "1X2_poisson_modelo": [
+    0.1916,
+    0.5393,
+    0.2692
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.2,
+   0.552
+  ],
+  "latencia_modelo_ms": 210,
+  "publicado": 1791281831716
+ },
+ {
+  "match_id": 3754206,
+  "seq": 89,
+  "minuto": 67,
+  "segundo": 37,
+  "evento": "Substitution",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 8.02,
+   "1X2_draw": 1.75,
+   "1X2_away": 2.83,
+   "next_goal_home": 5.73,
+   "next_goal_away": 2.6,
+   "next_goal_none": 2.04,
+   "goals_ou_2.5_over": 1.82,
+   "goals_ou_2.5_under": 2.0,
+   "shots_ou_24.5_over": 335.1,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 16.56,
+   "corners_ou_9.5_under": 1.01,
+   "yellow_cards_ou_4.5_over": 1.94,
+   "yellow_cards_ou_4.5_under": 1.87
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1101,
+    0.5561,
+    0.3338
+   ],
+   "next_goal": [
+    0.1582,
+    0.3674,
+    0.4745
+   ],
+   "goals_ou_2.5": [
+    0.5255,
+    0.4745
+   ],
+   "shots_ou_24.5": [
+    0.002,
+    0.998
+   ],
+   "corners_ou_9.5": [
+    0.0486,
+    0.9514
+   ],
+   "yellow_cards_ou_4.5": [
+    0.489,
+    0.511
+   ],
+   "1X2_poisson": [
+    0.1262,
+    0.5316,
+    0.3422
+   ],
+   "1X2_poisson_modelo": [
+    0.1949,
+    0.5416,
+    0.2635
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.224,
+   0.521
+  ],
+  "latencia_modelo_ms": 183,
+  "publicado": 1791281832297
+ },
+ {
+  "match_id": 3754206,
+  "seq": 90,
+  "minuto": 67,
+  "segundo": 46,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 9.58,
+   "1X2_draw": 1.74,
+   "1X2_away": 2.7,
+   "next_goal_home": 6.33,
+   "next_goal_away": 2.5,
+   "next_goal_none": 2.04,
+   "goals_ou_2.5_over": 1.82,
+   "goals_ou_2.5_under": 2.0,
+   "shots_ou_24.5_over": 276.02,
+   "shots_ou_24.5_under": 0.96,
+   "corners_ou_9.5_over": 16.3,
+   "corners_ou_9.5_under": 1.01,
+   "yellow_cards_ou_4.5_over": 1.96,
+   "yellow_cards_ou_4.5_under": 1.85
+  },
+  "probabilidades": {
+   "1X2": [
+    0.091,
+    0.5592,
+    0.3498
+   ],
+   "next_goal": [
+    0.1422,
+    0.3825,
+    0.4753
+   ],
+   "goals_ou_2.5": [
+    0.5247,
+    0.4753
+   ],
+   "shots_ou_24.5": [
+    0.0024,
+    0.9976
+   ],
+   "corners_ou_9.5": [
+    0.0494,
+    0.9506
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4849,
+    0.5151
+   ],
+   "1X2_poisson": [
+    0.1119,
+    0.5287,
+    0.3595
+   ],
+   "1X2_poisson_modelo": [
+    0.1902,
+    0.5419,
+    0.2679
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.202,
+   0.542
+  ],
+  "latencia_modelo_ms": 175,
+  "publicado": 1791281832814
+ },
+ {
+  "match_id": 3754206,
+  "seq": 91,
+  "minuto": 68,
+  "segundo": 12,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 8.02,
+   "1X2_draw": 1.79,
+   "1X2_away": 2.74,
+   "next_goal_home": 6.12,
+   "next_goal_away": 2.56,
+   "next_goal_none": 2.02,
+   "goals_ou_2.5_over": 1.84,
+   "goals_ou_2.5_under": 1.98,
+   "shots_ou_24.5_over": 463.11,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 17.58,
+   "corners_ou_9.5_under": 1.01,
+   "yellow_cards_ou_4.5_over": 1.98,
+   "yellow_cards_ou_4.5_under": 1.84
+  },
+  "probabilidades": {
+   "1X2": [
+    0.1102,
+    0.5445,
+    0.3453
+   ],
+   "next_goal": [
+    0.1473,
+    0.3723,
+    0.4804
+   ],
+   "goals_ou_2.5": [
+    0.5196,
+    0.4804
+   ],
+   "shots_ou_24.5": [
+    0.0014,
+    0.9986
+   ],
+   "corners_ou_9.5": [
+    0.0455,
+    0.9545
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4799,
+    0.5201
+   ],
+   "1X2_poisson": [
+    0.1169,
+    0.5343,
+    0.3488
+   ],
+   "1X2_poisson_modelo": [
+    0.1803,
+    0.545,
+    0.2746
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.208,
+   0.525
+  ],
+  "latencia_modelo_ms": 194,
+  "publicado": 1791281833397
+ },
+ {
+  "match_id": 3754206,
+  "seq": 92,
+  "minuto": 68,
+  "segundo": 55,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 10.03,
+   "1X2_draw": 1.69,
+   "1X2_away": 2.78,
+   "next_goal_home": 6.57,
+   "next_goal_away": 2.57,
+   "next_goal_none": 1.97,
+   "goals_ou_2.5_over": 1.88,
+   "goals_ou_2.5_under": 1.93,
+   "shots_ou_24.5_over": 439.43,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 19.88,
+   "corners_ou_9.5_under": 1.0,
+   "yellow_cards_ou_4.5_over": 2.04,
+   "yellow_cards_ou_4.5_under": 1.79
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0865,
+    0.5747,
+    0.3387
+   ],
+   "next_goal": [
+    0.1364,
+    0.3708,
+    0.4928
+   ],
+   "goals_ou_2.5": [
+    0.5072,
+    0.4928
+   ],
+   "shots_ou_24.5": [
+    0.0015,
+    0.9985
+   ],
+   "corners_ou_9.5": [
+    0.0399,
+    0.9601
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4647,
+    0.5353
+   ],
+   "1X2_poisson": [
+    0.1083,
+    0.5425,
+    0.3491
+   ],
+   "1X2_poisson_modelo": [
+    0.1876,
+    0.5553,
+    0.2571
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.19,
+   0.517
+  ],
+  "latencia_modelo_ms": 186,
+  "publicado": 1791281834134
+ },
+ {
+  "match_id": 3754206,
+  "seq": 93,
+  "minuto": 70,
+  "segundo": 11,
+  "evento": "Corner",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 8.91,
+   "1X2_draw": 1.7,
+   "1X2_away": 2.85,
+   "next_goal_home": 6.83,
+   "next_goal_away": 2.68,
+   "next_goal_none": 1.88,
+   "goals_ou_2.5_over": 1.96,
+   "goals_ou_2.5_under": 1.85,
+   "shots_ou_24.5_over": 1004.19,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 9.47,
+   "corners_ou_9.5_under": 1.06,
+   "yellow_cards_ou_4.5_over": 2.15,
+   "yellow_cards_ou_4.5_under": 1.71
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0983,
+    0.5715,
+    0.3302
+   ],
+   "next_goal": [
+    0.1309,
+    0.3539,
+    0.5152
+   ],
+   "goals_ou_2.5": [
+    0.4848,
+    0.5152
+   ],
+   "shots_ou_24.5": [
+    0.0006,
+    0.9994
+   ],
+   "corners_ou_9.5": [
+    0.0886,
+    0.9114
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4404,
+    0.5596
+   ],
+   "1X2_poisson": [
+    0.1053,
+    0.5608,
+    0.3338
+   ],
+   "1X2_poisson_modelo": [
+    0.1829,
+    0.5725,
+    0.2446
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.179,
+   0.484
+  ],
+  "latencia_modelo_ms": 216,
+  "publicado": 1791281835056
+ },
+ {
+  "match_id": 3754206,
+  "seq": 94,
+  "minuto": 70,
+  "segundo": 55,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 10.55,
+   "1X2_draw": 1.63,
+   "1X2_away": 2.93,
+   "next_goal_home": 6.95,
+   "next_goal_away": 2.7,
+   "next_goal_none": 1.87,
+   "goals_ou_2.5_over": 1.98,
+   "goals_ou_2.5_under": 1.83,
+   "shots_ou_24.5_over": 868.59,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 10.16,
+   "corners_ou_9.5_under": 1.05,
+   "yellow_cards_ou_4.5_over": 2.18,
+   "yellow_cards_ou_4.5_under": 1.69
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0819,
+    0.5975,
+    0.3206
+   ],
+   "next_goal": [
+    0.1286,
+    0.3512,
+    0.5202
+   ],
+   "goals_ou_2.5": [
+    0.4798,
+    0.5202
+   ],
+   "shots_ou_24.5": [
+    0.0007,
+    0.9993
+   ],
+   "corners_ou_9.5": [
+    0.0821,
+    0.9179
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4339,
+    0.5661
+   ],
+   "1X2_poisson": [
+    0.1037,
+    0.5647,
+    0.3316
+   ],
+   "1X2_poisson_modelo": [
+    0.1821,
+    0.5764,
+    0.2415
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.175,
+   0.478
+  ],
+  "latencia_modelo_ms": 240,
+  "publicado": 1791281835754
+ },
+ {
+  "match_id": 3754206,
+  "seq": 95,
+  "minuto": 71,
+  "segundo": 10,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 10.42,
+   "1X2_draw": 1.63,
+   "1X2_away": 2.93,
+   "next_goal_home": 7.04,
+   "next_goal_away": 2.71,
+   "next_goal_none": 1.85,
+   "goals_ou_2.5_over": 1.99,
+   "goals_ou_2.5_under": 1.82,
+   "shots_ou_24.5_over": 971.48,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 10.51,
+   "corners_ou_9.5_under": 1.05,
+   "yellow_cards_ou_4.5_over": 2.2,
+   "yellow_cards_ou_4.5_under": 1.68
+  },
+  "probabilidades": {
+   "1X2": [
+    0.083,
+    0.5963,
+    0.3206
+   ],
+   "next_goal": [
+    0.1266,
+    0.3494,
+    0.5239
+   ],
+   "goals_ou_2.5": [
+    0.4761,
+    0.5239
+   ],
+   "shots_ou_24.5": [
+    0.0006,
+    0.9994
+   ],
+   "corners_ou_9.5": [
+    0.0792,
+    0.9208
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4282,
+    0.5718
+   ],
+   "1X2_poisson": [
+    0.1022,
+    0.5676,
+    0.3302
+   ],
+   "1X2_poisson_modelo": [
+    0.1809,
+    0.5793,
+    0.2398
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.172,
+   0.474
+  ],
+  "latencia_modelo_ms": 174,
+  "publicado": 1791281836397
+ },
+ {
+  "match_id": 3754206,
+  "seq": 96,
+  "minuto": 71,
+  "segundo": 24,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 10.31,
+   "1X2_draw": 1.64,
+   "1X2_away": 2.92,
+   "next_goal_home": 7.13,
+   "next_goal_away": 2.72,
+   "next_goal_none": 1.84,
+   "goals_ou_2.5_over": 2.01,
+   "goals_ou_2.5_under": 1.81,
+   "shots_ou_24.5_over": 1107.52,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 10.94,
+   "corners_ou_9.5_under": 1.04,
+   "yellow_cards_ou_4.5_over": 2.22,
+   "yellow_cards_ou_4.5_under": 1.67
+  },
+  "probabilidades": {
+   "1X2": [
+    0.084,
+    0.5951,
+    0.3209
+   ],
+   "next_goal": [
+    0.1249,
+    0.3483,
+    0.5268
+   ],
+   "goals_ou_2.5": [
+    0.4732,
+    0.5268
+   ],
+   "shots_ou_24.5": [
+    0.0005,
+    0.9995
+   ],
+   "corners_ou_9.5": [
+    0.0759,
+    0.9241
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4247,
+    0.5753
+   ],
+   "1X2_poisson": [
+    0.1009,
+    0.5697,
+    0.3294
+   ],
+   "1X2_poisson_modelo": [
+    0.1797,
+    0.5814,
+    0.2389
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.169,
+   0.472
+  ],
+  "latencia_modelo_ms": 171,
+  "publicado": 1791281836977
+ },
+ {
+  "match_id": 3754206,
+  "seq": 97,
+  "minuto": 71,
+  "segundo": 32,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 10.46,
+   "1X2_draw": 1.62,
+   "1X2_away": 2.96,
+   "next_goal_home": 7.1,
+   "next_goal_away": 2.74,
+   "next_goal_none": 1.84,
+   "goals_ou_2.5_over": 2.01,
+   "goals_ou_2.5_under": 1.81,
+   "shots_ou_24.5_over": 1191.27,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 11.17,
+   "corners_ou_9.5_under": 1.04,
+   "yellow_cards_ou_4.5_over": 2.23,
+   "yellow_cards_ou_4.5_under": 1.66
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0827,
+    0.6001,
+    0.3172
+   ],
+   "next_goal": [
+    0.1255,
+    0.3455,
+    0.529
+   ],
+   "goals_ou_2.5": [
+    0.471,
+    0.529
+   ],
+   "shots_ou_24.5": [
+    0.0005,
+    0.9995
+   ],
+   "corners_ou_9.5": [
+    0.0741,
+    0.9259
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4219,
+    0.5781
+   ],
+   "1X2_poisson": [
+    0.1017,
+    0.5717,
+    0.3266
+   ],
+   "1X2_poisson_modelo": [
+    0.1793,
+    0.5832,
+    0.2376
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.17,
+   0.467
+  ],
+  "latencia_modelo_ms": 200,
+  "publicado": 1791281837615
+ },
+ {
+  "match_id": 3754206,
+  "seq": 98,
+  "minuto": 72,
+  "segundo": 46,
+  "evento": "Substitution",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 9.16,
+   "1X2_draw": 1.6,
+   "1X2_away": 3.17,
+   "next_goal_home": 6.78,
+   "next_goal_away": 2.93,
+   "next_goal_none": 1.78,
+   "goals_ou_2.5_over": 2.09,
+   "goals_ou_2.5_under": 1.75,
+   "shots_ou_24.5_over": 2348.66,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 13.3,
+   "corners_ou_9.5_under": 1.03,
+   "yellow_cards_ou_4.5_over": 2.34,
+   "yellow_cards_ou_4.5_under": 1.61
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0953,
+    0.6099,
+    0.2948
+   ],
+   "next_goal": [
+    0.1319,
+    0.3214,
+    0.5466
+   ],
+   "goals_ou_2.5": [
+    0.4534,
+    0.5466
+   ],
+   "shots_ou_24.5": [
+    0.0002,
+    0.9998
+   ],
+   "corners_ou_9.5": [
+    0.0615,
+    0.9385
+   ],
+   "yellow_cards_ou_4.5": [
+    0.4011,
+    0.5989
+   ],
+   "1X2_poisson": [
+    0.1089,
+    0.5886,
+    0.3025
+   ],
+   "1X2_poisson_modelo": [
+    0.1806,
+    0.5972,
+    0.2222
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.176,
+   0.428
+  ],
+  "latencia_modelo_ms": 187,
+  "publicado": 1791281838357
+ },
+ {
+  "match_id": 3754206,
+  "seq": 99,
+  "minuto": 72,
+  "segundo": 57,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 10.02,
+   "1X2_draw": 1.59,
+   "1X2_away": 3.1,
+   "next_goal_home": 7.09,
+   "next_goal_away": 2.88,
+   "next_goal_none": 1.78,
+   "goals_ou_2.5_over": 2.09,
+   "goals_ou_2.5_under": 1.75,
+   "shots_ou_24.5_over": 2489.71,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 13.32,
+   "corners_ou_9.5_under": 1.03,
+   "yellow_cards_ou_4.5_over": 2.35,
+   "yellow_cards_ou_4.5_under": 1.6
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0865,
+    0.6125,
+    0.301
+   ],
+   "next_goal": [
+    0.1257,
+    0.3281,
+    0.5462
+   ],
+   "goals_ou_2.5": [
+    0.4538,
+    0.5462
+   ],
+   "shots_ou_24.5": [
+    0.0002,
+    0.9998
+   ],
+   "corners_ou_9.5": [
+    0.0614,
+    0.9386
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3999,
+    0.6001
+   ],
+   "1X2_poisson": [
+    0.1032,
+    0.5869,
+    0.3099
+   ],
+   "1X2_poisson_modelo": [
+    0.1774,
+    0.5967,
+    0.2259
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.168,
+   0.437
+  ],
+  "latencia_modelo_ms": 194,
+  "publicado": 1791281838954
+ },
+ {
+  "match_id": 3754206,
+  "seq": 100,
+  "minuto": 73,
+  "segundo": 20,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 11.95,
+   "1X2_draw": 1.64,
+   "1X2_away": 2.81,
+   "next_goal_home": 9.62,
+   "next_goal_away": 2.71,
+   "next_goal_none": 1.73,
+   "goals_ou_2.5_over": 2.15,
+   "goals_ou_2.5_under": 1.71,
+   "shots_ou_24.5_over": 1422.95,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 14.72,
+   "corners_ou_9.5_under": 1.02,
+   "yellow_cards_ou_4.5_over": 2.5,
+   "yellow_cards_ou_4.5_under": 1.54
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0717,
+    0.5933,
+    0.335
+   ],
+   "next_goal": [
+    0.0906,
+    0.3491,
+    0.5603
+   ],
+   "goals_ou_2.5": [
+    0.4397,
+    0.5603
+   ],
+   "shots_ou_24.5": [
+    0.0004,
+    0.9996
+   ],
+   "corners_ou_9.5": [
+    0.0551,
+    0.9449
+   ],
+   "yellow_cards_ou_4.5": [
+    0.373,
+    0.627
+   ],
+   "1X2_poisson": [
+    0.0729,
+    0.5915,
+    0.3356
+   ],
+   "1X2_poisson_modelo": [
+    0.1587,
+    0.6069,
+    0.2344
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.119,
+   0.46
+  ],
+  "latencia_modelo_ms": 202,
+  "publicado": 1791281839597
+ },
+ {
+  "match_id": 3754206,
+  "seq": 101,
+  "minuto": 73,
+  "segundo": 44,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 12.16,
+   "1X2_draw": 1.67,
+   "1X2_away": 2.7,
+   "next_goal_home": 10.44,
+   "next_goal_away": 2.63,
+   "next_goal_none": 1.74,
+   "goals_ou_2.5_over": 2.14,
+   "goals_ou_2.5_under": 1.72,
+   "shots_ou_24.5_over": 1555.59,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 15.1,
+   "corners_ou_9.5_under": 1.02,
+   "yellow_cards_ou_4.5_over": 2.5,
+   "yellow_cards_ou_4.5_under": 1.54
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0704,
+    0.5808,
+    0.3487
+   ],
+   "next_goal": [
+    0.083,
+    0.3595,
+    0.5575
+   ],
+   "goals_ou_2.5": [
+    0.4425,
+    0.5575
+   ],
+   "shots_ou_24.5": [
+    0.0004,
+    0.9996
+   ],
+   "corners_ou_9.5": [
+    0.0536,
+    0.9464
+   ],
+   "yellow_cards_ou_4.5": [
+    0.374,
+    0.626
+   ],
+   "1X2_poisson": [
+    0.0662,
+    0.5869,
+    0.3469
+   ],
+   "1X2_poisson_modelo": [
+    0.1608,
+    0.6048,
+    0.2343
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.11,
+   0.475
+  ],
+  "latencia_modelo_ms": 192,
+  "publicado": 1791281840314
+ },
+ {
+  "match_id": 3754206,
+  "seq": 102,
+  "minuto": 74,
+  "segundo": 32,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 12.4,
+   "1X2_draw": 1.56,
+   "1X2_away": 3.03,
+   "next_goal_home": 9.1,
+   "next_goal_away": 2.88,
+   "next_goal_none": 1.69,
+   "goals_ou_2.5_over": 2.23,
+   "goals_ou_2.5_under": 1.66,
+   "shots_ou_24.5_over": 2933.55,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 18.74,
+   "corners_ou_9.5_under": 1.0,
+   "yellow_cards_ou_4.5_over": 2.6,
+   "yellow_cards_ou_4.5_under": 1.5
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0688,
+    0.6227,
+    0.3085
+   ],
+   "next_goal": [
+    0.096,
+    0.327,
+    0.577
+   ],
+   "goals_ou_2.5": [
+    0.423,
+    0.577
+   ],
+   "shots_ou_24.5": [
+    0.0002,
+    0.9998
+   ],
+   "corners_ou_9.5": [
+    0.0425,
+    0.9575
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3575,
+    0.6425
+   ],
+   "1X2_poisson": [
+    0.0787,
+    0.608,
+    0.3132
+   ],
+   "1X2_poisson_modelo": [
+    0.1498,
+    0.6199,
+    0.2303
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.125,
+   0.425
+  ],
+  "latencia_modelo_ms": 194,
+  "publicado": 1791281841135
+ },
+ {
+  "match_id": 3754206,
+  "seq": 103,
+  "minuto": 75,
+  "segundo": 29,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 12.09,
+   "1X2_draw": 1.55,
+   "1X2_away": 3.09,
+   "next_goal_home": 9.77,
+   "next_goal_away": 2.97,
+   "next_goal_none": 1.64,
+   "goals_ou_2.5_over": 2.32,
+   "goals_ou_2.5_under": 1.61,
+   "shots_ou_24.5_over": 3919.06,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 22.34,
+   "corners_ou_9.5_under": 0.99,
+   "yellow_cards_ou_4.5_over": 2.71,
+   "yellow_cards_ou_4.5_under": 1.47
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0707,
+    0.6276,
+    0.3017
+   ],
+   "next_goal": [
+    0.089,
+    0.3154,
+    0.5956
+   ],
+   "goals_ou_2.5": [
+    0.4044,
+    0.5956
+   ],
+   "shots_ou_24.5": [
+    0.0001,
+    0.9999
+   ],
+   "corners_ou_9.5": [
+    0.0352,
+    0.9648
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3431,
+    0.6569
+   ],
+   "1X2_poisson": [
+    0.0736,
+    0.6234,
+    0.3031
+   ],
+   "1X2_poisson_modelo": [
+    0.1547,
+    0.6355,
+    0.2098
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.114,
+   0.404
+  ],
+  "latencia_modelo_ms": 178,
+  "publicado": 1791281841977
+ },
+ {
+  "match_id": 3754206,
+  "seq": 104,
+  "minuto": 76,
+  "segundo": 19,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 11.55,
+   "1X2_draw": 1.45,
+   "1X2_away": 3.68,
+   "next_goal_home": 7.42,
+   "next_goal_away": 3.31,
+   "next_goal_none": 1.63,
+   "goals_ou_2.5_over": 2.34,
+   "goals_ou_2.5_under": 1.61,
+   "shots_ou_24.5_over": 4656.28,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 24.15,
+   "corners_ou_9.5_under": 0.99,
+   "yellow_cards_ou_4.5_over": 2.76,
+   "yellow_cards_ou_4.5_under": 1.45
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0741,
+    0.6759,
+    0.25
+   ],
+   "next_goal": [
+    0.1195,
+    0.2823,
+    0.5982
+   ],
+   "goals_ou_2.5": [
+    0.4018,
+    0.5982
+   ],
+   "shots_ou_24.5": [
+    0.0001,
+    0.9999
+   ],
+   "corners_ou_9.5": [
+    0.0324,
+    0.9676
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3358,
+    0.6642
+   ],
+   "1X2_poisson": [
+    0.1015,
+    0.6317,
+    0.2668
+   ],
+   "1X2_poisson_modelo": [
+    0.1556,
+    0.6377,
+    0.2066
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.153,
+   0.361
+  ],
+  "latencia_modelo_ms": 216,
+  "publicado": 1791281842676
+ },
+ {
+  "match_id": 3754206,
+  "seq": 105,
+  "minuto": 77,
+  "segundo": 15,
+  "evento": "Corner",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 13.17,
+   "1X2_draw": 1.56,
+   "1X2_away": 2.99,
+   "next_goal_home": 12.36,
+   "next_goal_away": 2.93,
+   "next_goal_none": 1.59,
+   "goals_ou_2.5_over": 2.41,
+   "goals_ou_2.5_under": 1.57,
+   "shots_ou_24.5_over": 7788.46,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 8.8,
+   "corners_ou_9.5_under": 1.07,
+   "yellow_cards_ou_4.5_over": 2.96,
+   "yellow_cards_ou_4.5_under": 1.41
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0645,
+    0.6224,
+    0.313
+   ],
+   "next_goal": [
+    0.0691,
+    0.3192,
+    0.6117
+   ],
+   "goals_ou_2.5": [
+    0.3883,
+    0.6117
+   ],
+   "shots_ou_24.5": [
+    0.0001,
+    0.9999
+   ],
+   "corners_ou_9.5": [
+    0.0959,
+    0.9041
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3119,
+    0.6881
+   ],
+   "1X2_poisson": [
+    0.0569,
+    0.6335,
+    0.3096
+   ],
+   "1X2_poisson_modelo": [
+    0.1397,
+    0.6479,
+    0.2124
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.087,
+   0.404
+  ],
+  "latencia_modelo_ms": 202,
+  "publicado": 1791281843476
+ },
+ {
+  "match_id": 3754206,
+  "seq": 106,
+  "minuto": 77,
+  "segundo": 17,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.13,
+   "1X2_draw": 1.54,
+   "1X2_away": 3.04,
+   "next_goal_home": 13.13,
+   "next_goal_away": 2.99,
+   "next_goal_none": 1.56,
+   "goals_ou_2.5_over": 2.48,
+   "goals_ou_2.5_under": 1.55,
+   "shots_ou_24.5_over": 2984.34,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 9.66,
+   "corners_ou_9.5_under": 1.06,
+   "yellow_cards_ou_4.5_over": 3.02,
+   "yellow_cards_ou_4.5_under": 1.39
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0599,
+    0.6333,
+    0.3068
+   ],
+   "next_goal": [
+    0.0648,
+    0.3129,
+    0.6223
+   ],
+   "goals_ou_2.5": [
+    0.3777,
+    0.6223
+   ],
+   "shots_ou_24.5": [
+    0.0002,
+    0.9998
+   ],
+   "corners_ou_9.5": [
+    0.0867,
+    0.9133
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3042,
+    0.6958
+   ],
+   "1X2_poisson": [
+    0.0536,
+    0.6424,
+    0.304
+   ],
+   "1X2_poisson_modelo": [
+    0.1351,
+    0.6565,
+    0.2084
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.081,
+   0.393
+  ],
+  "latencia_modelo_ms": 211,
+  "publicado": 1791281844056
+ },
+ {
+  "match_id": 3754206,
+  "seq": 107,
+  "minuto": 80,
+  "segundo": 22,
+  "evento": "Substitution",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 11.6,
+   "1X2_draw": 1.36,
+   "1X2_away": 4.35,
+   "next_goal_home": 8.36,
+   "next_goal_away": 3.95,
+   "next_goal_none": 1.48,
+   "goals_ou_2.5_over": 2.75,
+   "goals_ou_2.5_under": 1.46,
+   "shots_ou_24.5_over": 17985.38,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 15.68,
+   "corners_ou_9.5_under": 1.01,
+   "yellow_cards_ou_4.5_over": 3.76,
+   "yellow_cards_ou_4.5_under": 1.28
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0735,
+    0.7175,
+    0.209
+   ],
+   "next_goal": [
+    0.1048,
+    0.2328,
+    0.6624
+   ],
+   "goals_ou_2.5": [
+    0.3376,
+    0.6624
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0515,
+    0.9485
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2404,
+    0.7596
+   ],
+   "1X2_poisson": [
+    0.092,
+    0.6867,
+    0.2213
+   ],
+   "1X2_poisson_modelo": [
+    0.1187,
+    0.6895,
+    0.1918
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.128,
+   0.284
+  ],
+  "latencia_modelo_ms": 213,
+  "publicado": 1791281845995
+ },
+ {
+  "match_id": 3754206,
+  "seq": 108,
+  "minuto": 80,
+  "segundo": 37,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 16.16,
+   "1X2_draw": 1.4,
+   "1X2_away": 3.65,
+   "next_goal_home": 12.74,
+   "next_goal_away": 3.51,
+   "next_goal_none": 1.46,
+   "goals_ou_2.5_over": 2.81,
+   "goals_ou_2.5_under": 1.44,
+   "shots_ou_24.5_over": 18666.85,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 15.82,
+   "corners_ou_9.5_under": 1.01,
+   "yellow_cards_ou_4.5_over": 3.76,
+   "yellow_cards_ou_4.5_under": 1.28
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0516,
+    0.6965,
+    0.2518
+   ],
+   "next_goal": [
+    0.0667,
+    0.2627,
+    0.6706
+   ],
+   "goals_ou_2.5": [
+    0.3294,
+    0.6706
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.051,
+    0.949
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2406,
+    0.7594
+   ],
+   "1X2_poisson": [
+    0.0572,
+    0.688,
+    0.2548
+   ],
+   "1X2_poisson_modelo": [
+    0.1165,
+    0.6964,
+    0.1871
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.081,
+   0.319
+  ],
+  "latencia_modelo_ms": 226,
+  "publicado": 1791281846715
+ },
+ {
+  "match_id": 3754206,
+  "seq": 109,
+  "minuto": 81,
+  "segundo": 39,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 16.33,
+   "1X2_draw": 1.29,
+   "1X2_away": 4.71,
+   "next_goal_home": 9.45,
+   "next_goal_away": 4.14,
+   "next_goal_none": 1.42,
+   "goals_ou_2.5_over": 2.95,
+   "goals_ou_2.5_under": 1.41,
+   "shots_ou_24.5_over": 26221.39,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 19.85,
+   "corners_ou_9.5_under": 1.0,
+   "yellow_cards_ou_4.5_over": 4.13,
+   "yellow_cards_ou_4.5_under": 1.24
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0509,
+    0.7582,
+    0.1909
+   ],
+   "next_goal": [
+    0.0918,
+    0.221,
+    0.6873
+   ],
+   "goals_ou_2.5": [
+    0.3127,
+    0.6873
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.04,
+    0.96
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2171,
+    0.7829
+   ],
+   "1X2_poisson": [
+    0.0811,
+    0.7075,
+    0.2114
+   ],
+   "1X2_poisson_modelo": [
+    0.1202,
+    0.7111,
+    0.1687
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.11,
+   0.265
+  ],
+  "latencia_modelo_ms": 234,
+  "publicado": 1791281847637
+ },
+ {
+  "match_id": 3754206,
+  "seq": 110,
+  "minuto": 82,
+  "segundo": 10,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.42,
+   "1X2_draw": 1.35,
+   "1X2_away": 4.15,
+   "next_goal_home": 11.96,
+   "next_goal_away": 3.98,
+   "next_goal_none": 1.4,
+   "goals_ou_2.5_over": 3.06,
+   "goals_ou_2.5_under": 1.38,
+   "shots_ou_24.5_over": 60524.8,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 22.07,
+   "corners_ou_9.5_under": 1.0,
+   "yellow_cards_ou_4.5_over": 4.27,
+   "yellow_cards_ou_4.5_under": 1.23
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0582,
+    0.7225,
+    0.2192
+   ],
+   "next_goal": [
+    0.0713,
+    0.2294,
+    0.6993
+   ],
+   "goals_ou_2.5": [
+    0.3007,
+    0.6993
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0357,
+    0.9643
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2097,
+    0.7903
+   ],
+   "1X2_poisson": [
+    0.0626,
+    0.7156,
+    0.2219
+   ],
+   "1X2_poisson_modelo": [
+    0.1081,
+    0.7209,
+    0.1711
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.085,
+   0.273
+  ],
+  "latencia_modelo_ms": 233,
+  "publicado": 1791281848374
+ },
+ {
+  "match_id": 3754206,
+  "seq": 111,
+  "minuto": 83,
+  "segundo": 41,
+  "evento": "Substitution",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 14.54,
+   "1X2_draw": 1.29,
+   "1X2_away": 4.86,
+   "next_goal_home": 11.48,
+   "next_goal_away": 4.57,
+   "next_goal_none": 1.34,
+   "goals_ou_2.5_over": 3.35,
+   "goals_ou_2.5_under": 1.33,
+   "shots_ou_24.5_over": 259648.01,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 32.54,
+   "corners_ou_9.5_under": 0.98,
+   "yellow_cards_ou_4.5_over": 5.29,
+   "yellow_cards_ou_4.5_under": 1.16
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0576,
+    0.7577,
+    0.1847
+   ],
+   "next_goal": [
+    0.0743,
+    0.1978,
+    0.7279
+   ],
+   "goals_ou_2.5": [
+    0.2721,
+    0.7279
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0235,
+    0.9765
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1661,
+    0.8339
+   ],
+   "1X2_poisson": [
+    0.0666,
+    0.7426,
+    0.1908
+   ],
+   "1X2_poisson_modelo": [
+    0.0966,
+    0.7455,
+    0.1579
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.087,
+   0.231
+  ],
+  "latencia_modelo_ms": 216,
+  "publicado": 1791281849437
+ },
+ {
+  "match_id": 3754206,
+  "seq": 112,
+  "minuto": 83,
+  "segundo": 44,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 17.8,
+   "1X2_draw": 1.32,
+   "1X2_away": 4.19,
+   "next_goal_home": 16.29,
+   "next_goal_away": 4.12,
+   "next_goal_none": 1.34,
+   "goals_ou_2.5_over": 3.36,
+   "goals_ou_2.5_under": 1.33,
+   "shots_ou_24.5_over": 254885.42,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 32.33,
+   "corners_ou_9.5_under": 0.98,
+   "yellow_cards_ou_4.5_over": 5.19,
+   "yellow_cards_ou_4.5_under": 1.17
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0465,
+    0.7371,
+    0.2164
+   ],
+   "next_goal": [
+    0.0511,
+    0.2208,
+    0.7281
+   ],
+   "goals_ou_2.5": [
+    0.2719,
+    0.7281
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0237,
+    0.9763
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1698,
+    0.8302
+   ],
+   "1X2_poisson": [
+    0.0451,
+    0.7393,
+    0.2156
+   ],
+   "1X2_poisson_modelo": [
+    0.0971,
+    0.7456,
+    0.1573
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.06,
+   0.258
+  ],
+  "latencia_modelo_ms": 232,
+  "publicado": 1791281850097
+ },
+ {
+  "match_id": 3754206,
+  "seq": 113,
+  "minuto": 84,
+  "segundo": 12,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 18.08,
+   "1X2_draw": 1.26,
+   "1X2_away": 4.96,
+   "next_goal_home": 13.57,
+   "next_goal_away": 4.67,
+   "next_goal_none": 1.31,
+   "goals_ou_2.5_over": 3.56,
+   "goals_ou_2.5_under": 1.3,
+   "shots_ou_24.5_over": 609201.75,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 42.01,
+   "corners_ou_9.5_under": 0.97,
+   "yellow_cards_ou_4.5_over": 5.84,
+   "yellow_cards_ou_4.5_under": 1.14
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0456,
+    0.7742,
+    0.1802
+   ],
+   "next_goal": [
+    0.0621,
+    0.1928,
+    0.7452
+   ],
+   "goals_ou_2.5": [
+    0.2548,
+    0.7452
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0179,
+    0.9821
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1494,
+    0.8506
+   ],
+   "1X2_poisson": [
+    0.0558,
+    0.7571,
+    0.1871
+   ],
+   "1X2_poisson_modelo": [
+    0.089,
+    0.7604,
+    0.1505
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.072,
+   0.223
+  ],
+  "latencia_modelo_ms": 220,
+  "publicado": 1791281850875
+ },
+ {
+  "match_id": 3754206,
+  "seq": 114,
+  "minuto": 85,
+  "segundo": 7,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 18.47,
+   "1X2_draw": 1.23,
+   "1X2_away": 5.38,
+   "next_goal_home": 14.14,
+   "next_goal_away": 5.06,
+   "next_goal_none": 1.28,
+   "goals_ou_2.5_over": 3.82,
+   "goals_ou_2.5_under": 1.27,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 55.8,
+   "corners_ou_9.5_under": 0.97,
+   "yellow_cards_ou_4.5_over": 6.45,
+   "yellow_cards_ou_4.5_under": 1.12
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0444,
+    0.7903,
+    0.1652
+   ],
+   "next_goal": [
+    0.0593,
+    0.1768,
+    0.7639
+   ],
+   "goals_ou_2.5": [
+    0.2361,
+    0.7639
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0132,
+    0.9868
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1342,
+    0.8658
+   ],
+   "1X2_poisson": [
+    0.0538,
+    0.7744,
+    0.1719
+   ],
+   "1X2_poisson_modelo": [
+    0.0828,
+    0.777,
+    0.1402
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.068,
+   0.202
+  ],
+  "latencia_modelo_ms": 219,
+  "publicado": 1791281851576
+ },
+ {
+  "match_id": 3754206,
+  "seq": 115,
+  "minuto": 85,
+  "segundo": 35,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 19.66,
+   "1X2_draw": 1.23,
+   "1X2_away": 5.47,
+   "next_goal_home": 15.84,
+   "next_goal_away": 5.22,
+   "next_goal_none": 1.26,
+   "goals_ou_2.5_over": 4.03,
+   "goals_ou_2.5_under": 1.25,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 69.16,
+   "corners_ou_9.5_under": 0.97,
+   "yellow_cards_ou_4.5_over": 6.9,
+   "yellow_cards_ou_4.5_under": 1.1
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0416,
+    0.7963,
+    0.1621
+   ],
+   "next_goal": [
+    0.0525,
+    0.1708,
+    0.7768
+   ],
+   "goals_ou_2.5": [
+    0.2232,
+    0.7768
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0105,
+    0.9895
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1247,
+    0.8753
+   ],
+   "1X2_poisson": [
+    0.0478,
+    0.7857,
+    0.1665
+   ],
+   "1X2_poisson_modelo": [
+    0.0782,
+    0.7885,
+    0.1333
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.059,
+   0.193
+  ],
+  "latencia_modelo_ms": 208,
+  "publicado": 1791281852335
+ },
+ {
+  "match_id": 3754206,
+  "seq": 116,
+  "minuto": 86,
+  "segundo": 13,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 20.93,
+   "1X2_draw": 1.24,
+   "1X2_away": 5.19,
+   "next_goal_home": 20.88,
+   "next_goal_away": 5.16,
+   "next_goal_none": 1.24,
+   "goals_ou_2.5_over": 4.24,
+   "goals_ou_2.5_under": 1.23,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 78.11,
+   "corners_ou_9.5_under": 0.96,
+   "yellow_cards_ou_4.5_over": 7.47,
+   "yellow_cards_ou_4.5_under": 1.09
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0389,
+    0.7896,
+    0.1715
+   ],
+   "next_goal": [
+    0.039,
+    0.1724,
+    0.7886
+   ],
+   "goals_ou_2.5": [
+    0.2114,
+    0.7886
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0092,
+    0.9908
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1144,
+    0.8856
+   ],
+   "1X2_poisson": [
+    0.0355,
+    0.7953,
+    0.1692
+   ],
+   "1X2_poisson_modelo": [
+    0.0744,
+    0.7991,
+    0.1265
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.044,
+   0.194
+  ],
+  "latencia_modelo_ms": 211,
+  "publicado": 1791281852974
+ },
+ {
+  "match_id": 3754206,
+  "seq": 117,
+  "minuto": 86,
+  "segundo": 35,
+  "evento": "Corner",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 18.76,
+   "1X2_draw": 1.19,
+   "1X2_away": 6.38,
+   "next_goal_home": 14.73,
+   "next_goal_away": 5.96,
+   "next_goal_none": 1.23,
+   "goals_ou_2.5_over": 4.37,
+   "goals_ou_2.5_under": 1.22,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 17.93,
+   "corners_ou_9.5_under": 1.01,
+   "yellow_cards_ou_4.5_over": 7.96,
+   "yellow_cards_ou_4.5_under": 1.08
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0436,
+    0.819,
+    0.1374
+   ],
+   "next_goal": [
+    0.0566,
+    0.148,
+    0.7954
+   ],
+   "goals_ou_2.5": [
+    0.2046,
+    0.7954
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0446,
+    0.9554
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1068,
+    0.8932
+   ],
+   "1X2_poisson": [
+    0.0522,
+    0.8038,
+    0.144
+   ],
+   "1X2_poisson_modelo": [
+    0.0708,
+    0.8052,
+    0.124
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.063,
+   0.166
+  ],
+  "latencia_modelo_ms": 209,
+  "publicado": 1791281853636
+ },
+ {
+  "match_id": 3754206,
+  "seq": 118,
+  "minuto": 86,
+  "segundo": 40,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 22.17,
+   "1X2_draw": 1.22,
+   "1X2_away": 5.41,
+   "next_goal_home": 21.69,
+   "next_goal_away": 5.37,
+   "next_goal_none": 1.22,
+   "goals_ou_2.5_over": 4.4,
+   "goals_ou_2.5_under": 1.22,
+   "shots_ou_24.5_over": 263410.03,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 18.84,
+   "corners_ou_9.5_under": 1.0,
+   "yellow_cards_ou_4.5_over": 7.93,
+   "yellow_cards_ou_4.5_under": 1.08
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0366,
+    0.7994,
+    0.164
+   ],
+   "next_goal": [
+    0.0374,
+    0.1654,
+    0.7972
+   ],
+   "goals_ou_2.5": [
+    0.2028,
+    0.7972
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0423,
+    0.9577
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1074,
+    0.8926
+   ],
+   "1X2_poisson": [
+    0.0342,
+    0.8034,
+    0.1625
+   ],
+   "1X2_poisson_modelo": [
+    0.0709,
+    0.8068,
+    0.1223
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.042,
+   0.185
+  ],
+  "latencia_modelo_ms": 252,
+  "publicado": 1791281854454
+ },
+ {
+  "match_id": 3754206,
+  "seq": 119,
+  "minuto": 87,
+  "segundo": 11,
+  "evento": "Goal Kick",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 19.95,
+   "1X2_draw": 1.18,
+   "1X2_away": 6.65,
+   "next_goal_home": 15.3,
+   "next_goal_away": 6.18,
+   "next_goal_none": 1.22,
+   "goals_ou_2.5_over": 4.53,
+   "goals_ou_2.5_under": 1.21,
+   "shots_ou_24.5_over": 389762.81,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 21.63,
+   "corners_ou_9.5_under": 1.0,
+   "yellow_cards_ou_4.5_over": 8.55,
+   "yellow_cards_ou_4.5_under": 1.07
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0408,
+    0.8279,
+    0.1313
+   ],
+   "next_goal": [
+    0.0543,
+    0.1424,
+    0.8034
+   ],
+   "goals_ou_2.5": [
+    0.1966,
+    0.8034
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0365,
+    0.9635
+   ],
+   "yellow_cards_ou_4.5": [
+    0.099,
+    0.901
+   ],
+   "1X2_poisson": [
+    0.0503,
+    0.8111,
+    0.1386
+   ],
+   "1X2_poisson_modelo": [
+    0.0797,
+    0.8128,
+    0.1074
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.06,
+   0.159
+  ],
+  "latencia_modelo_ms": 211,
+  "publicado": 1791281855036
+ },
+ {
+  "match_id": 3754206,
+  "seq": 120,
+  "minuto": 87,
+  "segundo": 40,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 19.58,
+   "1X2_draw": 1.16,
+   "1X2_away": 7.43,
+   "next_goal_home": 15.25,
+   "next_goal_away": 6.86,
+   "next_goal_none": 1.19,
+   "goals_ou_2.5_over": 4.87,
+   "goals_ou_2.5_under": 1.18,
+   "shots_ou_24.5_over": 169350.42,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 27.55,
+   "corners_ou_9.5_under": 0.99,
+   "yellow_cards_ou_4.5_over": 10.06,
+   "yellow_cards_ou_4.5_under": 1.05
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0415,
+    0.8421,
+    0.1164
+   ],
+   "next_goal": [
+    0.0544,
+    0.1272,
+    0.8184
+   ],
+   "goals_ou_2.5": [
+    0.1816,
+    0.8184
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0281,
+    0.9719
+   ],
+   "yellow_cards_ou_4.5": [
+    0.083,
+    0.917
+   ],
+   "1X2_poisson": [
+    0.0508,
+    0.8253,
+    0.1238
+   ],
+   "1X2_poisson_modelo": [
+    0.0766,
+    0.8266,
+    0.0969
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.06,
+   0.14
+  ],
+  "latencia_modelo_ms": 242,
+  "publicado": 1791281855935
+ },
+ {
+  "match_id": 3754206,
+  "seq": 121,
+  "minuto": 87,
+  "segundo": 44,
+  "evento": "Shot",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 19.4,
+   "1X2_draw": 1.15,
+   "1X2_away": 7.55,
+   "next_goal_home": 15.17,
+   "next_goal_away": 6.96,
+   "next_goal_none": 1.19,
+   "goals_ou_2.5_over": 4.92,
+   "goals_ou_2.5_under": 1.18,
+   "shots_ou_24.5_over": 31128.54,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 28.23,
+   "corners_ou_9.5_under": 0.99,
+   "yellow_cards_ou_4.5_over": 10.31,
+   "yellow_cards_ou_4.5_under": 1.05
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0419,
+    0.8437,
+    0.1144
+   ],
+   "next_goal": [
+    0.0547,
+    0.1252,
+    0.8201
+   ],
+   "goals_ou_2.5": [
+    0.1799,
+    0.8201
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0274,
+    0.9726
+   ],
+   "yellow_cards_ou_4.5": [
+    0.0809,
+    0.9191
+   ],
+   "1X2_poisson": [
+    0.0512,
+    0.827,
+    0.1219
+   ],
+   "1X2_poisson_modelo": [
+    0.0768,
+    0.8281,
+    0.095
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.06,
+   0.138
+  ],
+  "latencia_modelo_ms": 251,
+  "publicado": 1791281856674
+ },
+ {
+  "match_id": 3754206,
+  "seq": 122,
+  "minuto": 88,
+  "segundo": 9,
+  "evento": "Goal Kick",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 20.9,
+   "1X2_draw": 1.15,
+   "1X2_away": 7.45,
+   "next_goal_home": 17.68,
+   "next_goal_away": 7.09,
+   "next_goal_none": 1.17,
+   "goals_ou_2.5_over": 5.21,
+   "goals_ou_2.5_under": 1.17,
+   "shots_ou_24.5_over": 45224.9,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 30.03,
+   "corners_ou_9.5_under": 0.98,
+   "yellow_cards_ou_4.5_over": 10.89,
+   "yellow_cards_ou_4.5_under": 1.04
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0387,
+    0.8452,
+    0.1161
+   ],
+   "next_goal": [
+    0.0464,
+    0.1225,
+    0.8311
+   ],
+   "goals_ou_2.5": [
+    0.1689,
+    0.8311
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0257,
+    0.9743
+   ],
+   "yellow_cards_ou_4.5": [
+    0.0762,
+    0.9238
+   ],
+   "1X2_poisson": [
+    0.0434,
+    0.8368,
+    0.1198
+   ],
+   "1X2_poisson_modelo": [
+    0.0627,
+    0.8379,
+    0.0994
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.051,
+   0.134
+  ],
+  "latencia_modelo_ms": 248,
+  "publicado": 1791281857354
+ },
+ {
+  "match_id": 3754206,
+  "seq": 123,
+  "minuto": 88,
+  "segundo": 15,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 20.02,
+   "1X2_draw": 1.16,
+   "1X2_away": 7.27,
+   "next_goal_home": 19.78,
+   "next_goal_away": 7.22,
+   "next_goal_none": 1.16,
+   "goals_ou_2.5_over": 5.44,
+   "goals_ou_2.5_under": 1.15,
+   "shots_ou_24.5_over": 58331.4,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 36.42,
+   "corners_ou_9.5_under": 0.98,
+   "yellow_cards_ou_4.5_over": 11.44,
+   "yellow_cards_ou_4.5_under": 1.04
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0406,
+    0.8402,
+    0.1192
+   ],
+   "next_goal": [
+    0.0411,
+    0.1201,
+    0.8388
+   ],
+   "goals_ou_2.5": [
+    0.1612,
+    0.8388
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0209,
+    0.9791
+   ],
+   "yellow_cards_ou_4.5": [
+    0.0723,
+    0.9277
+   ],
+   "1X2_poisson": [
+    0.0386,
+    0.8438,
+    0.1177
+   ],
+   "1X2_poisson_modelo": [
+    0.0701,
+    0.8453,
+    0.0846
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.045,
+   0.131
+  ],
+  "latencia_modelo_ms": 235,
+  "publicado": 1791281858095
+ },
+ {
+  "match_id": 3754206,
+  "seq": 124,
+  "minuto": 88,
+  "segundo": 18,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 19.93,
+   "1X2_draw": 1.16,
+   "1X2_away": 7.45,
+   "next_goal_home": 20.78,
+   "next_goal_away": 7.51,
+   "next_goal_none": 1.15,
+   "goals_ou_2.5_over": 5.68,
+   "goals_ou_2.5_under": 1.14,
+   "shots_ou_24.5_over": 72105.7,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 38.68,
+   "corners_ou_9.5_under": 0.98,
+   "yellow_cards_ou_4.5_over": 2.67,
+   "yellow_cards_ou_4.5_under": 1.48
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0407,
+    0.8432,
+    0.116
+   ],
+   "next_goal": [
+    0.039,
+    0.115,
+    0.846
+   ],
+   "goals_ou_2.5": [
+    0.154,
+    0.846
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0196,
+    0.9804
+   ],
+   "yellow_cards_ou_4.5": [
+    0.3479,
+    0.6521
+   ],
+   "1X2_poisson": [
+    0.0367,
+    0.8505,
+    0.1128
+   ],
+   "1X2_poisson_modelo": [
+    0.0697,
+    0.8519,
+    0.0784
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.042,
+   0.125
+  ],
+  "latencia_modelo_ms": 235,
+  "publicado": 1791281858795
+ },
+ {
+  "match_id": 3754206,
+  "seq": 125,
+  "minuto": 90,
+  "segundo": 42,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 19.5,
+   "1X2_draw": 1.11,
+   "1X2_away": 9.93,
+   "next_goal_home": 24.38,
+   "next_goal_away": 10.82,
+   "next_goal_none": 1.09,
+   "goals_ou_2.5_over": 7.74,
+   "goals_ou_2.5_under": 1.09,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 100.04,
+   "corners_ou_9.5_under": 0.96,
+   "yellow_cards_ou_4.5_over": 3.41,
+   "yellow_cards_ou_4.5_under": 1.32
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0415,
+    0.8733,
+    0.0852
+   ],
+   "next_goal": [
+    0.0327,
+    0.0775,
+    0.8898
+   ],
+   "goals_ou_2.5": [
+    0.1102,
+    0.8898
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0071,
+    0.9929
+   ],
+   "yellow_cards_ou_4.5": [
+    0.2676,
+    0.7324
+   ],
+   "1X2_poisson": [
+    0.0314,
+    0.8924,
+    0.0762
+   ],
+   "1X2_poisson_modelo": [
+    0.0525,
+    0.8929,
+    0.0546
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.035,
+   0.082
+  ],
+  "latencia_modelo_ms": 224,
+  "publicado": 1791281859556
+ },
+ {
+  "match_id": 3754206,
+  "seq": 126,
+  "minuto": 91,
+  "segundo": 31,
+  "evento": "Substitution",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 17.09,
+   "1X2_draw": 1.13,
+   "1X2_away": 9.71,
+   "next_goal_home": 38.79,
+   "next_goal_away": 13.13,
+   "next_goal_none": 1.05,
+   "goals_ou_2.5_over": 10.11,
+   "goals_ou_2.5_under": 1.05,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 280.52,
+   "corners_ou_9.5_under": 0.96,
+   "yellow_cards_ou_4.5_over": 4.61,
+   "yellow_cards_ou_4.5_under": 1.2
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0479,
+    0.8648,
+    0.0874
+   ],
+   "next_goal": [
+    0.0198,
+    0.0628,
+    0.9174
+   ],
+   "goals_ou_2.5": [
+    0.0826,
+    0.9174
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0024,
+    0.9976
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1928,
+    0.8072
+   ],
+   "1X2_poisson": [
+    0.0192,
+    0.9187,
+    0.0622
+   ],
+   "1X2_poisson_modelo": [
+    0.0403,
+    0.9191,
+    0.0405
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.021,
+   0.066
+  ],
+  "latencia_modelo_ms": 252,
+  "publicado": 1791281860315
+ },
+ {
+  "match_id": 3754206,
+  "seq": 127,
+  "minuto": 91,
+  "segundo": 42,
+  "evento": "Corner",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 18.59,
+   "1X2_draw": 1.11,
+   "1X2_away": 10.92,
+   "next_goal_home": 37.49,
+   "next_goal_away": 14.54,
+   "next_goal_none": 1.05,
+   "goals_ou_2.5_over": 10.82,
+   "goals_ou_2.5_under": 1.04,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 28.48,
+   "corners_ou_9.5_under": 0.99,
+   "yellow_cards_ou_4.5_over": 4.83,
+   "yellow_cards_ou_4.5_under": 1.19
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0437,
+    0.8794,
+    0.0769
+   ],
+   "next_goal": [
+    0.0205,
+    0.0562,
+    0.9232
+   ],
+   "goals_ou_2.5": [
+    0.0768,
+    0.9232
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0272,
+    0.9728
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1833,
+    0.8167
+   ],
+   "1X2_poisson": [
+    0.0199,
+    0.9244,
+    0.0557
+   ],
+   "1X2_poisson_modelo": [
+    0.0384,
+    0.9247,
+    0.0369
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.021,
+   0.059
+  ],
+  "latencia_modelo_ms": 229,
+  "publicado": 1791281860956
+ },
+ {
+  "match_id": 3754206,
+  "seq": 128,
+  "minuto": 92,
+  "segundo": 17,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 23.95,
+   "1X2_draw": 1.12,
+   "1X2_away": 8.4,
+   "next_goal_home": 8470.17,
+   "next_goal_away": 12.83,
+   "next_goal_none": 1.03,
+   "goals_ou_2.5_over": 12.82,
+   "goals_ou_2.5_under": 1.03,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 37.84,
+   "corners_ou_9.5_under": 0.98,
+   "yellow_cards_ou_4.5_over": 5.39,
+   "yellow_cards_ou_4.5_under": 1.16
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0334,
+    0.8648,
+    0.1018
+   ],
+   "next_goal": [
+    0.0001,
+    0.0639,
+    0.9361
+   ],
+   "goals_ou_2.5": [
+    0.0639,
+    0.9361
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.02,
+    0.98
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1628,
+    0.8372
+   ],
+   "1X2_poisson": [
+    0.0001,
+    0.9361,
+    0.0639
+   ],
+   "1X2_poisson_modelo": [
+    0.0265,
+    0.937,
+    0.0365
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.0,
+   0.066
+  ],
+  "latencia_modelo_ms": 256,
+  "publicado": 1791281861835
+ },
+ {
+  "match_id": 3754206,
+  "seq": 129,
+  "minuto": 92,
+  "segundo": 24,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 22.67,
+   "1X2_draw": 1.13,
+   "1X2_away": 8.36,
+   "next_goal_home": 9647.11,
+   "next_goal_away": 14.62,
+   "next_goal_none": 1.02,
+   "goals_ou_2.5_over": 14.6,
+   "goals_ou_2.5_under": 1.02,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 48.77,
+   "corners_ou_9.5_under": 0.97,
+   "yellow_cards_ou_4.5_over": 6.07,
+   "yellow_cards_ou_4.5_under": 1.13
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0354,
+    0.8622,
+    0.1024
+   ],
+   "next_goal": [
+    0.0001,
+    0.0555,
+    0.9444
+   ],
+   "goals_ou_2.5": [
+    0.0556,
+    0.9444
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0153,
+    0.9847
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1432,
+    0.8568
+   ],
+   "1X2_poisson": [
+    0.0001,
+    0.9444,
+    0.0555
+   ],
+   "1X2_poisson_modelo": [
+    0.023,
+    0.9452,
+    0.0318
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.0,
+   0.057
+  ],
+  "latencia_modelo_ms": 238,
+  "publicado": 1791281862615
+ },
+ {
+  "match_id": 3754206,
+  "seq": 130,
+  "minuto": 93,
+  "segundo": 14,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 20.02,
+   "1X2_draw": 1.12,
+   "1X2_away": 9.66,
+   "next_goal_home": 11608.61,
+   "next_goal_away": 17.59,
+   "next_goal_none": 1.01,
+   "goals_ou_2.5_over": 17.57,
+   "goals_ou_2.5_under": 1.01,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 61.42,
+   "corners_ou_9.5_under": 0.97,
+   "yellow_cards_ou_4.5_over": 6.55,
+   "yellow_cards_ou_4.5_under": 1.11
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0404,
+    0.8719,
+    0.0877
+   ],
+   "next_goal": [
+    0.0,
+    0.0455,
+    0.9544
+   ],
+   "goals_ou_2.5": [
+    0.0456,
+    0.9544
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0119,
+    0.9881
+   ],
+   "yellow_cards_ou_4.5": [
+    0.132,
+    0.868
+   ],
+   "1X2_poisson": [
+    0.0,
+    0.9544,
+    0.0455
+   ],
+   "1X2_poisson_modelo": [
+    0.0198,
+    0.9549,
+    0.0253
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.0,
+   0.047
+  ],
+  "latencia_modelo_ms": 252,
+  "publicado": 1791281863377
+ },
+ {
+  "match_id": 3754206,
+  "seq": 131,
+  "minuto": 94,
+  "segundo": 14,
+  "evento": "Throw-in",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 22.37,
+   "1X2_draw": 1.11,
+   "1X2_away": 9.66,
+   "next_goal_home": 13010.89,
+   "next_goal_away": 19.71,
+   "next_goal_none": 1.0,
+   "goals_ou_2.5_over": 19.69,
+   "goals_ou_2.5_under": 1.0,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 76.46,
+   "corners_ou_9.5_under": 0.96,
+   "yellow_cards_ou_4.5_over": 6.75,
+   "yellow_cards_ou_4.5_under": 1.11
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0359,
+    0.8765,
+    0.0877
+   ],
+   "next_goal": [
+    0.0,
+    0.0403,
+    0.9597
+   ],
+   "goals_ou_2.5": [
+    0.0403,
+    0.9597
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0095,
+    0.9905
+   ],
+   "yellow_cards_ou_4.5": [
+    0.1277,
+    0.8723
+   ],
+   "1X2_poisson": [
+    0.0,
+    0.9597,
+    0.0403
+   ],
+   "1X2_poisson_modelo": [
+    0.02,
+    0.9601,
+    0.02
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.0,
+   0.041
+  ],
+  "latencia_modelo_ms": 251,
+  "publicado": 1791281864175
+ },
+ {
+  "match_id": 3754206,
+  "seq": 132,
+  "minuto": 94,
+  "segundo": 18,
+  "evento": "Foul Committed",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 22.1,
+   "1X2_draw": 1.12,
+   "1X2_away": 8.7,
+   "next_goal_home": 12583.13,
+   "next_goal_away": 19.06,
+   "next_goal_none": 1.0,
+   "goals_ou_2.5_over": 19.04,
+   "goals_ou_2.5_under": 1.0,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 67.82,
+   "corners_ou_9.5_under": 0.97,
+   "yellow_cards_ou_4.5_over": 0.95,
+   "yellow_cards_ou_4.5_under": 1000000.0
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0364,
+    0.8655,
+    0.0981
+   ],
+   "next_goal": [
+    0.0,
+    0.0418,
+    0.9582
+   ],
+   "goals_ou_2.5": [
+    0.0418,
+    0.9582
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0107,
+    0.9893
+   ],
+   "yellow_cards_ou_4.5": [
+    1.0,
+    0.0
+   ],
+   "1X2_poisson": [
+    0.0,
+    0.9582,
+    0.0418
+   ],
+   "1X2_poisson_modelo": [
+    0.0188,
+    0.9586,
+    0.0226
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.0,
+   0.043
+  ],
+  "latencia_modelo_ms": 251,
+  "publicado": 1791281864997
+ },
+ {
+  "match_id": 3754206,
+  "seq": 133,
+  "minuto": 95,
+  "segundo": 45,
+  "evento": "Half End",
+  "local": "Newcastle United",
+  "visitante": "Manchester City",
+  "marcador": [
+   1,
+   1
+  ],
+  "cuotas": {
+   "1X2_home": 24.0,
+   "1X2_draw": 1.09,
+   "1X2_away": 10.72,
+   "next_goal_home": 13970.5,
+   "next_goal_away": 21.17,
+   "next_goal_none": 1.0,
+   "goals_ou_2.5_over": 21.14,
+   "goals_ou_2.5_under": 1.0,
+   "shots_ou_24.5_over": 1000000.0,
+   "shots_ou_24.5_under": 0.95,
+   "corners_ou_9.5_over": 75.94,
+   "corners_ou_9.5_under": 0.96,
+   "yellow_cards_ou_4.5_over": 0.95,
+   "yellow_cards_ou_4.5_under": 1000000.0
+  },
+  "probabilidades": {
+   "1X2": [
+    0.0332,
+    0.8885,
+    0.0783
+   ],
+   "next_goal": [
+    0.0,
+    0.0373,
+    0.9626
+   ],
+   "goals_ou_2.5": [
+    0.0374,
+    0.9626
+   ],
+   "shots_ou_24.5": [
+    0.0,
+    1.0
+   ],
+   "corners_ou_9.5": [
+    0.0095,
+    0.9905
+   ],
+   "yellow_cards_ou_4.5": [
+    1.0,
+    0.0
+   ],
+   "1X2_poisson": [
+    0.0,
+    0.9626,
+    0.0373
+   ],
+   "1X2_poisson_modelo": [
+    0.0187,
+    0.963,
+    0.0183
+   ]
+  },
+  "goles_esperados_restantes": [
+   0.0,
+   0.038
+  ],
+  "latencia_modelo_ms": 277,
+  "publicado": 1791281866635
+ }
+]

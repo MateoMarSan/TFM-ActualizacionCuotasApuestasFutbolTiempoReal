@@ -1,0 +1,421 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  TFM - Arquitectura en tiempo real: eventos de partido (Kinesis) -> procesador
+  (Lambda + DynamoDB) -> Axial Transformer (SageMaker Serverless) -> cuotas
+  (Lambda) -> SNS/SQS -> plataforma de apuestas (DynamoDB + API + web).
+  Se crea al empezar cada sesión de trabajo y se borra al terminar.
+
+Parameters:
+  BucketArtefactos:
+    Type: String
+    Description: Bucket de la plantilla base con los artefactos subidos
+  ClaveModelo:
+    Type: String
+    Description: Clave S3 del model.tar.gz (pesos + código de inferencia)
+  ClaveCapaNumpy:
+    Type: String
+  ClaveProcesador:
+    Type: String
+  ClaveCuotas:
+    Type: String
+  ClavePlataforma:
+    Type: String
+  ClaveApi:
+    Type: String
+  ImagenInferencia:
+    Type: String
+    Description: Imagen de SageMaker para PyTorch (CPU) con la que se sirve el modelo
+  Temperatura:
+    Type: String
+    Default: '1.0'
+    Description: Temperatura de calibración del 1X2 (train.py --calibrar)
+
+Resources:
+  # ───────────────────────────── Ingesta ─────────────────────────────
+  FlujoEventos:
+    Type: AWS::Kinesis::Stream
+    Properties:
+      Name: tfm-eventos
+      ShardCount: 1
+      RetentionPeriodHours: 24
+      StreamEncryption:
+        EncryptionType: KMS
+        KeyId: alias/aws/kinesis
+
+  # ──────────────────────────── DynamoDB ─────────────────────────────
+  # Historial de eventos de cada partido en curso (clave: partido + nº de evento)
+  TablaHistorial:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: tfm-historial
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - {AttributeName: match_id, AttributeType: N}
+        - {AttributeName: idx, AttributeType: N}
+      KeySchema:
+        - {AttributeName: match_id, KeyType: HASH}
+        - {AttributeName: idx, KeyType: RANGE}
+      TimeToLiveSpecification: {AttributeName: expira, Enabled: true}
+
+  # Nivel previo de jugadores y equipos de cada partido (sustituye a RDS)
+  TablaNivelPrevio:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: tfm-nivel-previo
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - {AttributeName: match_id, AttributeType: N}
+      KeySchema:
+        - {AttributeName: match_id, KeyType: HASH}
+
+  # Cuotas publicadas, para la plataforma de apuestas
+  TablaCuotas:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: tfm-cuotas
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - {AttributeName: match_id, AttributeType: N}
+        - {AttributeName: seq, AttributeType: N}
+      KeySchema:
+        - {AttributeName: match_id, KeyType: HASH}
+        - {AttributeName: seq, KeyType: RANGE}
+      TimeToLiveSpecification: {AttributeName: expira, Enabled: true}
+
+  # ─────────────────────────── SageMaker ─────────────────────────────
+  RolSageMaker:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal: {Service: sagemaker.amazonaws.com}
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: modelo
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action: s3:GetObject
+                Resource: !Sub arn:aws:s3:::${BucketArtefactos}/*
+              - Effect: Allow
+                Action: [ecr:GetAuthorizationToken, ecr:BatchGetImage,
+                         ecr:GetDownloadUrlForLayer, ecr:BatchCheckLayerAvailability]
+                Resource: '*'
+              - Effect: Allow
+                Action: [logs:CreateLogGroup, logs:CreateLogStream, logs:PutLogEvents,
+                         cloudwatch:PutMetricData]
+                Resource: '*'
+
+  # Registro del modelo: cada versión entrenada queda registrada y aprobada
+  GrupoModelos:
+    Type: AWS::SageMaker::ModelPackageGroup
+    Properties:
+      ModelPackageGroupName: tfm-axial-transformer
+      ModelPackageGroupDescription: Versiones del Axial Transformer del TFM
+
+  VersionModelo:
+    Type: AWS::SageMaker::ModelPackage
+    DependsOn: GrupoModelos
+    Properties:
+      ModelPackageGroupName: tfm-axial-transformer
+      ModelPackageDescription: !Sub 'Modelo ${ClaveModelo}'
+      ModelApprovalStatus: Approved
+      InferenceSpecification:
+        Containers:
+          - Image: !Ref ImagenInferencia
+            ModelDataUrl: !Sub s3://${BucketArtefactos}/${ClaveModelo}
+        SupportedContentTypes: [application/x-npz]
+        SupportedResponseMIMETypes: [application/json]
+
+  Modelo:
+    Type: AWS::SageMaker::Model
+    Properties:
+      ExecutionRoleArn: !GetAtt RolSageMaker.Arn
+      PrimaryContainer:
+        Image: !Ref ImagenInferencia
+        ModelDataUrl: !Sub s3://${BucketArtefactos}/${ClaveModelo}
+        Environment:
+          SAGEMAKER_PROGRAM: inference.py
+          SAGEMAKER_SUBMIT_DIRECTORY: /opt/ml/model/code
+          SAGEMAKER_CONTAINER_LOG_LEVEL: '20'
+
+  ConfigEndpoint:
+    Type: AWS::SageMaker::EndpointConfig
+    Properties:
+      ProductionVariants:
+        - VariantName: AllTraffic
+          ModelName: !GetAtt Modelo.ModelName
+          # Serverless: solo se paga mientras procesa peticiones
+          ServerlessConfig:
+            MemorySizeInMB: 3072
+            MaxConcurrency: 2
+
+  EndpointModelo:
+    Type: AWS::SageMaker::Endpoint
+    Properties:
+      EndpointName: tfm-axial-endpoint
+      EndpointConfigName: !GetAtt ConfigEndpoint.EndpointConfigName
+
+  # ─────────────────────────── Mensajería ────────────────────────────
+  TemaCuotas:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: tfm-cuotas
+
+  ColaPlataforma:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: tfm-plataforma
+      VisibilityTimeout: 60
+      MessageRetentionPeriod: 3600
+
+  PoliticaCola:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues: [!Ref ColaPlataforma]
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal: {Service: sns.amazonaws.com}
+            Action: sqs:SendMessage
+            Resource: !GetAtt ColaPlataforma.Arn
+            Condition:
+              ArnEquals: {aws:SourceArn: !Ref TemaCuotas}
+
+  SuscripcionCola:
+    Type: AWS::SNS::Subscription
+    Properties:
+      TopicArn: !Ref TemaCuotas
+      Protocol: sqs
+      Endpoint: !GetAtt ColaPlataforma.Arn
+      RawMessageDelivery: true
+
+  # ──────────────────────────── Lambdas ──────────────────────────────
+  CapaNumpy:
+    Type: AWS::Lambda::LayerVersion
+    Properties:
+      LayerName: tfm-numpy
+      CompatibleRuntimes: [python3.12]
+      CompatibleArchitectures: [x86_64]
+      Content: {S3Bucket: !Ref BucketArtefactos, S3Key: !Ref ClaveCapaNumpy}
+
+  # Procesador: guarda cada evento y, en cada evento clave, monta la rejilla
+  # del partido y llama al modelo
+  RolProcesador:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - {Effect: Allow, Principal: {Service: lambda.amazonaws.com}, Action: sts:AssumeRole}
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaKinesisExecutionRole
+      Policies:
+        - PolicyName: procesador
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action: [dynamodb:BatchWriteItem, dynamodb:PutItem, dynamodb:Query]
+                Resource: !GetAtt TablaHistorial.Arn
+              - Effect: Allow
+                Action: dynamodb:GetItem
+                Resource: !GetAtt TablaNivelPrevio.Arn
+              - Effect: Allow
+                Action: sagemaker:InvokeEndpoint
+                Resource: !Sub arn:aws:sagemaker:${AWS::Region}:${AWS::AccountId}:endpoint/tfm-axial-endpoint
+              - Effect: Allow
+                Action: lambda:InvokeFunction
+                Resource: !Sub arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:tfm-cuotas
+              - Effect: Allow
+                Action: kms:Decrypt
+                Resource: '*'
+                Condition:
+                  StringEquals: {kms:ViaService: !Sub 'kinesis.${AWS::Region}.amazonaws.com'}
+
+  LogsProcesador:
+    Type: AWS::Logs::LogGroup
+    Properties: {LogGroupName: /aws/lambda/tfm-procesador, RetentionInDays: 7}
+
+  FuncionProcesador:
+    Type: AWS::Lambda::Function
+    DependsOn: LogsProcesador
+    Properties:
+      FunctionName: tfm-procesador
+      Runtime: python3.12
+      Handler: handler.handler
+      Role: !GetAtt RolProcesador.Arn
+      Code: {S3Bucket: !Ref BucketArtefactos, S3Key: !Ref ClaveProcesador}
+      Layers: [!Ref CapaNumpy]
+      MemorySize: 1024
+      Timeout: 120
+      Environment:
+        Variables:
+          TABLA_HISTORIAL: !Ref TablaHistorial
+          TABLA_NIVEL: !Ref TablaNivelPrevio
+          ENDPOINT: tfm-axial-endpoint
+          FUNCION_CUOTAS: tfm-cuotas
+
+  # Un único shard y un único lote a la vez: los eventos de cada partido se
+  # procesan en el orden en que ocurrieron
+  OrigenKinesis:
+    Type: AWS::Lambda::EventSourceMapping
+    DependsOn: EndpointModelo
+    Properties:
+      FunctionName: !Ref FuncionProcesador
+      EventSourceArn: !GetAtt FlujoEventos.Arn
+      StartingPosition: LATEST
+      BatchSize: 100
+      MaximumBatchingWindowInSeconds: 1
+      ParallelizationFactor: 1
+      MaximumRetryAttempts: 2
+      BisectBatchOnFunctionError: true
+
+  # Cuotas: de las predicciones del modelo a cuotas con margen; publica en SNS
+  RolCuotas:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - {Effect: Allow, Principal: {Service: lambda.amazonaws.com}, Action: sts:AssumeRole}
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: cuotas
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - {Effect: Allow, Action: sns:Publish, Resource: !Ref TemaCuotas}
+
+  LogsCuotas:
+    Type: AWS::Logs::LogGroup
+    Properties: {LogGroupName: /aws/lambda/tfm-cuotas, RetentionInDays: 7}
+
+  FuncionCuotas:
+    Type: AWS::Lambda::Function
+    DependsOn: LogsCuotas
+    Properties:
+      FunctionName: tfm-cuotas
+      Runtime: python3.12
+      Handler: handler.handler
+      Role: !GetAtt RolCuotas.Arn
+      Code: {S3Bucket: !Ref BucketArtefactos, S3Key: !Ref ClaveCuotas}
+      Layers: [!Ref CapaNumpy]
+      MemorySize: 256
+      Timeout: 30
+      Environment:
+        Variables:
+          TEMA_CUOTAS: !Ref TemaCuotas
+          TEMPERATURA: !Ref Temperatura
+          ALFA: '0.94'
+          MARGEN: '0.05'
+
+  # Plataforma: consume la cola y guarda las cuotas para la web
+  RolPlataforma:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - {Effect: Allow, Principal: {Service: lambda.amazonaws.com}, Action: sts:AssumeRole}
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaSQSQueueExecutionRole
+      Policies:
+        - PolicyName: plataforma
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - {Effect: Allow, Action: dynamodb:PutItem, Resource: !GetAtt TablaCuotas.Arn}
+
+  LogsPlataforma:
+    Type: AWS::Logs::LogGroup
+    Properties: {LogGroupName: /aws/lambda/tfm-plataforma, RetentionInDays: 7}
+
+  FuncionPlataforma:
+    Type: AWS::Lambda::Function
+    DependsOn: LogsPlataforma
+    Properties:
+      FunctionName: tfm-plataforma
+      Runtime: python3.12
+      Handler: handler.handler
+      Role: !GetAtt RolPlataforma.Arn
+      Code: {S3Bucket: !Ref BucketArtefactos, S3Key: !Ref ClavePlataforma}
+      MemorySize: 128
+      Timeout: 30
+      Environment:
+        Variables:
+          TABLA_CUOTAS: !Ref TablaCuotas
+
+  OrigenCola:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      FunctionName: !Ref FuncionPlataforma
+      EventSourceArn: !GetAtt ColaPlataforma.Arn
+      BatchSize: 10
+
+  # API y web: la página y los datos de cuotas
+  RolApi:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - {Effect: Allow, Principal: {Service: lambda.amazonaws.com}, Action: sts:AssumeRole}
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: api
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action: [dynamodb:Query, dynamodb:Scan]
+                Resource: !GetAtt TablaCuotas.Arn
+
+  LogsApi:
+    Type: AWS::Logs::LogGroup
+    Properties: {LogGroupName: /aws/lambda/tfm-api, RetentionInDays: 7}
+
+  FuncionApi:
+    Type: AWS::Lambda::Function
+    DependsOn: LogsApi
+    Properties:
+      FunctionName: tfm-api
+      Runtime: python3.12
+      Handler: handler.handler
+      Role: !GetAtt RolApi.Arn
+      Code: {S3Bucket: !Ref BucketArtefactos, S3Key: !Ref ClaveApi}
+      MemorySize: 128
+      Timeout: 10
+      Environment:
+        Variables:
+          TABLA_CUOTAS: !Ref TablaCuotas
+
+  ApiWeb:
+    Type: AWS::ApiGatewayV2::Api
+    Properties:
+      Name: tfm-api
+      ProtocolType: HTTP
+      Target: !GetAtt FuncionApi.Arn
+
+  PermisoApi:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref FuncionApi
+      Action: lambda:InvokeFunction
+      Principal: apigateway.amazonaws.com
+      SourceArn: !Sub arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${ApiWeb}/*
+
+Outputs:
+  UrlWeb:
+    Description: Página web de la plataforma de apuestas
+    Value: !GetAtt ApiWeb.ApiEndpoint
+  FlujoEventos:
+    Value: !Ref FlujoEventos
+  Endpoint:
+    Value: tfm-axial-endpoint

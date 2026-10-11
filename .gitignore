@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Datos y ficheros que se regeneran
+cache/
+infra/dist/
+
+# Logs (los de infra llevan el número de cuenta de AWS)
+*.log
+fin_v3.txt
+
+# Material que no es mío o versiones antiguas
+*.pdf
+antiguo/
+
+# Entorno
+.venv/
+venv/
+.env
+.vscode/
+.idea/
